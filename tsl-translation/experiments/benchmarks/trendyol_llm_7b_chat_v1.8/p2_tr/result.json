@@ -1,0 +1,2938 @@
+[
+    {
+        "gloss": "<gloss> ben arkadaş davet etmek misafir gitmek ev dar oda iki küçük girmek (sığmak) zor ev dar göre oturmak^değil ben </gloss>",
+        "expected": "Arkadaşım beni evine davet etti. İki odalı, dar bir evde oturuyor. Sıkışarak oturabildik. Ben bu kadar dar bir evde oturamam.",
+        "prediction": "Arkadaşımın evine misafirliğe gittim. Ev çok küçüktü, daracık odalardan oluşuyordu. O kadar sıkıştık ki, nerede oturacağımı bilemedim. Böyle evlere hiç uygun değil.",
+        "latency_sec": 8.5389,
+        "chrf": 27.87,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> dünya o o üniversite (fakülte) sağır ilk başkan kim gallaudet üniversite </gloss>",
+        "expected": "Dünyanın ilk sağır rektörü Gallaudet Üniversitesindedir.",
+        "prediction": "<gloss> gallaudet üniversite, dünyada ilk defa başkanlığını bir sağır üstlenmiştir. </gloss><|im_start|>assistant\ngallaudet üniversite, dünyada ilk defa başkanlığını bir sağır üstlenmiştir.",
+        "latency_sec": 7.6961,
+        "chrf": 32.55,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben ev iç sıcak sıcak bir gün kaza doğalgaz bozulmak ben (şaşırmak) konuşmak (adam) ben haber vermek tamir etmek sonra sıcak rahat </gloss>",
+        "expected": "Evim çok sıcaktı, ancak birgün doğalgazımız bozuldu. Hemen bir tamirciyi çağırdık ve tamir ettirdik. Tekrar sıcak evimize kavuştuk.",
+        "prediction": "Ev o kadar sıcaktı ki, bir anda doğalgaz patladı. Hemen tamirci çağırdım ve sorunu çözüp evi tekrar ısıtmasını sağladım.",
+        "latency_sec": 5.1763,
+        "chrf": 31.04,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> bir sene önce bebek yeni doğmak yüzden ben tatil gitmek gitmek iptal olmak bu sene çocuk büyümek rahat tatil gitmek gitmek fazla ben gezmek gezmek keyif almak doymak ben bir daha tatil gitmek lazım^değil </gloss>",
+        "expected": "Geçen yıl bebeğim yeni doğduğu için tatil planımızı iptal etmiştik. Bu yıl bebeğimiz biraz daha büyüdü birlikte tatile çıktık, o kadar çok gezip eğlendik ki tatile doydum. Tekrar tatile gitmeyi düşünmüyorum.",
+        "prediction": "Bir yıl önce bebeğim yeni doğmuştu, bu nedenle tatile gidemedim. Şimdi çocuk biraz daha büyüdü, rahat rahat gidebiliyorum. Tatilde çok eğlendim. Doydum. Bir daha tatile gitmem lazım değil.",
+        "latency_sec": 8.6071,
+        "chrf": 37.19,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> tiyatro izlemek ben gitmek bilet istemek demek koltuk bilet vermek ben istemek^değil balkon koltuk oturmak izlemek istemek ben demek pahalı demek olsun ben para vermek demek tamam bilet vermek tiyatro ben oturmak bakmak manzara süper </gloss>",
+        "expected": "Tiyatro için bilet almaya gittim ancak verdikleri bileti istemedim. Balkon tarafından bilet almak istediğimi söyledim, \"biraz pahalı olur\" dediler ama önemli değil, bileti balkondan aldım ve oradan seyrettim. Yukardan izlemek çok güzeldi, çok zevk aldım.",
+        "prediction": "Tiyatroya gittim bilet istedim. Görevli bana koltuk bileti verebileceğini söyledi ama ben balkondan izlemek istediğimi söyleyince daha pahalı dedi ama yine de almak istediğimi söyleyince bana bileti verdi. Tiyatro çok güzeldi, manzarayı çok beğendim.",
+        "latency_sec": 10.3447,
+        "chrf": 39.23,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> toplantı hepsi zengin sosyete adam bir gelmek kıyafet kaba kötü olmak ben utanmak (rezil olmak) </gloss>",
+        "expected": "Toplantıda herkes çok sosyetik, zengin görünümlüydü. Sonra kaba giyimli bir adam geldi. Çok utandım.",
+        "prediction": "Toplantıya sosyeteden bir adam geldi. O kadar kaba giyinmişti ki, çok rezil oldum.",
+        "latency_sec": 4.2113,
+        "chrf": 37.7,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben arkadaş beraber araba gezmek gezmek müsait araba park etmek ben bakmak levha yasak var arkadaş demek serbest serbest demek ben karışmak^değil sonra araba çekmek çok zeki (tabi) </gloss>",
+        "expected": "Arkadaşımın arabayı park ettiği yerde park yasaktır levhasını görünce hemen ona söyledim ama bir şey olmaz diyerek arabayı orada bıraktı. (döndüğümüzde) Arabayı çekmişlerdi bile. Bu da kendini akıllı sanıyor.",
+        "prediction": "Arkadaşımla gezerken arabaya park etmiştik. Bir süre sonra levhalar gördüm, 'park yasaktır' yazıyordu. Arkadaşıma söyledim. O da serbestçe park edebileceğimizi söyleyince ben de ona karışmadım. Sonra arabamı çekip gittim.",
+        "latency_sec": 11.6323,
+        "chrf": 31.32,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben müdür ısrar ısrar kabul etmek izin vermek imza atmak almak rahatlamak gitmek </gloss>",
+        "expected": "Müdür sonunda ısrarlarımı kabul etti ve kağıdımı imzaladı. Ben de rahatlıkla çıktım.",
+        "prediction": "Müdür sürekli ısrar ettiği için sonunda kabul etti ve bana izin verdi. Ben de imzayı attıktan sonra rahatladım ve gittim.",
+        "latency_sec": 7.3121,
+        "chrf": 43.21,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben üniversite on sene olmak mezun ben zaman çabuk geçmek ben hiç anlamak^değil ben </gloss>",
+        "expected": "Üniversiteden mezun olalı on yıl olmuş. Zaman ne kadar da hızlı geçiyor, hiç anlamıyorum.",
+        "prediction": "On yıl önce üniversite mezunu olmuştum. Zaman çok hızlı geçiyor, hiçbir şey anlamıyorum.",
+        "latency_sec": 4.5856,
+        "chrf": 53.73,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> memleket o yer hayvan deri kap tulum peynir koymak kapatmak beklemek beklemek sonra yemek tat süper ben şaşırmak </gloss>",
+        "expected": "Bir şehirde hayvan derisinin içerisine tulum peyniri konulduktan sonra ağzı kapatılıp bir süre bekletiliyor ve daha sonra yeniliyor. Geçekten de çok lezzetli oluyor.",
+        "prediction": "Hayvan derisinden tulum yapıyorlar ve içine peynir koyup kapatıyorlar. Bir süre beklettikten sonra yiyorsun, çok lezzetli oluyor.",
+        "latency_sec": 6.067,
+        "chrf": 42.4,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> dün akşam masa ben anahtar bırakmak ben yarın sabah ben iş gitmek ben anahtar kaybolmak ben anahtar aramak aramak nerede bırakmak unutmak </gloss>",
+        "expected": "Dün akşam anahtarımı masanın üzerine bıraktığımı hatırlıyorum, ama sabah işe gittiğimde anahtarı bulamadım. Anahtarı nereye koyduğumu unuttum, bulamıyorum.",
+        "prediction": "Dün akşam masa üzerine anahtarlarımı bıraktım. Sabah işe gittiğimde anahtarlarımı bulamayınca masada bıraktığımı hatırladım.",
+        "latency_sec": 5.8778,
+        "chrf": 46.84,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> istanbul köprü koşmak koşmak ben katılmak atlet numara bin vermek ben şaşırmak şans ama koşmak koşmak kaybetmek heves kaçmak </gloss>",
+        "expected": "İstanbul köprüsündeki koşu için bin numarayı bana verdiler. Şanslı olduğumu düşündüm, ama ne yazık ki yarışı kaybettim, çok üzüldüm.",
+        "prediction": "İstanbul köprüsü koşu yarışına katıldım, atletin numarasını ben seçtim. Ama yarışmayı kaybettim, çok üzüldüm.",
+        "latency_sec": 6.9902,
+        "chrf": 43.24,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> arkadaş haber vermek haber vermek bugün olay var büyük ben (şaşırmak) merak etmek ben gitmek olay büyük^değil basit laf ben lazım^değil ben gitmek </gloss>",
+        "expected": "Arkadaşım arayıp çok büyük olay var, hemen gel diyince bende gittim. Ama aslında konu çok basitmiş (gitmeme gerek yokmuş.)",
+        "prediction": "Arkadaşım sürekli olaylardan bahsediyordu. Bugün büyük bir olay olduğunu söyledi. Merak edip gittim ama çok büyük bir olay değilmiş, çokta önemli bir şey değilmiş.",
+        "latency_sec": 7.2454,
+        "chrf": 27.32,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben sabah iş ben ev çıkmak iş ben gitmek ben yol bir saat daha var ben telefon müzik kulaklık takmak ses bozuk ben neyse susmak ben yok iş gelmek iş paydos ben yol çıkmak ben kulaklık yeni almak ben takmak tam ben gitmek gelmek her sabah hep ben kulaklık takmak müzik dinlemek </gloss>",
+        "expected": "İşten eve gitmem bir saatimi alıyor. Sabah evden çıktım, işe giderken müzik dinlemek için kulaklığımı taktım, ancak ses gelmiyordu. Sanırım bozulmuş eve dönerken hemen yeni bir kulaklık aldım ve müzik dinleyerek döndüm. Ben yolda hep müzik dinlerim.",
+        "prediction": "Sabahları işe giderken bir saat yol alıyorum, bu sırada kulaklığı takıyorum ve müzik dinliyorum. İşe gittiğimde de kulaklığı çıkarıyorum.",
+        "latency_sec": 5.8909,
+        "chrf": 25.0,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben yenge ben misafir gitmek yemek hazırlamak getirmek patlıcan ben yemek tat süper ne koymak ben öğrenmek yazmak son ev gitmek ben pişirmek ben yemek tat aynı tat tam </gloss>",
+        "expected": "Yengemlere misafirliğe gttiğimde patlıcan yemeği yapmıştı, çok beğendim ve tarifini istedim. Eve gelir gelmez aynı yemeği yaptım, tadı da aynı oldu.",
+        "prediction": "Yengecimi ziyarete gittim. Yemek yiyecektik. Yemekte patlıcan vardı, çok beğendim. Ne ile karıştırıldığını sordum, yazdılar. Eve gittiğimde kendi patlıcanı pişirdim, lezzeti aynı çıktı, çok beğendim.",
+        "latency_sec": 10.7314,
+        "chrf": 33.5,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> eski sol olay olay fazla şimdi azalmak </gloss>",
+        "expected": "Eskiden sol yanlısı gruplarla çok fazla olay oluyordu. Şimdi olaylar azaldı.",
+        "prediction": "Eskiden sol terör olayları çok arttı, şimdi azalmaya başladı.",
+        "latency_sec": 2.3006,
+        "chrf": 31.3,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben çikolata sevmek yemek sonra diş kurt çıkmak ben bırakmak ben diş fırçalamak çalışmak çalışmak (kurtarmak çalışmak) </gloss>",
+        "expected": "Çikolata çok yediğim için dişim kurtlandı (çürüdü). Hemen çikolata yemeyi bıraktım ve dişimi daha dikkatli fırçalayarak kurtarmaya çalıştım.",
+        "prediction": "Ben çikolatayı çok sevdiğim için sürekli yiyordum, ancak bir süre sonra dişlerimde kurt çıkmaya başladı. Hemen çikolatayı bıraktım ve dişlerimi fırçalamaya başladım.",
+        "latency_sec": 7.5724,
+        "chrf": 39.48,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> eski benim anne banka çalışmak daktilo her gün yazmak yazmak getirmek ev çalışmak götürmek iş çalışmak iki taraf şimdi yeni çıkmak laptop yazmak yazmak hemen </gloss>",
+        "expected": "Annem eskiden bankada çalışırken daktilo kullanırdı. Daktiloyu sürekli eve getirip iş yerine taşır, hep çalışırdı. Şimdi yeni bilgisayar ve laptoplar çıktı. İşlerini çabucak bitiriyor.",
+        "prediction": "Annem eskiden bankada daktatör olarak çalışıyordu. Her gün evrakları daktiloyla yazıyordu. Şimdi yeni çıkan laptoplar var, onlar daha kolay kullanıyorlar.",
+        "latency_sec": 6.0995,
+        "chrf": 34.72,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> o iş gelmek^değil </gloss>",
+        "expected": "O işe gelmedi.",
+        "prediction": "Gloss: <gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gloss><gloss> o iş gelmek^değil </gl.",
+        "latency_sec": 18.3882,
+        "chrf": 6.97,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> pencere açmak annem yürümek (gitmek) üşenmek o (ben) emir vermek ben gitmek kapatmak </gloss>",
+        "expected": "Pencereyi açtık. (bir süre sonra) Annem kalkmaya üşenince bana söyledi ve kalkıp pencereyi kapattım.",
+        "prediction": "<gloss> pencere açmak istedim ama annem yürümeyince gidip pencereyi kapattım. </gloss><gloss> pencere açmak istedim ama annem yürümeyince gidip pencereyi kapattım. </gloss><gloss> pencere açmak istedim ama annem yürümeyince gidip pencereyi kapattım. </gloss><gloss> pencere açmak istedim ama annem yürümeyince gidip pencereyi kapattım. </gloss><gloss> pencere açmak istedim ama annem yürümeyince gidip pencereyi kapattım. </gloss><gloss> pencere açmak istedim ama.",
+        "latency_sec": 18.8743,
+        "chrf": 21.85,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben visa borç ödemek^değil ödemek^değil banka ben kara liste koymak bir daha visa almak imkan olmak^değil </gloss>",
+        "expected": "Kredi kartımı ödemediğim için banka beni kara listeye eklemiş, artık kredi kartı alamayacağım.",
+        "prediction": "Orijinal gloss: ben visa borç ödemek^değil ödemek^değil banka ben kara liste koymak bir daha visa almak imkan olmak^değil </gloss><|im_start|>assistant\norijinal gloss: ben visa borç ödemek^değil ödemek^değil banka ben kara liste koymak bir daha visa almak imkan olmak^değil </gloss><|im_end|>assistant\norijinal gloss: ben visa borç ödemek^değil ödemek^değil banka ben kara.",
+        "latency_sec": 18.9571,
+        "chrf": 16.6,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> okul iç öğrenci o kalp ağrımak ağrımak kalp kriz ben çabuk ambulans telefon etmek ambulans gelmek hastane götürmek sonra geçmek dikkat etmek lazım </gloss>",
+        "expected": "Okuldaki bir öğrencinin kalbinde ağrı oldu, bir süre sonra kalp krizi geçirdi. Hemen ambulansı aradım, gelip öğrenciyi hastaneye götürdüler, düzeldi. Böyle şeylere dikkat etmek lazım.",
+        "prediction": "Öğrencinin kalbi çok ağrıyordu, hemen ambulans çağırdım ve hastaneye götürdükten sonra rahatsızlığı geçti. Kalp krizi geçirmiş, çok dikkatli olmamız gerekiyor.",
+        "latency_sec": 6.0593,
+        "chrf": 37.84,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben oğul numara (sayı) bir iki üç dört yazmak bilmek beş yazmak olmak^değil ben öğretmek öğretmek zorlamak gelişmek tamam </gloss>",
+        "expected": "Oğlum sayıları dörde kadar yazıyor ama beşi yazamıyor. O kadar zorladım ki sonunda öğrendi.",
+        "prediction": "Oğlum bir, iki, üç, dört rakamını yazabiliyordu ama beş rakamını yazamıyordu. Ona beş rakamını da yazmayı öğrettim.",
+        "latency_sec": 6.5939,
+        "chrf": 26.66,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben araba tamir hepsi anlamak </gloss>",
+        "expected": "Araba tamirinden anlıyorum.",
+        "prediction": "Arabaların tamiri ile ilgileniyorum.",
+        "latency_sec": 1.8491,
+        "chrf": 34.86,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ev (karşı) komşu arkadaş önce sağlam spor hepsi yapmak sonra kaza engelli olmak rapor aramak aramak rapor almak </gloss>",
+        "expected": "Karşı komşumuz daha önce iyi bir sporcuydu ancak kaza geçirdikten sonra engelli oldu. Rapor alabilmek için çok uğraştı ve sonunda aldı.",
+        "prediction": "Komşumuz eskiden çok sağlıklıydu, her sporu yapıyordu ama kaza yaptıktan sonra artık engelli oldu ve rapor aldı.",
+        "latency_sec": 4.722,
+        "chrf": 33.58,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben aile hepsi en büyük dinlemek kim baba o efendi </gloss>",
+        "expected": "Ailemizin en büyüğü babamız, bu nedenle ona karşı efendi olmak zorundayız.",
+        "prediction": "<gloss> ailemde en büyüğüm babam. O çok efendi biridir. </gloss><|im_start|>assistant\nben ailemde en büyüğüm babam. O çok efendi biridir.",
+        "latency_sec": 7.8783,
+        "chrf": 22.44,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben bu sene para ölmek (hiç yok) tatil gitmek^değil </gloss>",
+        "expected": "Bu yıl hiç param yok. Bu nedenle tatile gitmeyeceğim.",
+        "prediction": "Bu yıl paramız yok, bu nedenle tatile gidemiyoruz.",
+        "latency_sec": 2.5597,
+        "chrf": 49.47,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> istanbul ankara mesafe kilometre 450 (dört yüz elli) kilometre </gloss>",
+        "expected": "İstanbul Ankara arası 450 kilometredir.",
+        "prediction": "İstanbul ankara arası 450 kilometre.",
+        "latency_sec": 2.2407,
+        "chrf": 85.52,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben istanbul ankara araba yol gitmek gitmek ankara az kalmak sınır var ben heyecanlanmak biraz sonra varmak </gloss>",
+        "expected": "İstanbul'dan dönerken Ankara sınırına yaklaştıkça heyecanlandım.",
+        "prediction": "İstanbul'dan Ankara'ya arabayla giderken sınıra çok yaklaşmıştım, heyecanlıyarak biraz daha gittikten sonra sınıra ulaştık.",
+        "latency_sec": 5.7851,
+        "chrf": 42.2,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben her hafta hafta hafta cumartesi ben göre dernek gitmek </gloss>",
+        "expected": "Her cumartesi derneğe gidiyorum.",
+        "prediction": "Her hafta cumartesi günleri derneğe gidiyorum.",
+        "latency_sec": 2.2623,
+        "chrf": 76.08,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben merdiven yuvarlanmak kimse (ben) yardım gelmek yok ben ayak kalkmak çok zor kalmak </gloss>",
+        "expected": "Merdivenlerden yuvarlandım, kimse yardıma gelmediği için ayağa kalkamadım öylece yerde kaldım.",
+        "prediction": "Merdivenden yuvarlandım, kimse bana yardım etmedi. Çok zor kaldım.",
+        "latency_sec": 3.9088,
+        "chrf": 42.0,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben kardeş çok fena kıskanç huy öyle ben bir şey almak kardeş kıskanmak </gloss>",
+        "expected": "Kardeşim çok kıskanç biri, kendim için bir şey aldığımda hemen beni kıskanır.",
+        "prediction": "Benim kardeşim çok kıskanç bir adam. Her şeyi ben alınca kıskanıyor.",
+        "latency_sec": 3.6526,
+        "chrf": 42.49,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> kız arkadaş onlar saç balık örgü usta </gloss>",
+        "expected": "Kız arkadaşlarım, saçlarını balık model örmede çok başarılı.",
+        "prediction": "Kız arkadaşlarımın hepsi balık örgüsünü çok iyi yapıyorlar.",
+        "latency_sec": 2.8543,
+        "chrf": 33.29,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> yenge ben misafir gitmek sohbet etmek sohbet etmek yenge demek yemek aç? yok ben tok (demek) </gloss>",
+        "expected": "Yengemlere misafirliğe gittim, yengem aç olup olmadığımı sorunca tok olduğumu söyledim",
+        "prediction": "Yeğenime misafirliğe gittim, biraz sohbet ettikten sonra o yemek aç mısın diye sordu. Ben de tokum dedim.",
+        "latency_sec": 6.642,
+        "chrf": 32.24,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben arkadaş önce hapis girmek sonra af çıkmak gelmek anlatmak anlatmak sıkıntı çekmek hapis için kötü yatak iki tahmin değil bir ezmek yemek kötü sıkıntı çekmek ben (üzülmek) </gloss>",
+        "expected": "Arkadaşım daha önce hapse girmişti çıktıktan sonra orada yaşadıklarını anlattı yanında başka yatak olmadığını (tek kişilik hücrede kaldığını) çok ezildiğini söyledi.",
+        "prediction": "Arkadaşım önce hapse girdi, daha sonra affa uğrayarak çıktıktan sonra bana herşeyi anlattılar. Hapishanede çok kötü şartlarda yattıklarını, yemeklerin çok kötü olduğunu söylediler. Çok üzüldüm.",
+        "latency_sec": 8.0815,
+        "chrf": 35.38,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> patron o gelmek </gloss>",
+        "expected": "Patron geldi.",
+        "prediction": "Patron geldi.",
+        "latency_sec": 3.7533,
+        "chrf": 100.0,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> bir adam bir köpek beraber sevmek hep beraber beraber sonra adam kaybetmek (vefat etmek) sonra köpek hep dışarı beklemek beklemek yüzden adam gelmek^değil beklemek beklemek ben (üzülmek) ev gitmek yemek hiç hep beklemek beklemek sebep adam kişi çok (etkileşmek) hep bağlı </gloss>",
+        "expected": "Bir adam ve köpeği birbilerini çok seviyorlardı ve hep birlikte hareket ediyorlardı. Birgün adam ortadan kayboldu ve köpek beklemeye başladı. Hiçbir şey yemiyor içmiyor, sürekli adamın dönmesini bekliyordu. Çünkü onlar birbirlerine çok bağlıydılar. (birbirlerini çok seviyorlardı)",
+        "prediction": "Bir adam bir köpek bulmuş ve ömür boyu birlikte olmuşlar. Adam öldükten sonra bile köpek, adamın gelmesini beklemeye devam etmiş. Adam dönmeyince çok üzüldüm. Adam çok bağlı biriydi.",
+        "latency_sec": 6.8314,
+        "chrf": 25.69,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> elbise alışveriş ben bakmak bakmak çok kötü hiç beğenmek^değil sonra vazgeçmek gitmek </gloss>",
+        "expected": "Elbise bakmak için alışverişe çıktım ama çok kötüydü. Hiç beğenmedim. Daha sonra vazgeçip geri döndüm.",
+        "prediction": "Elbise almak için alışverişe çıktım ama hiçbir şey beğenmedim. Vazgeçip gittim.",
+        "latency_sec": 4.6076,
+        "chrf": 51.18,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> sınav için okul gelmek </gloss>",
+        "expected": "Sınav için okula geldim.",
+        "prediction": "Sınav için okula geldim.",
+        "latency_sec": 4.2589,
+        "chrf": 100.0,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> bowling yarışmak altmış dört kişi gelmek ilk oyun hemen ben elemek ben heves kaçmak </gloss>",
+        "expected": "Bowling yarışması için altmış dört kişi geldi. Beni ilk oyunda eledikleri için çok üzüldüm.",
+        "prediction": "Yarışmada altmış dört kişi geldi. İlk oyunları oynadıktan sonra onları eledim, hevesim kaçtı.",
+        "latency_sec": 4.7913,
+        "chrf": 39.38,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben dede hasta sanmak doktor götürmek sormak o sağlam (demek) ben rahatlamak </gloss>",
+        "expected": "Dedem hasta diye onu doktora götürdüm, ancak doktor sağlam olduğunu söyleyince rahatladım.",
+        "prediction": "Dedemin hasta olduğunu zannediyordum, onu hastaneye götürdüğümde doktor \"sağlamdır\" dedi. Çok rahatladım.",
+        "latency_sec": 5.0917,
+        "chrf": 41.53,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> eski kar yağmak yağmak soğuk güzel dört ay mevsim tam tam sonra sonra şimdi karışık yağmur kar yağmak güneş karışık anlmaak^değil dünya değişmek </gloss>",
+        "expected": "Eskiden kışın kar yağardı, soğuk olurdu. Dört mevsimi tam yaşardık. Şimdi bir yağmur yağıyor bir güneş çıkıyor. Dünya çok değişiyor.",
+        "prediction": "Eskiden kış ayları çok güzeldi, dört ay sürekli kar yağardı. Şimdi hava şartları çok değişti, bazen yağmur yağabiliyor, bazen kar yağabiliyor, bazen de güneş parlıyor. Nedenini anlamadım.",
+        "latency_sec": 9.2625,
+        "chrf": 37.76,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> sınav kağıt a b c d ben hangi ilk ben hesap (saymak) son sıfır ben b işaretlemek </gloss>",
+        "expected": "Sınav kağıdında A,B,C,D şıkları vardı. İçimden sıfıra kadar sayıp B yi işaretledim.",
+        "prediction": "Sınavda dört seçenekten (a, b, c, d) bir tanesini işaretledim.",
+        "latency_sec": 7.066,
+        "chrf": 26.71,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben allah inanmak^değil müslüman hepsi allah inanmak ben karılmak^değil herkes (ben) demek demek sen gavur gavur demek ben kulak asmak^değil </gloss>",
+        "expected": "İnanmadığım için Müslümanlar bana gavur diyorlar. Ciddiye almıyorum.",
+        "prediction": "Ben Allah'a inanmıyorum, ama bütün müslümanlar Allah'a inanıyor. Bu konuda ben onlarla karışmıyorum, onlar da beni gavur olarak nitelendiriyorlar.",
+        "latency_sec": 8.1717,
+        "chrf": 32.87,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben yaprak çiçek saksı ben almak bir hafta sonra çiçek yapmak dökülmek dökülmek hepsi ölmek </gloss>",
+        "expected": "Eve yapraklı bir çiçek aldım ancak bir hafta sonra bütün yapraklar döküldü ve çiçek öldü çok üzüldüm.",
+        "prediction": "Aldığım çiçek saksıları bir hafta sonra açılmaya başladı, ancak bir hafta sonra dökülmeye başladılar ve hepsi öldü.",
+        "latency_sec": 4.8925,
+        "chrf": 36.63,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> park ben yürümek çocuk hepsi oynamak ben bakmak eski ben çocuk gün özlemek </gloss>",
+        "expected": "Parkta yürürken oynayan çocukları görünce kendi çocukluğumu hatırladım.",
+        "prediction": "Parkta yürüyüş yaparken çocukların hepsi oyun oynuyordu. Eski çocukluk günlerim aklıma geldi.",
+        "latency_sec": 4.8445,
+        "chrf": 34.75,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben arkadaş avrupa dışarı kahve hediye etmek büyük büyük ben ne yapmak lazım kahve dükkan ben gitmek ezmek (çekmek) küçük ben almak </gloss>",
+        "expected": "Arkadaşım Avrupa'dan bana çekilmemiş kahve çekirdeği getirdi, ben de bir dükkana gittim ve kahveyi çektirip toz haline getirttim.",
+        "prediction": "Arkadaşım bana Avrupa'dan hediye olarak büyük kahveler gönderdi. Ben de gidip küçük kahveler aldım.",
+        "latency_sec": 4.9778,
+        "chrf": 27.13,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> arkadaş misafir gitmek ben uyumak sabah ben uyanmak uyandırmak olmak ^değil arkadaş uyumak (derin) ben üflemek üflemek uyanmak olmak ^değil neyse ben beklemek beklemek zorlamak arkadaş uyanmak ben hemen kalkmak giyinmek hazırlanmak yemek acıkmak hemen dışarı kahvaltı yapmak hadi beraber gitmek </gloss>",
+        "expected": "Gece arkadaşımın evine gidip uyuduk. Sabah ben erken uyandım ama arkadaşım hala uyuyordu, birkaç defa seslendim ama duymadı. O uyanmadan da kalkmak istemedim. Bir süre sonra o uyanınca bende kalktım yataktan ve birlikte gidip dışarıda kahvaltı yaptık.",
+        "prediction": "Arkadaşımın evine misafirliğe gittim, uyudum. Sabah uyandığımda arkadaşım uyanamayınca üfledim, uyanmayınca çok zorladım ve sonunda uyandı. Hemen kalkıp giyindim ve kahvaltı için dışarı çıktık.",
+        "latency_sec": 8.7177,
+        "chrf": 30.9,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> iş şef ben rahat sanmak kafa bozulmak ben dosya hepsi almak getirmek bak işte demek şef görmek susmak </gloss>",
+        "expected": "Şefim işyerinde oldukça rahat, boş oturduğumu zannediyordu. Çok kızdım ve bütün dosyaları alıp ona götürdüm. İşte bak bunları yapıyorum diye gösterdim. Şef görünce bir şey diyemedi.",
+        "prediction": "Patronum işlerin çok kolay olduğunu zannediyordum, ancak dosyaları alıp getirince gördüm ki, işler hiç de kolay değilmiş. Patronum görünce bir şey söyleyemedim.",
+        "latency_sec": 6.986,
+        "chrf": 33.04,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> benim ev yakın arka her salı pazar var ben hep salı pazar ben gitmek yemek sebze almak almak taze </gloss>",
+        "expected": "Evimin arkasında salı pazarı var. Ben her hafta salı günü pazara gider, alışveriş yaparım.",
+        "prediction": "Benim evin yakınında her salı pazar kurulur, ben de taze sebze almak için gidip alışveriş yaparım.",
+        "latency_sec": 4.2881,
+        "chrf": 37.52,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben arkadaş grup spor yürümek yürümek hep beraber yürümek yürümek sonra yol ufak dar gibi ben şüphe etmek girmek^değil daha iyi görmek tabela isim yazmak tehlike girmek^değil ben görmek istemek^değil geri çekilmek arkadaş (demek) girmek olmak arkadaş kendi girmek atlamak arka boş düşmek yuvarlanmak yuvarlanmak sonra kurtulmak kan yara acil hastane kaldırmak serum kurtulmak ben söylemek tehlike tabela yazmak var girmek^değil daha iyi o olmak </gloss>",
+        "expected": "Arkadaşlarla yürüyüşe çıktığımızda bir süre yürüdükten sonra yolun daralmaya başladığını fark ettik. Yolun sonunda tehlikelidir girmeyiniz tabelası asılmıştı, ben oradan geri dönmek istedim ama arkadaş girmek için ısrar etti, girip içeriden atlamaya çalışınca ön taraf uçurum olduğu için bir anda yuvarlanmaya başladı ve ağır yaralandı. Hemen hastaneye kaldırdık serum bağladılar. Neyse ki kurtuldu.",
+        "prediction": "Arkadaşlarla yürüyüşe çıktık. Bir süre yürüdükten sonra dar bir yola girdik. İleride tabela olup olmadığını, tehlike olup olmadığını göremediğimiz için geri dönmeye karar verdik. Bir süre yürüdükten sonra arkadaşlardan biri ilerideki yola atladı. Ama bir anda yere yuvarılıp kanamaya başladı. Neyse ki hemen hastaneye kaldırıp serum bağladılar. Sonrasında öğrendik ki, o yola girmek yasaktır diye tabela asılıymış.",
+        "latency_sec": 17.2923,
+        "chrf": 45.22,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> avrupa arkadaş gelmek yardım beklemek ben gelmek almak </gloss>",
+        "expected": "Avrupadan gelen arkadaşıma yardım etmek için onu almaya ben geldim.",
+        "prediction": "Arkadaşım Avrupa'dan gelecekti. Onu havaalanında karşıladım.",
+        "latency_sec": 3.4076,
+        "chrf": 30.42,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben eş kavga konuşmak konuşmak kaynana burun sokmak kızmak kızmak (ben) rahat bırakmak^değil </gloss>",
+        "expected": "Eşimle her tartışmamızda kaynanam mutlaka burnunu sokuyor ve sürekli bana kızmaya başlıyor. Bizi bir türlü rahat bırakmıyor.",
+        "prediction": "Eşimle kavga ederken kaynanam araya girip burnumu sokunca çok kızdım.",
+        "latency_sec": 3.9172,
+        "chrf": 19.01,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> kola sıcak istemek^değil buz koymak daha iyi </gloss>",
+        "expected": "Kolaya buz koyduğumuz zaman (tadı) daha güzel oluyor.",
+        "prediction": "Kola sıcak içmek istemiyorum, buz ile daha iyi içilir.",
+        "latency_sec": 3.118,
+        "chrf": 16.37,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> 657 devlet memur kanun göre iş sakal uzatmak bıyık vb.göre yasak </gloss>",
+        "expected": "657 Devlet memurları kanununa göre çalışanların sakal bırakması yasaktır.",
+        "prediction": "Devlet memurları sakal uzatamaz, bıyıkları kısa kesmek zorundalar.",
+        "latency_sec": 3.4041,
+        "chrf": 34.34,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> yeni evlenmek mobilya eşya yeni almak almak almak koymak koymak (yerleştirmek) mutlu olmak </gloss>",
+        "expected": "Evlendiğimiz zaman bütün mobilyalarımızı yeni aldık.",
+        "prediction": "Yeni evlendim, mobilya aldım ve evime yerleştirdim. Şimdi çok mutluyum.",
+        "latency_sec": 4.3447,
+        "chrf": 25.26,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> baba eski öğretmen yükselmek yükselmek yükselmek (terfi etmek) şimdi müdür olmak </gloss>",
+        "expected": "Babam eskiden öğretmendi terfi etti. Şimdi müdür oldu.",
+        "prediction": "Gloss: <gloss> ben baba eski öğretmen yükselmek yükselmek yükselmek (terfi etmek) şimdi müdür olmak </gloss><gloss> ben baba eski öğretmen yükselmek yükselmek yükselmek (terfi etmek) şimdi müdür olmak </gloss><gloss> ben baba eski öğretmen yükselmek yükselmek yükselmek (terfi etmek) şimdi müdür olmak </gloss><gloss> ben baba eski öğretmen yükselmek yükselmek yükselmek (terfi etmek) şimdi müdür olmak </gloss><gloss> ben baba eski öğretmen yükselmek yükselmek yükselmek (terfi etmek) şimdi müdür olmak </gloss.",
+        "latency_sec": 18.7563,
+        "chrf": 17.55,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> anne genç önce diz eklem ağrı yok yaş büyümek sonra sonra yaşlanmak diz eklem ağrımak diz yardım dizlik takmak </gloss>",
+        "expected": "Gençken annemin dizinde bir şey yoktu, ama yaşı ilerledikçe ağrımaya başladı. Şimdi eklemleri çok ağrıdığı için dizlik kullanıyor.",
+        "prediction": "Annem gençken dizleri çok iyiydi, ancak yaşlandıkça dizleri ağrımaya başladı. Şimdi dizlik takmak zorunda kalıyor.",
+        "latency_sec": 5.1543,
+        "chrf": 39.76,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben okul iç ben hep kalem defter masa alt ben koymak koymak hep hep </gloss>",
+        "expected": "Okulda kalemimi, defterimi hep masanın altına koyuyorum.",
+        "prediction": "Kalemlerimi, defterlerimi masamın altına koyarım.",
+        "latency_sec": 3.59,
+        "chrf": 41.77,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben ev mekan çevre kötü çevre bir yaşlı ilgilenmek ilgilenmek ben o hiç unutmak değil ben o amca gibi hissetmek ben </gloss>",
+        "expected": "Oturduğumuz evin çevresi çok kötü ama orada bir yaşlı adam vardı. Benimle çok ilgilenirdi. Onu gerçek amcam gibi görüyorum.",
+        "prediction": "Benim evimin çevresi çok kötüydü. Bir tane yaşlı adam vardı, o benim amcam gibiydi. Onu hiç unutmuyorum.",
+        "latency_sec": 6.0606,
+        "chrf": 44.08,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> arkadaş beraber elbise alışveriş bakmak bakmak elbise o almak muhakkak ben alma şu (elbise) al arkadaş neyse o ödemek almak </gloss>",
+        "expected": "Arkadaşımla alışverişe çıktık, tam bir elbise almaya karar vermişti ki onu değil de şunu alsan daha güzel diye müdahale edince benim söylediğimi aldı.",
+        "prediction": "Arkadaşımla birlikte elbise alışverişinde gezerken bir elbise gördüm ve çok beğendim. \"şu elbiseyi mutlaka alacağım\" dedim ve arkadaşım da benim istediğim gibi elbiseyi alıp ödedi.",
+        "latency_sec": 7.2212,
+        "chrf": 29.78,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> vapur ben binmek gitmek uzak sıkılmak ben kitap okumak kitap okumak </gloss>",
+        "expected": "Vapura bindiğimde mesafe uzak olunca kitap okuyorum.",
+        "prediction": "Gittiğim vapurda o kadar sıkıldım ki, kitap okudum.",
+        "latency_sec": 3.2685,
+        "chrf": 24.48,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> belediye oy (seçim) adam aday iki kişi (karşılıklı) yarışmak adam o ben istemek ama kazanmak olmak^değil ben bilmek sürpriz kazanmak ben görmek sevinmek </gloss>",
+        "expected": "Belediye seçimlerinde desteklediğim adayın kazanamayacağını sanıyordum, kazanınca süpriz oldu. Çok sevindim.",
+        "prediction": "Belediye başkanlığı seçimlerinde iki aday yarıştı. Ben bir adayın kazanacağını zannediyordum ama sürpriz bir şekilde diğer aday kazandı. Çok şaşırdım.",
+        "latency_sec": 6.0598,
+        "chrf": 40.36,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben iş maaş 100 (tl) zaman çok sevinmek </gloss>",
+        "expected": "Maaşıma 100 TL zam yapıldı, çok sevindim.",
+        "prediction": "Benim maaşım 100 tl. Çok sevindim.",
+        "latency_sec": 2.6059,
+        "chrf": 48.87,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben duymak belediye iş almak almak </gloss>",
+        "expected": "Belediyenin personel alımı yaptığını duydum.",
+        "prediction": "<gloss> belediye iş almak almak </gloss><|im_start|>assistant\nbelediye işe girdim.",
+        "latency_sec": 5.0201,
+        "chrf": 16.58,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> o kitap ön yüz görmek güzel ama çevirmek olmak çirkin </gloss>",
+        "expected": "Kitabın ön yüzü çok güzel ama arkasını çevirdiğimde çok çirkin görünüyor.",
+        "prediction": "Kitabın ön yüzü çok güzel ama karışmuş halini hiç beğenmedim.",
+        "latency_sec": 3.1871,
+        "chrf": 45.58,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> diyarbakır turist ben gitmek güneş çok fazla ben ağır baş (yoğun) ağrımak </gloss>",
+        "expected": "Diyarbakır'da yoğun güneşin etkisiyle bende ağır bir baş ağrısı başladı.",
+        "prediction": "Diyarbakır'a turist olarak gittiğimde güneş çok ağır geldi başım çok ağrıdı.",
+        "latency_sec": 3.6074,
+        "chrf": 26.73,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben bilgisayar ben dosya tıklamak tıklamak film izlemek istemek demek mecbur indirmek neyse ben indirmek sonra ben film izlemek </gloss>",
+        "expected": "Bilgisayardan film izleyecektim, ancak mecburen indirmem gerekiyormuş. Ben de filmi indirip sonra izledim.",
+        "prediction": "Bilgisayarda dosya gezerken bir film buldum. İzlemek istedim ama mecburen indirmem gerekiyormuş. Dosyayı indirdikten sonra izledim.",
+        "latency_sec": 5.009,
+        "chrf": 53.54,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> arkadaş misafir toplanmak tat yok dışarı buluşmak daha iyi </gloss>",
+        "expected": "Arkadaşlarla misafirlikte buluşunca tat alamıyorum, dışarda buluşmak daha güzel.",
+        "prediction": "Arkadaşlarla evde buluştuk ama hiç eğlendik. Dışarı çıksaydık daha çok eğlenirdik.",
+        "latency_sec": 4.1848,
+        "chrf": 27.26,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> her hafta göre çarşamba ve cumartesi 2 (iki) gün göre o kız hep lokal toplanmak toplanmak </gloss>",
+        "expected": "Her hafta çarşamba ve cumartesi günleri, kızlar lokalde toplanırlar.",
+        "prediction": "Her hafta çarşamba ve cumartesi günleri kızlar lokalde toplanıyor.",
+        "latency_sec": 3.5431,
+        "chrf": 83.0,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ev lamba zil ben kim (merak) ben kapı açmak adam gelmek sormak reklam istemek? ben kusura bakma lazım^değil demek gitmek </gloss>",
+        "expected": "Kapı çaldı ve bir adam içeri girdi. Tanıtım yapmak istiyordu ama istemediğimi söyleyip onu gönderdim.",
+        "prediction": "Kapı çalan adam reklam yapmak istediğini söyleyince \"kusura bakma, lazım değil\" diyerek kapıyı kapatıp çıktılar.",
+        "latency_sec": 5.8059,
+        "chrf": 27.95,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben yakın nişan var ben elbise araştırmak araştırmak çok zor ben dükkan ben gitmek kız elbise model yürümek yürümek ben bakmak ben his (istemek) yok </gloss>",
+        "expected": "Nişanım için elbise bakıyorum, ancak hiç beğenemedim. Dükkanlarda sürekli modeller elbiseleri giyiyor ve sergiliyorlar, yine de bir türlü beğenemiyorum.",
+        "prediction": "Yakında nişanım var, elbiseyi nerede alacağıma karar veremedim. Bir süre sonra bir dükkana girdim. Kız model elbiseler vardı, bir tanesini çok beğendim. Elbiseyi üzerime giydim ve çok beğendim.",
+        "latency_sec": 9.5958,
+        "chrf": 31.34,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> ben küçük büyümek resim çizmek hiç sevmek^değil üniversite okul girmek resim ders var ben sıkılmak ben mecbur çizmek çizmek </gloss>",
+        "expected": "Çocukluğumdan beri resim çizmekten hiç hoşlanmıyordum. Üniversiteyi kazanınca derslerden birinin resim olduğunu öğrendim, çok üzüldüm.",
+        "prediction": "Çocukluğumdan beri resim çizmeyi hiç sevmedim. Üniversiteye gittiğimde zorunlu olarak resim dersine kaydoldum.",
+        "latency_sec": 4.5115,
+        "chrf": 39.85,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> maç önce dizilmek istiklal marşı bitmek maç oynamak </gloss>",
+        "expected": "Maçtan önce herkes sıraya dizilir, istiklal marşı okunur ve sonrasında maç başlar.",
+        "prediction": "<gloss> maç başlamadan önce istiklal marşı okuduktan sonra maç başladı. </gloss><gloss> maç başlamadan önce istiklal marşı okuduktan sonra maç başladı. </gloss><gloss> maç başlamadan önce istiklal marşı okuduktan sonra maç başladı. </gloss><gloss> maç başlamadan önce istiklal marşı okuduktan sonra maç başladı. </gloss><gloss> maç başlamadan önce istiklal marşı okuduktan sonra maç başladı. </gloss><gloss> maç başlamadan önce istiklal marşı okuduktan sonra maç başladı.",
+        "latency_sec": 18.6864,
+        "chrf": 20.78,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben dışarı yürümek yürümek hava sıcak güneş kız bir baş dönmek bayılmak ben görmek acil taksi durdurmak hemen kaldırmak acil gitmek gitmek hastane gelmek muayene olmak kurtulmak </gloss>",
+        "expected": "Dışarda yürürken bir kızın bayıldığını gördüm, sanırım güneşten etkilendi. Acilen bir taksi durdurdum ve onu acil servise götürdük. Neyse ki bir şeyi yoktu.",
+        "prediction": "Dışarda yürürken bir anda başım döndü, çok sıcak ve güneşten bayıldım. Hemen bir taksiye bindim ve hastaneye gittim. Doktor muayene ettikten sonra rahatsızlığım geçti.",
+        "latency_sec": 7.2146,
+        "chrf": 34.01,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben gitar merak etmek ben kurs gitmek gelmek gitar çalmak öğrenmek gitar müzik zevk var </gloss>",
+        "expected": "Gitarı çok merak ediyordum, bu nedenle bir kursa yazıldım ve şimdi çalabiliyorum. Gitar çalmaktan zevk alıyorum.",
+        "prediction": "Gitar çalmayı çok sevdiğim için kursa gittim ve şimdi çok güzel çalıyorum. Gitar müziğinden çok zevk alıyorum.",
+        "latency_sec": 5.2493,
+        "chrf": 42.41,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> sabah akşam ben yemek hiç ben temzlik çalışmak çalışmak ben yemek unutmak sonra ben mide ağrımak ağrımak yüzden bir gün yemek az </gloss>",
+        "expected": "Sabahtan akşama kadar temizlik yapınca yemek yemeyi unuttum ve midem çok ağrıdı.",
+        "prediction": "Sabahtan akşama kadar o kadar çok çalışıyorum ki, yemek yemeyi unutmuşum. Bir anda midem ağrımaya başladı. Bu nedenle bir gün sadece az yemek yedim.",
+        "latency_sec": 6.4003,
+        "chrf": 46.17,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben ufak kardeş ben hayal etmek etmek hep hep ben konuşmak konuşmak ben büyümek ben doktor kardeş öğretmen istemek sonra büyümek tam olmak </gloss>",
+        "expected": "Çocukken kardeşimle hep hayal kurardık. Ben doktor olmak isterdim, o da öğretmen. Şimdi büyüdük, hayallerimiz gerçek oldu.",
+        "prediction": "Küçük kardeşime sürekli doktor ya da öğretmen olmasını hayal ediyordum. Büyüdükten sonra hayallerim gerçek oldu, tam istediğim gibi doktor ya da öğretmen oldu.",
+        "latency_sec": 5.454,
+        "chrf": 40.7,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> bebek yeni doğmak nüfus cüzdan yok mecbur nüfus müdürlük ben gitmek (evrak) hazırlamak nüfus cüzdan almak </gloss>",
+        "expected": "Bebeğimiz yeni doğduğunda nüfus cüzdanı olmadığı için nüfus müdürlüğüne gidip evrakları hazırladık ve cüzdanını aldık.",
+        "prediction": "Bebek doğduğunda hemen nüfus müdürlüğüne gidip evrakları tamamladıktan sonra bebeğimizin nüfus cüzdanını aldık.",
+        "latency_sec": 5.5454,
+        "chrf": 60.5,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> eskişehir ben gitmek hava çok buz (vazgeçmek) geri izmir dönmek </gloss>",
+        "expected": "Eskişehir'de hava buz gibiydi, bende İzmir'e geri döndüm.",
+        "prediction": "Eskişehir'e gittiğimde hava o kadar soğuktu ki, dayanamayıp tekrar İzmir'e geri döndüm.",
+        "latency_sec": 4.6132,
+        "chrf": 52.12,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> sağır ilk defa yeni sinema çıkmak ben (şaşırmak) merak etmek arkadaş gurup anlaşmak gitmek </gloss>",
+        "expected": "Sağırların yaptığı film sonunda çıktı. Çok merak ettim. Arkadaşlarla anlaşıp hemen gidip izlemeye karar verdik.",
+        "prediction": "Arkadaşlarla ilk defa sinemaya gittik. Çok eğlendik.",
+        "latency_sec": 3.4847,
+        "chrf": 20.6,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> hepsi insan yaşlı o göre hasta var muhakkak çıkmak hiç hasta yok çare sanmak^değil </gloss>",
+        "expected": "İnsanlar yaşlandıkça hastalanırlar, bu değişmez gerçektir. Buna çare bulunup hiç hasta olunmamasının sağlanacağını sanmıyorum.",
+        "prediction": "<gloss> herkes yaşlandıkça hastalaşır, ancak bu muhakkak böyledir diye değil.",
+        "latency_sec": 5.0676,
+        "chrf": 21.03,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> okul için benim öğrenci hepsi iyi bir öğrenci fena yaramaz yaramaz ben çok zor ben aile haber vermek gelmek anlatmak anlatmak o tamam oğul o düzelmek </gloss>",
+        "expected": "Öğrencilerimin hepsi çok iyi, sadece bir öğrencim çok fena. Öyle yaramaz ki, mecburen ailesini çağırıp durumu onlara anlatmak zorunda kaldım.",
+        "prediction": "Benim öğrencilerimin hepsi çok iyi ama bir tanesi çok yaramaz. Onunla çok uğraştım ama bir türlü düzelmedi. Ben de ailesini aradım ve durumu anlattım. Onlar da oğullarının düzeleceğini söyleyince rahatladım.",
+        "latency_sec": 8.1528,
+        "chrf": 39.58,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> dükkan yeni açmak iş ben ortak yüzde kırk (o) yüzde altmış (ben) anlaşmak </gloss>",
+        "expected": "Yeni açtığımız iş yerinin hisselerinin yüzde kırkını ben, yüzde altmışını ortağım aldı.",
+        "prediction": "Yeni açtığımız dükkandaki işlerin yüzde kırkı onun, yüzde altmışı benim.",
+        "latency_sec": 3.4553,
+        "chrf": 46.92,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> cümle ben yazmak normal (eh) kız kardeş hepsi bilmek </gloss>",
+        "expected": "Ben cümle kurmakta iyi değilim ancak kız kardeşim çok iyi biliyor.",
+        "prediction": "Ben cümle kurmayı çok iyi biliyorum, kız kardeşim de çok iyi biliyor.",
+        "latency_sec": 3.5929,
+        "chrf": 60.64,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben oğul oyuncak hasta araba sürmek başka başka lazım^değil </gloss>",
+        "expected": "Oğlum oyuncak arabaları çok seviyor, sürekli onlarla oynadığı için başka hiçbir şeye ihtiyaç duymuyor.",
+        "prediction": "Oğlum oyuncak arabayı çok seviyor, başka oyuncaklara ihtiyaç duymuyor.",
+        "latency_sec": 4.2886,
+        "chrf": 51.4,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> ben spor fitness ben gitmek gelmek çanta yedek bir kıyafet koymak hep hep </gloss>",
+        "expected": "Fitness'a giderken çantama mutlaka yedek bir kıyafet koyuyorum.",
+        "prediction": "Gittiğim her yerde yedek kıyafetlerim olan bir çantam var.",
+        "latency_sec": 3.7021,
+        "chrf": 26.28,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> mahkeme için ben gitmek lazım tercüman almak gelmek çevirmek uzun uzun anlatmak o (ben) kısa vermek ben anlamak^değil </gloss>",
+        "expected": "Mahkemeye tercüman getirdim. Uzun uzun konuşmalar geçmesine rağmen tercüman bana çok kısa çevirdi. Neden böyle yaptığını anlamadım.",
+        "prediction": "Mahkemeye gittiğimde tercüman istedim ama o kadar uzun uzun anlattı ki, anlamam çok zor oldu.",
+        "latency_sec": 6.2788,
+        "chrf": 26.91,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> benim ev villa taş duvar görmek süper misafir buyurmak (gelmek) </gloss>",
+        "expected": "Çok güzel bir taş evim (villam) var, buyurun evime gelin.",
+        "prediction": "<gloss> benim ev villa taş duvar görmek süper misafir buyurmak (gelmek) </gloss><gloss>.",
+        "latency_sec": 9.2335,
+        "chrf": 20.77,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben arkadaş çok yakın ben hep hep anlatmak hep paylaşmak </gloss>",
+        "expected": "Yakın arkadaşımla her şeyimi paylaşıyorum.",
+        "prediction": "Çok yakın arkadaşımla her şeyi paylaşıyoruz.",
+        "latency_sec": 2.997,
+        "chrf": 75.73,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> şimdi yapmak ne </gloss>",
+        "expected": "Şimdi ne yapılacak?",
+        "prediction": "<gloss> şimdi ne yapıyorsun? </gloss><|im_start|>assistant\nşu an ne yapıyorsun?",
+        "latency_sec": 4.5754,
+        "chrf": 36.07,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben her zaman spor ben gitmek gelmek gitmek gelmek spor sonra ben mecbur ben yıkanmak belki yıkanmak hiç vücut kokmak ben istemek^değil temiz daha iyi </gloss>",
+        "expected": "Her gün mutlaka spora giderim ve her spor çıkışı da yıkanırım. Yıkanmadığım zaman (pis) kokmaktan korktuğum için bunu asla aksatmam.",
+        "prediction": "Her zaman spora gidiyorum. Spor yaptıktan sonra mutlaka yıkanıyorum. Çünkü sürekli spor yaptırırsam üzerimde kokar. Ben kokmayı sevmiyorum, bu nedenle sürekli temizlenirim.",
+        "latency_sec": 7.9999,
+        "chrf": 27.55,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben anne eğitim süper çok güzel vermek vermek ben bakmak o aynı model ben yapmak istemek </gloss>",
+        "expected": "Annem çok güzel bir eğitici, ben de kendime onu model alıyorum.",
+        "prediction": "Annem o kadar iyi bir eğitim verdi ki, onun ayak izlerini takip etmek istiyorum.",
+        "latency_sec": 3.5635,
+        "chrf": 26.86,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> herkes arkadaş demek demek okul zor sen kalmak muhakkak ben dayanmak okul başarmak </gloss>",
+        "expected": "Bütün arkadaşlarım \"Okul çok zor kalacaksın\" dedi ama ben dayandım ve sonunda başarılı oldum.",
+        "prediction": "<gloss> herkes \"okul çok zor, sen bu kadar nasıl kaldın?\" diye sorunca, ben de \"muhakkak, çok değerli olduğum için kaldım.\" dedim.",
+        "latency_sec": 6.8869,
+        "chrf": 29.15,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> eski konuşmak toplum sağır merak yok, şimdi konuşmak toplum sağır merak etmek ilgilenmek başlamak </gloss>",
+        "expected": "Eskiden toplum sağırları pek merak etmiyordu. Artık sağırların hayatını merak edip ilgilenmeye başladılar.",
+        "prediction": "Eskiden toplumda sağırlar çok duyulmuyordu. Şimdi insanlar sağırlar hakkında daha fazla bilgi edinmek istiyorlar.",
+        "latency_sec": 5.6944,
+        "chrf": 31.85,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> on sene çalışmak çalışmak (ben) kovmak tazminat yok ben mahkeme başvurmak mahkeme onay vermek kazanmak tazminat almak </gloss>",
+        "expected": "On sene çalıştıktan sonra beni kovdular. Üstelik tazminatımı da vermediler. Ben de mahkemeye başvurdum, davayı kazanınca ödeme yaptılar.",
+        "prediction": "On yıl çalıştığım iş yerimden tazminatsız kovulunca mahkemeye başvurdum. Mahkeme beni haklı buldu ve bana tazminat ödedi.",
+        "latency_sec": 5.1545,
+        "chrf": 30.94,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> arkadaş teklif ben maç oynamak galip göre baklava vermek ben kabul etmek maç oynamak oynamak bir sıfır bir bir iki bir iki iki devre üç iki üç üç dört dört bitmek doksan dakika bitmek heves kaçmak baklava yok (kaybetmek) </gloss>",
+        "expected": "Arkadaşımla maçı kaybeden baklava alsın diye iddiaya girdik. Maç başladıktan sonra önce 1-0 sonra 1-1 sonra 2-1 ve ilk yarı 2-2 bitti. İkinci devrede 3-2 devam ederken doksan dakika dolduğunda 4-4 olmuştu. Baklavayı kaybettim çok üzüldüm.",
+        "prediction": "Arkadaşım maç yapıp kazanması halinde bana baklava alacağını söyledi. Kabul edip maç yaptık, ancak ben kaybettim.",
+        "latency_sec": 8.3747,
+        "chrf": 16.35,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> karın ağrımak çok fazla doktor gitmek kan almak mecbur demek ben kan vermek son cevap iyi </gloss>",
+        "expected": "Karnım çok ağrıdığı için doktor kan tahlili yaptırmam gerektiğini söyledi. Neyse ki sonuçlar iyi çıktı.",
+        "prediction": "Çok ağrımaya başlayınca hastaneye gidip kan verdim. Doktor kan tahlili yaptıktan sonra iyi olduğumu söyleyince rahatladım.",
+        "latency_sec": 5.246,
+        "chrf": 36.34,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> para problem yetmez sıkılmak iki el(başka) iş lazım </gloss>",
+        "expected": "Parasal sıkıntı beni iyice bunalttı, ikinci bir iş bulmam lazım.",
+        "prediction": "Paraya ihtiyacım olduğu için iki el çalışmam gerekiyor.",
+        "latency_sec": 2.3066,
+        "chrf": 13.56,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> kız kişi görmek yüz güzel olmak^değil kendi hava görmek </gloss>",
+        "expected": "Kız güzel olmadığı halde çok havalı.",
+        "prediction": "Gördüğüm kız çok güzel değildi, kendi havasındaydı.",
+        "latency_sec": 3.1772,
+        "chrf": 26.52,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben el bakmak bakmak sevmek hep kuaför gitmek gelmek kesmek </gloss>",
+        "expected": "Ellerimin bakımlı olmasını çok seviyorum. Bu nedenle sürekli kuaförde manikür yaptırıyorum.",
+        "prediction": "Elimi çok sevdiğim için sürekli kuaföre gidip tırnaklarımı kestiriyorum.",
+        "latency_sec": 3.2894,
+        "chrf": 28.53,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben eşim anne o gelin resim tasarım çalışmak fikir moda çeşit hazır ama ücret pahalı </gloss>",
+        "expected": "Eşimin annesi gelinlik modelleri çizip tasarlıyor, birçok model üretiyor ama oldukça pahalıya satıyor.",
+        "prediction": "Benim eşim annemle çalışıyor, gelinlik tasarımları yapıyor. Çok güzel şeyler yapıyor ama çok pahalı.",
+        "latency_sec": 4.9805,
+        "chrf": 29.22,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben haber ben izlemek bir adam evvel çocuk kaçırmak sonra adam bulmak^değil kayıp aramak aramak son yakalamak o hapis girmek (ağır ceza) </gloss>",
+        "expected": "Haberlerde çocuk kaçıran bir adam anlatılıyordu. Adam uzun zamandır bulunanamıştı sonunda yakalandı ve hapse atıldı.",
+        "prediction": "Haberlerde, çocuk kaçıran bir adam vardı. Uzun süre çocuağ bulamadılar sonunda onu yakalayıp hapse atıldı.",
+        "latency_sec": 5.8337,
+        "chrf": 50.25,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben fabrika iş boşvermek boşvermek amir gelmek çabuk çalışmak (bağırmak) ben zorlanmak herkes haber vermek haber vermek çabuk çalışmak çalışmak bitmek rahatlamak </gloss>",
+        "expected": "Fabrikada biraz savsaklayarak çalışıyordum sonra amir hızlı olun diye bağırınca herkesi uyardık ve hızlıca çalışmaya başladık.",
+        "prediction": "Fabrikada çalışıyordum, hiçbir şey yapmadım. Bir anda amir geldi ve herkese bağırıp çok hızlı çalışmamızı söyledi. Çok şaşırdım, neyse ki herkes bana haber verdi ve ben de hemen çalışmaya başladım.",
+        "latency_sec": 7.8207,
+        "chrf": 37.98,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben arkadaş okul sınıf beraber büyümek espri espri ben bıkmak sonra mezun olmak kaybolmak </gloss>",
+        "expected": "Okuldayken arkadaşım sürekli espri yapar, beni bıktırırdı. Mezun olduktan sonra espriler yok oldu.",
+        "prediction": "Arkadaşlarla birlikte okulda okuduktan sonra, sürekli espri o kadar sıkıldım ki, mezun olduktan sonra kimseyi görmeyip kayboldum.",
+        "latency_sec": 6.0928,
+        "chrf": 42.46,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ortaokul ne yapmak o </gloss>",
+        "expected": "Ortaokulda ne yaptı?",
+        "prediction": "<gloss> ortaokul ne iş yapar? </gloss><|im_start|>assistant.",
+        "latency_sec": 5.5114,
+        "chrf": 29.39,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben haber televizyon ben izlemek dün asker bir kaç ölü şimdi asker bir kaç ölü ben görmek üzülmek asker ölmek ölmek fazla aile hepsi üzülmek üzülmek ben görmek üzülmek </gloss>",
+        "expected": "Televizyonda haberleri izliyordum, dün askerler ölmüştü. Bugün yine askerler ölmüş, çok üzüldüm. Bir çok asker ölüyor ve aileleri çok üzülüyor. Onları gördükçe kendimi çok kötü hissettim (üzüldüm).",
+        "prediction": "Dün akşam televizyonda gördüğüm habere çok üzüldüm. Bir çok asker ölmüş, kalan askerler de çok üzgündü.",
+        "latency_sec": 6.4702,
+        "chrf": 34.94,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> bir ay önce istanbul yer çok fazla olay anne bozulmak ben ne oldu (sormak) istanbul olay yüzden anne sıkılmak </gloss>",
+        "expected": "Bir ay önce İstanbul'da olan olaylar yüzünden annemin morali çok bozuk.",
+        "prediction": "Bir ay önce İstanbul'da çok fazla olay olduğu için annem bozuldu. Nedenini sorduğumda, \"İstanbul'da o kadar çok olay oluyor ki, artık canım sıkıldı.\" dedi.",
+        "latency_sec": 6.9902,
+        "chrf": 40.76,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben kalem var çanta koymak bilmek düşünmek aramak aramak bulmak </gloss>",
+        "expected": "Çantama kalem koyduğumu zannediyordum aradım ama hiç kalem bulamadım.",
+        "prediction": "Kalem çantamdaydı ama nerede olduğunu bir türlü hatırlayamadım. Uzun süre aradıktan sonra nihayet buldum.",
+        "latency_sec": 5.2726,
+        "chrf": 28.34,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> ben yeni araba almak arkadaş hepsi hayırlı olsun hayırlı olsun hayırlı olsun hayırlı olsun demek demek demek ben sağol sağol sağol </gloss>",
+        "expected": "Yeni araba alınca arkadaşlarımın hepsi hayırlı olsun demek için geldiler. Ben de hepsine teşekkür ettim.",
+        "prediction": "Aldığım arabanın herkese hayırlı olsun diye seslendim.",
+        "latency_sec": 4.1385,
+        "chrf": 23.17,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> cumartesi günü sağırlar lokal gelmek gelmek hep hep </gloss>",
+        "expected": "Sağırlar, cumartesi günleri lokalde toplanırlar.",
+        "prediction": "Cumartesi günleri işitme engelliler lokaline gelirler.",
+        "latency_sec": 2.681,
+        "chrf": 39.41,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> adam kişi pis numara bir kandırmak kandırmak dolandırmak şimdi polis yakalamak hapis girmek </gloss>",
+        "expected": "Çeşitli numaralarla herkesi kandırıp dolandıran o kötü adamı sonunda polis yakalayıp hapse attı.",
+        "prediction": "Adam dolandırıyordu, sonunda polis yakaladı ve hapse girdi.",
+        "latency_sec": 3.5033,
+        "chrf": 32.75,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> arkadaşlar ben görüşmek hiç ben sıkılmak mesaj çekmek mesaj çekmek akşam saat sekiz çay gelmek hepsi gelmek (toplanmak) </gloss>",
+        "expected": "Arkadaşlarımla uzun zamandır hiç görüşemedik, çok sıkıldım ve hepsine mesaj çekip evde çay içmeye davet ettim. Akşam saat sekizde hepsi benim evimde toplandı.",
+        "prediction": "Arkadaşlarla hiç görüşmüyordum, çok sıkıldım ve akşam saat sekizde hepberaber çay içmeye gittik.",
+        "latency_sec": 3.4911,
+        "chrf": 40.34,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> sabah eşim iş gitmek oğul okul gitmek ev karışık ben çabuk toplamak toplamak temizlemek düzenlemek bitmek rahatlamak oturmak çay içmek içmek </gloss>",
+        "expected": "Sabahları eşim işe, oğlum da okula gittikten sonra her yeri toplayıp temizledikten sonra oturup çay içiyorum.",
+        "prediction": "Sabah eşim işe gitti, oğlum da okula gittikten sonra evde biraz karmaşa çıktı. Herşeyi toplayıp düzenledikten sonra rahatladım ve çayımı yudumladım.",
+        "latency_sec": 5.4406,
+        "chrf": 53.42,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> dünya insan ten aynı aynı^değil farklı farklı farklı kumral beyaz esmer farklı farklı var </gloss>",
+        "expected": "Dünyadaki insanların ten rengi aynı değil, kimisi beyaz tenli, kimisi esmer tenli.",
+        "prediction": "<gloss> dünya genelinde insanların ten rengi farklı farklıdır. </gloss><|im_start|>assistant\ndünyada insanların ten rengi farklı farklıdır.",
+        "latency_sec": 4.0838,
+        "chrf": 30.71,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben baba önce elbise hepsi almak almak şimdi elbise almak almak bitmek azalmak para kriz </gloss>",
+        "expected": "Babam önceden istediğim her kıyafeti alırdı ama şimdilerde ekonomik kriz yaşıyoruz alamıyor.",
+        "prediction": "Benim babam eskiden her şeyi alırdı ama şimdi eskisi gibi değil, ekonomik sorunlar yaşıyor.",
+        "latency_sec": 2.9444,
+        "chrf": 38.64,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> okul yer yer (alan) ne şart atatürk heykel heykel heykel </gloss>",
+        "expected": "Okullarda Atatürk heykelinin olması bir zorunluluktur.",
+        "prediction": "Okulda her yerde mutlaka atatürk heykelleri olacak.",
+        "latency_sec": 1.8878,
+        "chrf": 30.41,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> ben arkadaş sohbet sohbet küfür etmek (o) ayıp rahatsız olmak ben gitmek </gloss>",
+        "expected": "Arkadaşımla sohbet ederken sürekli küfretmeye başladı. Gerçekten çok ayıp! Bu sohbete dayanamadım ve kalkıp gittim.",
+        "prediction": "Arkadaşımla sohbet ederken o kadar çok küfür etti ki, çok rahatsız oldum ve sohbeti bitirip gittim.",
+        "latency_sec": 4.0999,
+        "chrf": 37.78,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben lise okul mezun (olmak) iş başvurmak başvurmak olmak^değil üniversite okul gitmek düşünmek </gloss>",
+        "expected": "Lise mezunuyken iş başvurularım kabul edilmedi. Üniversiteye gitmeyi düşünüyorum.",
+        "prediction": "Mezun olduktan sonra işe giremediğim için üniversite sınavına girdim ve üniversiteyi kazandım.",
+        "latency_sec": 2.7845,
+        "chrf": 22.8,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben kart çekmek çekmek ben borç ödemek^değil boşvermek geciktirmek geciktirmek sonra sonra avukat mektup göndermek ben şok olmak icra ev iç malzeme hepsi götürmek </gloss>",
+        "expected": "Kredi kartlarımın borcunu ödemediğim için evraklarım avukata verilmiş ve eve icra geldi. Evim, arabam, her şeyim gitti.",
+        "prediction": "Kredi kartı borcumu ödemekten vazgeçip sürekli ertelediğim için haciz geldi ve evdeki eşyaların hepsini götürdüler.",
+        "latency_sec": 5.4954,
+        "chrf": 27.37,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> dernek yönetim genç hepsi koymak koymak sebep hepsi iş heveslenmek var iş hepsi gelişmek gelişmek </gloss>",
+        "expected": "Dernek yönetiminin hepsini gençlerden yaptık, çünkü hepsi çalışmak için hevesleniyorlar ve kendilerini geliştiriyorlar.",
+        "prediction": "<gloss> dernek yönetim kurulunun hepsi gençlerden oluşuyor. Çünkü hepsinde iş yapma hevesi var. </gloss><gloss>.",
+        "latency_sec": 4.4656,
+        "chrf": 33.01,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> sağır sinema için sağır milyon fazla gelmek toplanmak herkes izlemek izlemek beğenmek beğenmek </gloss>",
+        "expected": "Sağırların sinema filmine milyonlarca seyirci geldi, salon doldu. Herkes filmi çok beğendi.",
+        "prediction": "Sinema salonu için çok fazla sağır kişi geldi ve filmi izledi. Herkes filmi çok beğendi.",
+        "latency_sec": 2.8953,
+        "chrf": 47.47,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> eski telefon tuş basmak basmak şimdi yeni yükselmek (model) dokunmatik hazır rahat </gloss>",
+        "expected": "Eskiden tuşlu telefonlar vardı şimid modeller yükseldi ve dokunmatik telefonlar çıktı.",
+        "prediction": "Eskiden telefonların tuşları vardı, şimdi yeni çıkanların hepsi dokunmatik ekran oldu.",
+        "latency_sec": 3.0583,
+        "chrf": 36.23,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> eski 2015 o tarih göre seçim olmak^değil hepsi koalisyon düşünmek konuşmak konuşmak olmak^değil iptal tekrar üç ay ertelenmek seçim yapmak </gloss>",
+        "expected": "2015 seçimleri istenildiği gibi sonuçlanmadı ve koalisyon kurulması düşünüldü ama anlaşma sağlanamayınca üç ay sonra tekrar seçim yapılmasına karar verildi.",
+        "prediction": "2015 yılında seçimler yapılmadı. Koalisyon hükümeti kurılamayınca, seçimler üç ay ertelendi.",
+        "latency_sec": 4.1157,
+        "chrf": 25.46,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben tatil gitmek^değil önce ev (kapı) kilitlemek kilitlemek sonra tatil gitmek </gloss>",
+        "expected": "Tatile çıkmadan önce evdeki bütün kapıları kilitledim ve sonra çıktım.",
+        "prediction": "Tatile çıkmadan önce evimin kapısını kilitledim.",
+        "latency_sec": 2.1775,
+        "chrf": 49.14,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> baba köfte yapmak (bana) vermek yemek tat güzel (olmak) </gloss>",
+        "expected": "Babam köfte yapmış. Yemeğin tadı çok güzeldi.",
+        "prediction": "Babam köfte yapıp bana verdi, tadı çok güzeldi.",
+        "latency_sec": 1.9004,
+        "chrf": 62.32,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> benim araba çok geniş yedi kişi oturmak olmak rahat binmek binmek </gloss>",
+        "expected": "Benim arabam çok geniş, aynı anda yedi kişi binebiliyor.",
+        "prediction": "<gloss> benim arabam çok geniş, yedi kişi rahatlıkla binebilir.</gloss><|im_start|>assistant\n<|im_end|>assistant\nbenim arabam çok geniş, yedi kişi rahatlıkla binebilir.",
+        "latency_sec": 5.6437,
+        "chrf": 47.67,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> sağır grup sohbet ışık kısık uygun değil ışık açmak ben rahat sohbet etmek sağır kültür öyle </gloss>",
+        "expected": "Sağırlar kısık ışıkta sohbet edemezler. Onların aydınlık bir ortama ihtiyacı vardır. Bu onlar için kültürel bir durum.",
+        "prediction": "Sohbet ederken ışık çok kısık olduğu için sohbet edemedim, biraz daha açılınca rahat sohbet edebildik. Sağırlar böyle kültürel olarak sohbet ederken ışığı daha açık tutarlar.",
+        "latency_sec": 5.8137,
+        "chrf": 30.02,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben işaret dil bilmek </gloss>",
+        "expected": "Ben işaret dili biliyorum.",
+        "prediction": "Ben işaret dilini biliyorum.",
+        "latency_sec": 3.4925,
+        "chrf": 83.36,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> benim ev için kuş var kaç tane beş tane ben kuş için (kafes) temizlemek kapı açık unutmak o kuş kaçmak uçmak gitmek ben bakmak dört tane kalmak heves kaçmak </gloss>",
+        "expected": "Evde beş tane kuşum vardı, birgün kafesi temizlerken kapılarını açık unutmuşum ve bir tanesi uçup gitmiş şimdi dört tane kuşum kaldı, çok üzüldüm.",
+        "prediction": "Benim evimin bahçesinde beş tane kuş vardı. Kafesleri temizledikten sonra kapıları açık unutmuşum, kuşlar kaçmış. Sadece dördü kaldı. Çok üzüldüm.",
+        "latency_sec": 4.9681,
+        "chrf": 41.97,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> sabah akşam çalışmak çalışmak çok fazla çalışmak çalışmak yemek unutmak ev gelmek açlık yemek yemek doymak </gloss>",
+        "expected": "Sabahtan akşama kadar öyle yoğun çalıştım ki, yemek yemeyi unuttum eve geldiğimde aç olduğumu farkettim, hemen yemek yedim ve karnımı doyurdum.",
+        "prediction": "Sabah akşam o kadar çok çalıştı ki, yemek yiyecek aklına bile gelmedi. Eve gider gitmez öyle çok açtı ki, hemen yemek yiyip karnını doyurdu.",
+        "latency_sec": 4.9858,
+        "chrf": 37.12,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> su soğuk ben içmek içmek sonra bademcik şişmek çok fazla tövbe etmek su ılık ben içmek </gloss>",
+        "expected": "O kadar çok soğuk su içtim ki, bademciklerim şişti. Artık tövbe ettim, bir daha soğuk su içmem. Hep ılık su içeceğim.",
+        "prediction": "Soğuk su içtiğim için bademciklerim şişti. Keşke ılık su içseydim.",
+        "latency_sec": 3.3709,
+        "chrf": 36.21,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben araba iki var </gloss>",
+        "expected": "İki arabam var.",
+        "prediction": "<gloss> ben iki tane araba var </gloss><|im_start|>assistant\nben iki tane araba var.",
+        "latency_sec": 3.6549,
+        "chrf": 21.77,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> arkadaş beraber sinema gitmek korku film izlemek ben rahat arkadaş korkmak izlemek bırakmak gitmek </gloss>",
+        "expected": "Arkadaşımla birlikte sinemaya gidip korku filmi izledik. Ben rahattım, ancak arkadaşım çok korktu.",
+        "prediction": "Arkadaşımla birlikte korku filmi izlemeye gittik. Ben korkmadım ama arkadaşım o kadar korktu ki, bir süre sonra filmi bırakmak zorunda kaldı.",
+        "latency_sec": 4.4017,
+        "chrf": 49.17,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> yirmi yüzde hak vermek </gloss>",
+        "expected": "Yüzde yirmi hak veriyorum.",
+        "prediction": "Yüzde yirmi hakkım var.",
+        "latency_sec": 1.4935,
+        "chrf": 52.2,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben oğul beraber ben park ben gitmek bakmak salıncak ağaç ip bağlanmak hazırlamak bitmek ben rahat çocuk oynamak oynamak sallanmak sallanmak. </gloss>",
+        "expected": "Çocuğumla birlikte parka gittik, orada salıncağı iple ağaca bağlamışlardı. Çocuğum çok güzel oynadı.",
+        "prediction": "Oğlumla birlikte parka gittik. Salıncak ağaca bağlıydı, oğlum çok mutlu bir şekilde sallandı.",
+        "latency_sec": 3.8278,
+        "chrf": 43.05,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> konuşmak hepsi sağır hepsi kültür iç ne bilmek^değil ben kısa kısa bilgi vermek </gloss>",
+        "expected": "Sağır kültürünü bilmedikleri için onlara kısa kısa bilgiler verdim.",
+        "prediction": "Konuştuğum bütün sağırlar kültürlerini bilmedikleri için bana soruyorlar. Ben de kısaca bilgi veriyorum.",
+        "latency_sec": 3.5565,
+        "chrf": 41.07,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben amerika arkadaş var uzak ama olsun ben hep internet kamera görüşmek haberleşmek haberleşmek </gloss>",
+        "expected": "Amerika'da arkadaşım var. Onunla sürekli kamerada görüşüp haberleşiyoruz.",
+        "prediction": "Amerika'da bir arkadaşım var, çok uzakta yaşıyoruz ama sürekli internetten kamerayla sohbet edip haberleşiyoruz.",
+        "latency_sec": 3.4461,
+        "chrf": 53.12,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> her ay bir kadın temizlik için gelmek gelmek temizlemek arkadaş (ben) sormak ücret kaç para ödemek ben her ay iki yüz tl ödemek ödemek </gloss>",
+        "expected": "Her ay evime gelip temizlik yapan kadına arkadaşım, ne kadar ücret ödediğimi sordu. Ben de 200 TL ödediğimi söyledim.",
+        "prediction": "Her ay bir kadın temizlik için geliyor ve iki yüz lira ödüyorum.",
+        "latency_sec": 4.6671,
+        "chrf": 17.94,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> bir hafta sonra sağır maç var ben kamera yok sağır arkadaş (ben) rica kamera (ödünç) almak çekim yapmak </gloss>",
+        "expected": "Haftaya işitme engelliler futbol takımının maçı var. Arkadaşımdan kamerasını istedim. Maçın çekimini yapacağım.",
+        "prediction": "Bir hafta sonra gerçekleşecek olan sağırlar maçını çekim yapmak için kamera ödünç almamı sağır arkadaşım rica etti.",
+        "latency_sec": 3.1203,
+        "chrf": 24.02,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> konuşmak akraba tiyatro davet vermek ben gitmek tiyatro izlemek herkes gülmek gülmek ben gülmek yok sağır zor ben yarım bırakmak kalkmak gitmek </gloss>",
+        "expected": "Akrabalarımız tiyatro için davetiye verdiler, akşam izlemek için gittim ancak komedi oyunu idi. Çok bir şey anlamadım ve oyunu yarım bırakıp çıktım.",
+        "prediction": "Akrabalarım beni tiyatroya davet ettiler, gittim. Oyuncular o kadar çok güldüler ki, çok eğlendim. Ben de güldüm ama sağır olduğum için bir süre sonra kalkıp gittim.",
+        "latency_sec": 6.1054,
+        "chrf": 27.59,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> akşam cadde ben yürümek yürümek konuşmak adam yardım ben dokunmak elbise göstermek ben farketmek elbise ters fena elbise hemen değiştirmek </gloss>",
+        "expected": "Akşam caddede yürürken bir adam yaklaşıp kıyafetimi gösterdi. Meğer ters giymişim. Fark edince hemen değiştirdim.",
+        "prediction": "Akşam yürüyüşe çıktığımda bir adam bana dokundu ve elbisemin arkasının fena olduğunu söyledi. Baktım ki elbisemin arkası fena, hemen değiştirdim.",
+        "latency_sec": 4.9971,
+        "chrf": 32.07,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> arkadaş buluşmak o saçma saçma laf söylemek söylemek ben görmek usanmak bırakmak ben gitmek </gloss>",
+        "expected": "Arkadaşımla buluştuğumda saçma sapan konuşmalarından öyle usandım ki, bırakıp gittim.",
+        "prediction": "Arkadaşımla buluştuğumda o kadar saçma şeyler söyledi ki, sonunda onu dinlemekten vazgeçip gittim.",
+        "latency_sec": 3.5552,
+        "chrf": 45.82,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben ev apartman ön karşı o hastane yeni bina yapılmak </gloss>",
+        "expected": "Evimin bulunduğu apartmanın önüne yeni bir hastane binası yapılıyor.",
+        "prediction": "Apartmanın önünde yeni bir hastane binası yapıldı.",
+        "latency_sec": 1.8126,
+        "chrf": 61.31,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> biz grup sekiz kişi araba için sıkışmak yetmek^değil dört kişi taksi binmek biz (araba) binmek takip etmek tam </gloss>",
+        "expected": "Sekiz kişi tek arabaya sığamayınca dört kişiyi taksiye bindi ve biz de arabayla arkalarından takip ettik.",
+        "prediction": "Sekiz kişi bir arabaya sığmayınca dördümüz taksiye bindik, diğerimiz de bizi takip etti.",
+        "latency_sec": 3.5902,
+        "chrf": 43.63,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> maç oynamak dokuz numara o tutmak </gloss>",
+        "expected": "Maçta dokuz numaralı oyuncuyu tutmalısın.",
+        "prediction": "Maçta dokuz numaralı oyuncuumu tuttunuz?",
+        "latency_sec": 2.4431,
+        "chrf": 62.37,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> hollanda almanya görmek amerika görmek değil ama (sonra) gitmek </gloss>",
+        "expected": "Hollanda ve Almanya'yı gördüm ama Amerika'yı görmedim oraya da gideceğim.",
+        "prediction": "Hollanda ve Almanya'ya gittim ama Amerika'ya gitmedim.",
+        "latency_sec": 2.9555,
+        "chrf": 46.84,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> dernek üye istifa etmek ben gitmek iki sene sonra pişman olmak geri dönüş tekrar üye girmek </gloss>",
+        "expected": "Dernek üyeliğimden istifa ettikten iki yıl sonra, üyeliğe tekrar dönüş yaptım.",
+        "prediction": "Dernekten istifa ettim. İki yıl sonra pişman oldum ve tekrar üye oldum.",
+        "latency_sec": 2.7151,
+        "chrf": 40.54,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> yeni araba almak araba kaza olmak çok fazla masraf masraf ben susmak </gloss>",
+        "expected": "Yeni arabamla kaza yaptım. Çok masrafı çıktı, ama bir şey diyemedim.",
+        "prediction": "Yeni bir araba aldım, ancak yolda kaza yapınca çok masraf yaptı. Masrafları ödemekten kendimi alamadım.",
+        "latency_sec": 3.1661,
+        "chrf": 36.42,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben kız hepiniz çok iyi bakmak bakmak ben sizi hiç unutmak^değil çok sağol </gloss>",
+        "expected": "Kızıma çok iyi baktınız, sizi hiç unutmayacağım. Çok sağolun.",
+        "prediction": "<gloss> ben kız hepinize çok iyi bakın, sizi hiç unutmayacağım. Sağol. </gloss><gloss> ben kız hepinize çok iyi bakın, sizi hiç unutmayacağım. Sağol. </gloss><gloss> ben kız hepinize çok iyi bakın, sizi hiç unutmayacağım. Sağol. </gloss><gloss> ben kız hepinize çok iyi bakın, sizi hiç unutmayacağım. Sağol. </gloss><gloss> ben kız hepinize çok iyi bakın, sizi hiç unutmayacağım. Sağol. </gloss><gloss> ben kız hepinize.",
+        "latency_sec": 13.9296,
+        "chrf": 28.93,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben çocuk her gün soru sormak sormak ben nerede doğmak? ben nasıl doğmak? o merak merak sormak sormak ben kafa şişmek (baş ağrımak) </gloss>",
+        "expected": "Çocuğum her gün bana birçok soru soruyor. \"Ben ne zaman doğdum? Ben nasıl oldum?\" diye, onu dinlerken başım şişiyor.",
+        "prediction": "Çocuğum sürekli nerede doğdum? Nasıl doğdum? Gibi sorular soruyor. Onun bu merakından dolayı çok kafam şişiyor.",
+        "latency_sec": 4.5601,
+        "chrf": 34.43,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben arkadaş anlatmak ben kahkaha atmak gülmek gülmek çok fazla komik o </gloss>",
+        "expected": "Arkadaşımın anlattıklarını kahkaha atarak dinliyorum. O çok komik bir adam.",
+        "prediction": "Arkadaşımla sohbet ederken o kadar çok kahkaha attık ki, çok komikti.",
+        "latency_sec": 2.9501,
+        "chrf": 32.97,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben bisiklet sürmek sürmek adam demek yanlış yanlış diğer yer bisiklet yol o ben tamam pardon demek bisiklet yol gitmek sürmek </gloss>",
+        "expected": "Bisiklet sürerken bir adam yanlış yaptığımı bisiklet için ayrılan diğer yolda binmem gerektiğini söyledi, özür dileyip bisiklet yoluna geçtim.",
+        "prediction": "Ben bisiklet sürerken bir adam yanıma geldi ve yanlış yoldan gittim, diğer yoldan gitmem gerektiğini söyledi. Pardon deyip hemen yolu değiştirdim ve bisikletle yoluma devam ettim.",
+        "latency_sec": 5.3958,
+        "chrf": 49.56,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben dün ödev yapmak bitmek bugün okul gitmek ödev öğretmen vermek </gloss>",
+        "expected": "Dün evde ödevimi yaptıktan sonra, bugün öğretmene teslim ettim.",
+        "prediction": "Dün yaptığım ödevleri bugün okula götürdüm.",
+        "latency_sec": 2.0261,
+        "chrf": 18.97,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> kafa hesaplamak olmak^değil olmak^değil ben hesap makinesi alışmak bu sonra ben yazmak yazmak unutmak unutmak iyi^değil </gloss>",
+        "expected": "Hesap makinesi kullanmaya o kadar alıştım ki, kafadan hesap yapamıyorum ve daha sonra bir şey hesaplayıp yazmam gerektiğinde yapamıyorum. Bu hiç iyi bir şey değil.",
+        "prediction": "Kafam hesaplamayı yapmıyor, bu nedenle sürekli hesap makinesi kullanıyorum. Bir süre sonra artık hesaplamayı unutmaya başladım.",
+        "latency_sec": 4.8822,
+        "chrf": 32.16,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben gezmek gezmek dükkan görmek gömlek güzel ben almak </gloss>",
+        "expected": "Gezerken bir dükkan gördüm ve oradan güzel bir gömlek aldım.",
+        "prediction": "Gezerken bir dükkanda gömlek beğendim ve aldım.",
+        "latency_sec": 2.4252,
+        "chrf": 47.9,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> öğle nerede yemek nerede </gloss>",
+        "expected": "Öğlen nerede yemek yiyeceksin?",
+        "prediction": "<gloss> öğle yemeklerini nerede yiyorsun? </gloss><|im_start|>assistant\nöğle yemeklerini nerede yiyorsun?",
+        "latency_sec": 5.875,
+        "chrf": 27.25,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben eski okul öğretmen öğretmek öğretmek daire üçgen kare dikdörtgen hepsi öğretmek en kolay kare </gloss>",
+        "expected": "Öğrenciyken öğretmenimiz kare, üçgen, dikdörtgen hepsini öğretti, ancak içlerinden en kolayı kare.",
+        "prediction": "Öğrencilerin hepsine geometri dersinde daire, üçgen, kare gibi şekilleri öğrettim. En kolay işlenen şekil kare oldu.",
+        "latency_sec": 3.7326,
+        "chrf": 38.83,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> her cuma dergi değişmek değişmek ben hep almak almak okumak okumak </gloss>",
+        "expected": "Her cuma derginin yeni çıkan sayısını alıp okuyorum.",
+        "prediction": "Her cuma yeni bir dergi çıkıyor ve ben onu sürekli alıp okuyorum.",
+        "latency_sec": 2.5647,
+        "chrf": 48.38,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> tid herkes eğitim sahte çok yayılmak herkes toplantı toplanmak konuşmak konuşmak ev gitmek herkes çare çare bulmak bulmak tekrar toplantı toplanmak eylem eylem başlamak </gloss>",
+        "expected": "Türk İşaret Dili ile ilgili sahte eğitimler o kadar çok yayıldı ki, toplantı yaptıktan sonra evine giden herkes bir çare düşündü ve hep birlikte eylem yapılmasına karar verildi.",
+        "prediction": "Sahte diplomaların yayılmasına engel olamadıkları için evlerinde toplantılar yapıp çareler bulmaya başladılar ve bir süre sonra bu soruna çözüm bularak sahte diploma sorununu engellemeye başladılar.",
+        "latency_sec": 6.5138,
+        "chrf": 23.11,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> eski psikoloji doktor az şimdi fazla gelişmek ben rahatlamak gitmek gelmek gitmek gelmek </gloss>",
+        "expected": "Eskiden psikolog çok azdı, şimdi çok fazla. Rahatlıkla gidebiliyorsun. Ben de psikologa gidiyorum.",
+        "prediction": "Eskiden psikoloji doktorları çok azdı, şimdi daha fazla geliştirildi, rahatladım.",
+        "latency_sec": 2.6734,
+        "chrf": 38.91,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben zayıflamak diyet için yemek sabah akşam sıfır istemek^değil gibi su içmek içmek arkadaş demek demek olmak^değil birgün şart üç sabah öğle akşam yemek ihtiyaç ben tamam yemek yemek tamam </gloss>",
+        "expected": "Zayıflamak için diyete başladım ve gün içinde hiçbir şey yemeyip sadece su içtim. Arkadaşım böyle yapmamam gerektiğini, günde üç öğün yemek yemeye ihtiyacımız olduğunu söyledi. Bende söylediğini kabul ettim.",
+        "prediction": "Zayıflamak için diyet yapmaya başladım ama sabah ve akşam hiç yemek istemiyorum. Sadece su içiyorum. Arkadaşım sürekli böyle yapmamam konusunda beni uyarıyor ama birgünde üç defa yemek yiyorum.",
+        "latency_sec": 5.8552,
+        "chrf": 37.95,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben ev komşu karşı o çok fazla fakir ben görmek ben yürek yanmak ben hep yemek götürmek götürmek </gloss>",
+        "expected": "Komşumuz o kadar fakir ki, onları her gördüğümde yüreğim yanıyor. Onlara sürekli yemek yapıp götürüyorum.",
+        "prediction": "Komşumuz o kadar fakir ki, yürekten öyle gördüm ki, ona sürekli yiyecek götürüyorum.",
+        "latency_sec": 3.369,
+        "chrf": 49.39,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> bir ay önce ben çok fazla ben hasta ben oruç tutmak değil ben bugün ben borç kaza ben koymak oruç tutmak </gloss>",
+        "expected": "Bir ay önce hasta olduğum için oruç tutamadım. Şimdi kazasını yapıyorum.",
+        "prediction": "Geçen ay çok hastalandım, oruç tutamadım. Bugün kazası olduğu için oruç tuttum.",
+        "latency_sec": 3.0594,
+        "chrf": 43.68,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> araba ben değil </gloss>",
+        "expected": "Araba benim değil.",
+        "prediction": "<gloss> ben araba kullanmıyorum </gloss><|im_start|>assistant\nben araba kullanmıyorum.",
+        "latency_sec": 3.4426,
+        "chrf": 18.1,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> basketbol maç var ben izlemek merak etmek ben girmek ben izlemek adam hepsi dev uzun uzun çok fazla ben (şaşırmak) izlemek güzel maç ben hayran olmak </gloss>",
+        "expected": "Basketbol maçını izlemek için gittiğimde bütün oyuncular dev gibi kocamandı, çok beğendim.",
+        "prediction": "Basketbol maçını izlemek için gittim. Bütün oyuncular dev gibi uzunlmuştu. Çok şaşırdım, hayran kaldım.",
+        "latency_sec": 4.0559,
+        "chrf": 63.21,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben eski basketbol oynamak elli iki sayı atmak kral olmak </gloss>",
+        "expected": "Eskiden basketbol oynadığım zamanlarda sayıyı 50 yaparak kral ünvanını kazanmıştım.",
+        "prediction": "Eskiden basketbol oynardım. Elli iki sayı attığım maçlarda kral ilan edilirdim.",
+        "latency_sec": 2.8349,
+        "chrf": 35.83,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> türkiye yer gürcistan girmek için gümrük kapı var sınır girmek </gloss>",
+        "expected": "Gürcistan sınırında gümrük kapısı var.",
+        "prediction": "Türkiye'ye girebilmek için gümrük kapısından geçmek gerekiyor.",
+        "latency_sec": 2.5581,
+        "chrf": 31.29,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> benim kardeş düğün ben mecbur küpe kolye altın takım hediye etmek o kardeş sevinmek </gloss>",
+        "expected": "Kardeşimin düğününde mecburen küpe, kolye ve bilezikten oluşan altın seti hediye ettim. Çok sevindi.",
+        "prediction": "Kardeşimin düğünü için ona küpe, kolye, altın takılar hediye ettim. Çok sevindi.",
+        "latency_sec": 2.97,
+        "chrf": 56.25,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> banka para fazla var ben fikir en güzel ev inşaat yapmak </gloss>",
+        "expected": "Bankada birikmiş epeyce param vardı. Düşündüm ve parayı inşaatta kullanmanın en iyisi olacağına karar verdim.",
+        "prediction": "Benim bankada çok para var. Bu parayı en güzel şekilde inşaat yapmak için kullanmak istiyorum.",
+        "latency_sec": 2.7303,
+        "chrf": 26.16,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> masa o çok pahalı sebep öğrenmek odun o yüzden çok pahalı </gloss>",
+        "expected": "Masa çok pahalıydı. Nedenini sordum, odundan yapıldığı içinmiş.",
+        "prediction": "Masanın çok pahalı olduğunu öğrendim. Sebebi odun olduğu için bu kadar pahalı olmuş.",
+        "latency_sec": 2.3492,
+        "chrf": 25.58,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> yarın okul sunum saat on toplanmak sonra iptal etmek </gloss>",
+        "expected": "Yarın saat onda okulda toplanıp sunum yapacaktık ama iptal edildi.",
+        "prediction": "Yarın saat onda okulda sunum yapmak için toplandık, ancak iptal edildi.",
+        "latency_sec": 2.4494,
+        "chrf": 64.86,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> öğrenci hepsi bir sene dönem sınav sınav puan almak göre ben seçmek seçmek teşekkür belge dağıtmak </gloss>",
+        "expected": "Öğrencilerin dönem içinde aldıkları puanlara göre onlara teşekkür belgesi veriyorum.",
+        "prediction": "Yıl sonunda bütün öğrencilerin sınav notlarını topladıktan sonra, teşekkür belgelerini dağıttım.",
+        "latency_sec": 3.1686,
+        "chrf": 32.26,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> yedi haziran türk işaret dili bayram eylem için arkadaş ben haber vermek herkes gelmek (beklemek) adam kişi az ben susmak eylem eylem </gloss>",
+        "expected": "7 Haziran Türk İşaret Dili Bayramında eyleme katılmaları için herkese haber verdik ama katılım çok az oldu. Yine de bir şey demeden gelenlerle eylemi yaptık.",
+        "prediction": "<gloss> yedi haziran işaret dili bayramı için arkadaşlarıma haber verdim, ancak çok az kişi geldi. </gloss><|im_start|>assistant\n<gloss> yedi haziran işaret dili bayramı için arkadaşlarıma haber verdim, ancak çok az kişi geldi. </gloss><|im_end|>assistant.",
+        "latency_sec": 9.2066,
+        "chrf": 27.62,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben altın dükkan ben gitmek fiyat görmek akıl tutmak birgün sonra altın yükselmek çok fazla keşke dün almak </gloss>",
+        "expected": "Kuyumcuya gittiğimde fiyatlar yüksek diye altın almadım, ama birgün sonra fiyatlar daha da yükseld.i Keşke gittiğim zaman almış olsaydım.",
+        "prediction": "Altın almak için dükkana gittim ama fiyatı çok yüksek görünce almaktan vazgeçtim. Keşke dün alsaydım.",
+        "latency_sec": 4.0059,
+        "chrf": 26.04,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben abi amerika üniversite kazanmak bu gece saat iki buçuk uçmak </gloss>",
+        "expected": "Abim Amerika'ya okumak için gidecek. Bu gece iki buçukta uçacak.",
+        "prediction": "Abim Amerika'da üniversiteyi kazandı. Bu gece saat iki buçukta uçacak.",
+        "latency_sec": 2.6665,
+        "chrf": 56.1,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> toplantı katılmak mecbur </gloss>",
+        "expected": "Toplantıya kesinlikle katılmamız gerekiyor.",
+        "prediction": "Ben mecburen toplantıya katldım.",
+        "latency_sec": 1.5614,
+        "chrf": 28.33,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> gaziantep ben görmek hiç </gloss>",
+        "expected": "Gaziantep’i şu ana kadar görmedim.",
+        "prediction": "Ben Gaziantep'i hiç görmedim.",
+        "latency_sec": 1.5551,
+        "chrf": 43.82,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> bisiklet yeni almak ev getirmek açmak bakmak (şaşırmak) çizik çıkmak geri değiştirmek konuşmak (adam) hayır hayır ben bırakmak </gloss>",
+        "expected": "Yeni aldığım bisikleti eve gelince paketinden çıkardığımda çizik olduğunu fark ettim ve değiştirmek için tekrar dükkana götürdüm. Ancak oradaki adam \"hayır, alamayız!\"deyince kızıp bisikleti orada bıraktım.",
+        "prediction": "Yeni aldığım bisiklet eve geldikten bir süre sonra çizik olduğunu farkettim. Servisi aradım, ancak görevli \"hayır, bu sizin hatanız\" deyince iade etmedim.",
+        "latency_sec": 5.175,
+        "chrf": 35.76,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> düğün ben gitmek erkek o iyi tanımak ben arkadaş o evlenmek kız ben tanımak^değil ben hiç görmek^değil çıkarmak^değil kim arkadaş ben sormak sormak kim o demek ankara yer erkek istanbul yer evlenmek olta atmak ben anlamak </gloss>",
+        "expected": "Bir düğüne gittim, damadı iyi tanıyordum ama evlendiği kızı hiç tanımıyordum. Ben de arkadaşlara sordum, kızın kim olduğunu öğrenmek için. Arkadaşlarım da \"damat kızı Ankara'da tavladı, kız da hemen oltaya geldi\" dediler.",
+        "prediction": "Bir düğüne gittim. Gelin ve damat çok iyi anlaşıyordu. Gelin olsun, damat olsun onları daha önce hiç görmüştüm. Sonra öğrendim ki, gelin, Ankara'dan, damat ise İstanbul'danmış. Çok şaşırdım.",
+        "latency_sec": 7.6879,
+        "chrf": 26.67,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> türkçe ders şimdi bitmek bir saat sonra devam etmek </gloss>",
+        "expected": "Türkçe dersi şimdi bitti. Bir saat sonra devam edecek.",
+        "prediction": "Türkçe dersini şimdi bitirdim, bir saat sonra tekrar devam edeceğim.",
+        "latency_sec": 2.5994,
+        "chrf": 63.33,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> kısa küçük tartışmak sonra (o) özür dilemek kabul etmek^değil arkadaş birleşmek çok kişi gelmek problem büyümek </gloss>",
+        "expected": "İki arkadaş arasında küçük bir tartışma oldu ve biri diğerinden özür diledi. Ancak diğeri özürü kabul etmeyip kendi arkadaşlarını da yanına alıp problemi iyice büyüttü.",
+        "prediction": "Kısa süreli bir tartışım yaşadık, sonra o özür diledi kabul etmedim. Sorun büyümeye başlayınca bütün arkadaşlar araya girdi.",
+        "latency_sec": 4.7602,
+        "chrf": 27.51,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben arkadaş (ben) sormak ikiniz yakın akraba mı olmak? ben yok uzak akraba demek </gloss>",
+        "expected": "Arkadaşım yakın akraba olup olmadığımızı sordu, uzaktan akrabayız dedim.",
+        "prediction": "Arkadaşım \"ikiniz akraba mısınız?\" diye sorunca \"yok, uzak akrabalarız\" dedim.",
+        "latency_sec": 3.3316,
+        "chrf": 35.25,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> oğlum asker iki sene gitmek görmek hiç gelmek özlemek ben kucaklamak </gloss>",
+        "expected": "Oğlum iki yıldır askerdeydi o kadar özledim ki, geldiğinde onu kucaklayıp sarıldım.",
+        "prediction": "Gloss: <gloss> oğlum iki yıllığına askere gitti. Onu hiç görmedim, çok özlemişim. </gloss><gloss> oğlum iki yıllığına askere gitti. Onu hiç görmedim, çok özlemişim. </gloss><gloss> oğlum iki yıllığına askere gitti. Onu hiç görmedim, çok özlemişim. </gloss><gloss> oğlum iki yıllığına askere gitti. Onu hiç görmedim, çok özlemişim. </gloss><gloss> oğlum iki yıllığına askere gitti. Onu hiç.",
+        "latency_sec": 14.0002,
+        "chrf": 16.87,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> üniversite ben istanbul okumak gitmek doktor için amerika gitmek doktor okumak </gloss>",
+        "expected": "Üniversiteyi İstanbul'da okuduktan sonra doktora yapmak için Amerika'ya gittim",
+        "prediction": "Üniversitede İstanbul'da okuduktan sonra doktorluk için Amerika'ya gittim.",
+        "latency_sec": 3.3086,
+        "chrf": 75.79,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> telefon yeni almak kılıf hediye etmek kılıf iç yapışkan var ben takmak (duvar) koymak koymak düşmek^değil bakmak ilginç </gloss>",
+        "expected": "Yeni bir telefon kılıfı aldım. Telefonu içine koyup bıraktığımda yapışkan olduğu için düşmüyor. Çok ilginç bir kılıf.",
+        "prediction": "Yeni aldığım telefon kılıfını duvara yapıştırdım. Çok yapışkan olduğu için düşmedi.",
+        "latency_sec": 3.1746,
+        "chrf": 40.96,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben kardeş bisiklet düşmek iki kol kırılmak alçı olmak yemek yemek mümkün^değil ben yardım iki ay ben yedirmek yedirmek </gloss>",
+        "expected": "Kardeşim bisikletten düşünce iki kolunu da kırdı ve tek başına yemek yiyemediği için iki ay boyunca ona yemeğini ben yedirdim.",
+        "prediction": "Kardeşim bisikletle düşerek iki kolunu kırdı, alçıya alındı. İki ay boyunca sürekli onunla ilgilendim, besledim.",
+        "latency_sec": 4.7163,
+        "chrf": 35.19,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> ben iş masa temizlemek düzenlemek hazırlamak bir hafta izin gitmek gelmek masa karışmak biri ellemek yapmak kim iş hepsi susmak ben sinirlenmek temizlemek düzenlemek hazırlamak </gloss>",
+        "expected": "İş yerimdeki masamı temizleyip düzenledikten sonra bir haftalığına tatile çıktım. Döndüğümde biri masamı karıştırmış ve dağıtmıştı. Çok sinirlendim, \"Kim yaptı?\" diye sordum ama kimse cevap vermedi, ben de tekrar masamı temizledim.",
+        "prediction": "Masamı temizleyip düzenledikten sonra bir haftalığına izin aldım. Döndüğümde bütün eşyaların yerleri değiştirilmişti, çok sinirlendim.",
+        "latency_sec": 5.4538,
+        "chrf": 39.46,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> voleybol ben maç kıyasıya (mücadele olmak) son ben devirmek ben kazanmak </gloss>",
+        "expected": "Kıyasıya geçen voleybol maçında son sayıyı alıp maçı kazandık.",
+        "prediction": "Voleybol maçında çok mücadele ettim ve sonunda maçı ben kazandım.",
+        "latency_sec": 2.7685,
+        "chrf": 36.73,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> çiçek su dökmek dökmek hiç olmak çiçek sararmak olmak </gloss>",
+        "expected": "Çiçeğe hiç su vermediğim için sarardı.",
+        "prediction": "Çiçeklere su dökmezsen sararlar.",
+        "latency_sec": 1.7137,
+        "chrf": 21.13,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben üniversite ben okul girmek ben eski lise ben arkadaş hepsi ben hiç sohbet etmek hepsi kopmak </gloss>",
+        "expected": "Üniversiteye başlayınca lisedeki arkadaşlarımızla görüşemez olduk, iyice koptuk.",
+        "prediction": "Ben üniversite sınavını kazandım ve üniversiteye gittim. Ama üniversite de arkadaşlarla hiç sohbet etmiyorum. Lisede herkes çok iyi anlaşıyordu ama üniversite de kimseyle anlaşıp sohbet etmiyorum.",
+        "latency_sec": 5.9601,
+        "chrf": 26.55,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> memleket rize ben rica etmek çay koli çeşit (ben) göndermek </gloss>",
+        "expected": "Memleketim Rize'den koli ile çay göndermelerini rica ettim.",
+        "prediction": "Memleketten Rize'den bana çay kolileri göndermelerini rica ettim.",
+        "latency_sec": 2.3484,
+        "chrf": 66.17,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben hiç unutmak ^değil önce on beş temmuz darbe ben görmek görmek ölmek ölmek yaralanmak ben görmek çok fena ben üzülmek akıl kalmak unutmak olmak ^değil </gloss>",
+        "expected": "15 Temmuz gecesi gördüklerimi asla unutamam insanlar öldüler yaralandılar, her şey çok fena görünüyordu.",
+        "prediction": "Daha önce gördüğüm on beş temmuz darbesini unutmam mümkün değil. O gün çok sayıda insan öldü, yaralandı, çok üzüldüm. O günü hiç aklımdan çıkaramadım.",
+        "latency_sec": 4.8525,
+        "chrf": 24.88,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> sabah (erken) saat yedi gibi deniz o düz kişi hepsi boş ben dalmak yüzmek zevk almak </gloss>",
+        "expected": "Sabahları deniz dümdüz oluyor ve etrafta kimse olmuyor. Bu nedenle sabahları yüzmekten çok zevk alıyorum.",
+        "prediction": "Sabah saat yedide, deniz o kadar durgun ve sakindi ki, çok eğlendim.",
+        "latency_sec": 4.5193,
+        "chrf": 15.93,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben toplantı ben girmek adam o anlatmak anlatmak ben bakmak o önemli ben not tutmak tutmak sonra unutmak izin vermek^değil hatıra ben koymak yazmak yazmak </gloss>",
+        "expected": "Katıldığım toplantıda, adamın anlattığı konunun önemli kısımlarını unutmamak için not aldım.",
+        "prediction": "Toplantıda konuşulanları dikkatle dinledim ve önemli gördüğüm şeyleri not aldım. Unutmadığımdan emin olmak için onları hatıra olarak duvara astım.",
+        "latency_sec": 5.7803,
+        "chrf": 39.2,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben elma tatlı ben^değil eksi elma çok sevmek </gloss>",
+        "expected": "Tatlı elma sevmiyorum ama ekşi elmayı çok seviyorum.",
+        "prediction": "Ben elma tatlısını sevmiyorum, ekşi elma yemeyi çok seviyorum.",
+        "latency_sec": 3.4639,
+        "chrf": 59.55,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben oğlum arkadaş kalmak istemek ben hayır hayır ısrar etmek ısrar etmek ben kabul etmek izin vermek </gloss>",
+        "expected": "Oğlum arkadaşında kalmak istiyordu, izin vermedim. Ama o kadar uğraştı ki, sonunda kabul ettim.",
+        "prediction": "Oğlum arkadaşının evinde kalmak isteyince \"hayır!\" dedim. Ama o kadar ısrar etti ki sonunda \"tamam!\" deyip izin verdim.",
+        "latency_sec": 5.6795,
+        "chrf": 48.02,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben iş paydos (sonra) alışveriş gitmek </gloss>",
+        "expected": "İş çıkışında alışverişe gideceğim.",
+        "prediction": "İşten çıktıktan sonra alışverişe gittim.",
+        "latency_sec": 2.5928,
+        "chrf": 38.57,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben kitap okumak ben hasta hep yeni kitap ben almak almak kütüphane^koymak </gloss>",
+        "expected": "Kitap okumaya bayılıyorum. Kendime yeni kitaplar alıp kütüphaneme diziyorum.",
+        "prediction": "Ben kitap okumayı çok seviyorum, sürekli yeni kitaplar alıp kütüphanemde saklıyorum.",
+        "latency_sec": 4.2446,
+        "chrf": 56.19,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> sokak gezmek yürümek yürümek bakmak midye satmak can çekmek para vermek almak yemek yemek </gloss>",
+        "expected": "Sokakta gezerken midye satıldığını gördüm, o kadar canım istedi ki hemen alıp yedim.",
+        "prediction": "Sokakta yürürken midye satan bir adam gördüm. Midye yemeyi çok sevdiğim için hemen aldım ve yedim.",
+        "latency_sec": 3.9449,
+        "chrf": 37.56,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> adam kişi inşaat iş çalışmak çalışmak adam kişi çok güç asla yorulmak^değil </gloss>",
+        "expected": "İnşaat işçileri yoğun çalışmaya o kadar alışıklar ki, hiç yorulmuyorlar, çok güce sahipler.",
+        "prediction": "O kadar çok çalışıyor ki, asla yorulmuyor. O gerçekten de çok güçlü bir adam.",
+        "latency_sec": 3.5622,
+        "chrf": 29.39,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> yönetim hepsi ekip ev arsa satmak için hepsi gitmek bakmak beğenmek beğenmek </gloss>",
+        "expected": "Satılan arsaya bakmak için bütün yönetim gittik. Herkes arsayı beğendi.",
+        "prediction": "Ekipçe arsayı inceledik ve evi çok beğendik.",
+        "latency_sec": 3.4486,
+        "chrf": 17.68,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> beş sene evlenmek gün ben eş baş başa lokanta ben gitmek her şey boşver tek baş başa sohbet etmek </gloss>",
+        "expected": "Evliliğimizin beşinci yıldönümünde eşimle birlikte baş başa yemeğe çıktık ve her şeyi boşverip güzel bir yemek yiyip sohbet ettik.",
+        "prediction": "Beş yıl evlilik yıl dönümü için eşimle baş başa lokantaya gittik. Hiç sohbet etmedik.",
+        "latency_sec": 5.6985,
+        "chrf": 28.39,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> uçak binmek için koşmak koşmak inmek uçak bir saat sonra kalkmak ben beklemek </gloss>",
+        "expected": "Uçağa binmek için koşarak havaalanına gittim ama uçak bir saat sonra kalkıyormuş. Beklemek zorunda kaldım.",
+        "prediction": "Uçak kalkışa çok az kaldığı için koşarak uçağa gittim. Bir saat sonra kalkan uçağa bindim.",
+        "latency_sec": 4.6156,
+        "chrf": 45.12,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben sinema gitmek komedi aşk savaş taramak ben hangisi seçmek savaş taramak ben seçmek adam tek taramak savaşmak taramak adam ölmek ölmek ben hayran olmak film süper </gloss>",
+        "expected": "Sinemaya gittiğimde komedi, aşk ve savaş filmleri vardı. İçlerinden savaş filmini seçtim. Filmde tek bir adam herkesi taradı, hayran kaldım. Film çok güzeldi.",
+        "prediction": "Kendimle birlikte sinemaya gittim. Savaş, aşk, komedi gibi birçok film vardı. Ben savaş filmlerini çok sevdiğim için savaş filmlerini seçtim. İzlediğim film çok beğendim, çok eğlenceliydi.",
+        "latency_sec": 8.3604,
+        "chrf": 42.96,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> aile grup bir çocuk küçük fakir çok kendi dilenmek sonra büyümek iş bir büyük zengin olmak </gloss>",
+        "expected": "Fakir ailenin küçük çocuğu sürekli dileniyordu, (o şimdi) büyüdü ve zengin bir iş adamı oldu.",
+        "prediction": "<gloss> ailem çok fakirdi, çocukluğumdan beri dilenirdik. Şimdi büyüdüm ve çok zengin oldum. </gloss><gloss> çocukluğumdan beri dilenirdik. Şimdi büyüdüm ve çok zengin oldum. </gloss><gloss> ailem çok fakirdi, çocukluğumdan beri dilenirdik. Şimdi büyüdüm ve çok zengin oldum. </gloss><gloss> çocukluğumdan beri dilenirdik. Şimdi büyüdüm ve çok zengin oldum. </gloss><gloss> ailem çok fakirdi, çocukluğumdan beri dil.",
+        "latency_sec": 18.8565,
+        "chrf": 19.14,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> demir masa ben istemek^değil ağaç göre masa istemek </gloss>",
+        "expected": "Metal masa istemiyorum. Ağaçtan bir masa istiyorum.",
+        "prediction": "Demir masa istemiyorum. Ahşap masa istiyorum.",
+        "latency_sec": 2.1851,
+        "chrf": 66.22,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> icra yüzden ev (durmak) fazla düşünmek düşünmek iyi olmak^değil ben (para) döndürmek yardım var </gloss>",
+        "expected": "Evine gelen icrayı fazla düşünme, bir şekilde para bulup sana yardım ederim.",
+        "prediction": "Benim için icra dosya yıkımı için çok düşündüm ama sonra paramı döndürüp bana yardımcı olacak birini buldum.",
+        "latency_sec": 4.5466,
+        "chrf": 23.09,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> ben arkadaş evlenmek o kadın olmak </gloss>",
+        "expected": "Arkadaşım evlendi. O artık bir kadın oldu.",
+        "prediction": "Arkadaşım evlenen kadın oldu.",
+        "latency_sec": 1.8426,
+        "chrf": 54.58,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben ev iç ben temizlemek ben dikkat etmek^değil elli sene altın vazo taş süper ben çarpmak düşmek kırılmak anne o üzülmek </gloss>",
+        "expected": "Evde temizlik yaparken dikkat etmediğim için elli yıllık altın rengindeki taş vazoya çarpınca düştü, kırıldı. Annem çok üzüldü.",
+        "prediction": "Ben evde temizliğe dikkat etmediğim için elli yıllık altın rengi vazoyu düşürüp kırdım. Annem çok üzüldü.",
+        "latency_sec": 4.7404,
+        "chrf": 59.89,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> anne ev temizlemek hazırlamak dolap üst temizlemek yapmak^değil anne (ben) demek rica etmek dolap üst pis ben yardım etmek silmek silmek hazır </gloss>",
+        "expected": "Annem temizlik yaparken dolapların üstünü silememiş. Benden rica etti, ben temizledim.",
+        "prediction": "Annem evi temizledikten sonra dolabıları üstlerini silmeyi unutmuştu. Ben de annemden rica ettim ve dolabıların üstlerini sildim.",
+        "latency_sec": 5.8479,
+        "chrf": 36.59,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> yakın iş kovmak belli bilmek ben </gloss>",
+        "expected": "Yakında işten kovulacağım belli oldu.",
+        "prediction": "Yakında işten kovulacağımı biliyorum.",
+        "latency_sec": 2.3543,
+        "chrf": 61.78,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> benim düğün kız hepsi beyaz kıyafet aynı aynı aynı. </gloss>",
+        "expected": "Benim düğünümde, kızların hepsinin kıyafeti beyaz renkteydi.",
+        "prediction": "Benim düğünümde bütün kızlar beyaz giyinmişti.",
+        "latency_sec": 2.5262,
+        "chrf": 37.74,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> at çok yakın olmak^değil sebep o at kendi arka tekme var yüzden uzak durmak lazım </gloss>",
+        "expected": "Atlara çok yakın durmamak gerekir, çünkü arkadan tekme atabilir.",
+        "prediction": "<gloss> at çok yakın olmak^değil sebep o at kendi arka tekme var yüzden uzak durmak lazım </gloss><gloss> at çok yakın olmak^değil sebep o at kendi arka tekme var yüzden uzak durmak lazım </gloss><gloss> at çok yakın olmak^değil sebep o at kendi arka tekme var yüzden uzak durmak lazım </gloss><gloss> at çok yakın olmak^değil sebep o at kendi arka tekme var yüzden uzak durmak lazım </gloss><gloss> at çok yakın olmak.",
+        "latency_sec": 19.2435,
+        "chrf": 15.39,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> bir tatil yer yıldız beş otel gibi ben gitmek sırt masaj istemek gitmek adam görüşmek masaj istemek saat üç sonra gel sıra dolu demek ben beklemek saat üç sonra ben gitmek adam görüşmek sırt masaj yapmak ben rahatlamak </gloss>",
+        "expected": "Beş yıldızlı otele tatile gittiğimde masaj yaptırmak için randevu aldım. Saat üçe randevu verdiler. Bana çok güzel masaj yaptılar, çok rahatladım.",
+        "prediction": "Ben tatil için beş yıldızlı bir yere gittim. Otelde sırt masajı istedim, adam saat üçte geleceğini söyledi. Bir süre bekledikten sonra masaj yaptırdım, çok rahatladım.",
+        "latency_sec": 7.0002,
+        "chrf": 39.97,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben fiş (şarj aleti) çocuk ben vermek o oynamak oynamak eğmek ben bakmak eğilmek şaşırmak </gloss>",
+        "expected": "Fişi oynaması için çocuğun eline verdim ama öyle (fişi) eğmişti ki, nasıl yaptığını anlamadım.",
+        "prediction": "Çocuğum fişi ile oynarken eğilmiş olduğunu gördüm, çok şaşırdım.",
+        "latency_sec": 3.3544,
+        "chrf": 16.86,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben tatil gezmek gezmek ben görmek adam hareket durmak kalmak ben ağız açık kalmak </gloss>",
+        "expected": "Tatildeyken bir adamın öylece (saatlerce) hareketsiz bir şekilde durduğunu gördüğümde çok şaşırmıştım.",
+        "prediction": "Ben tatilde gezerken bir adam gördüm. O kadar hareketsiz duruyordu ki, ağzım açık kaldı.",
+        "latency_sec": 4.3968,
+        "chrf": 28.43,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben iş müdür o ben eziyet eziyet ben çile çekmek çile çekmek </gloss>",
+        "expected": "Müdürüm bana o kadar eziyet ediyor ki,resmen çile çekiyorum.",
+        "prediction": "Müdürüm sürekli benle alay ediyor, beni eziyor. Çok çile çekiyorum.",
+        "latency_sec": 4.6354,
+        "chrf": 44.27,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> ben yaş büyük ama ayak numara ufak otuz üç gibi ben yer aramak aramak zor o çocuk dükkan ben gitmek uygun ayak bulmak </gloss>",
+        "expected": "Yaşım büyük ama ayak numaram küçük bu nedenle ayakkabı bulmakta zorlanıyorum ve mecburen çocuk ayakkabısı satan dükkanlara gidiyorum. Ayağıma uygun ayakkabıyı sadece oralarda bulabiliyorum.",
+        "prediction": "Yaşım büyük olmasına rağmen ayak numaram küçük olduğu için uygun bir yer bulamıyordum. Sonunda bir dükkana gittim ve çocuk bölümünde uygun bir ayakkabı buldum.",
+        "latency_sec": 7.4076,
+        "chrf": 34.2,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben lokanta gitmek yemek hepsi güzel bir problem servis adam kişi tam beğenmek^değil menü ben göstermek yanlış getirmek bu^değil öbür o demek adam pardon (demek) tekrar getirmek </gloss>",
+        "expected": "Gittiğim lokantayı çok beğendim, ancak sadece servis yapan adamdan menun kalmadım. Söylediğimiz şiparişi değil, bize başka bir şey getirdi. Biz uyardıktan sonra düzeltti yiyeceğimizi.",
+        "prediction": "Ben lokantaya gittim. Yemekler çok güzeldi ama servis görevlisi menüyü bana gösterirken yanlış bir şey söyleyince hemen kalkıp garsona pardon deyip düzeltmesini istedim.",
+        "latency_sec": 8.8754,
+        "chrf": 24.15,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben bekar kilo kırk beş hafif sonra evlenmek sonra hamile kilo ben bakmak altmış altı çok fazla </gloss>",
+        "expected": "Bekarken çok hafiftim, sadece kırk beş kiloda idim. Evlendikten sonra, bir de hamile kalınca iyice ağırlaştım. Tam altmış beş kilo oldum.",
+        "prediction": "Bekarken kırk beş kiloydum, evlendikten sonra hamile olunca kilom altmış altıya çıktı.",
+        "latency_sec": 5.4519,
+        "chrf": 35.64,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> asker dizilmek savaş beklemek komutan emir almak savaş başlamak saldırmak savaşmak savaşmak </gloss>",
+        "expected": "Askerler savaşı başlatmak içn sıraya geçmiş bekliyorlardı. Komutan emir verdiği anda, savaşı başlatıp hücum ettiler.",
+        "prediction": "Askerler dizildi ve beklemeye başladılar. Bir süre sonra komutan geldi ve savaşa başlamalarını söyledi. Askerler hemen kalkıp saldırıya geçtiler.",
+        "latency_sec": 6.2933,
+        "chrf": 28.54,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> birbirimizi düşünmek lazım </gloss>",
+        "expected": "Birbirimizi düşünmeliyiz.",
+        "prediction": "Birbirimizi düşünmeliyiz.",
+        "latency_sec": 6.4912,
+        "chrf": 100.0,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> proje için çekim çalışmak başlamak </gloss>",
+        "expected": "Proje için video çekimlerine başladık.",
+        "prediction": "Proje çekimleri için çalışmaya başladım.",
+        "latency_sec": 2.1807,
+        "chrf": 41.55,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben arkadaş hepsi grup araba trafik gitmek ben arkadaş sormak nere? o demek biraz ileri orada var </gloss>",
+        "expected": "Arkadaşlarla gezmeye çıktık. Yanımdaki arkadaşıma nereye gittiğimizi sorduğumda, gideceğimiz yerin biraz ileride olduğunu söyledi.",
+        "prediction": "Arkadaşlarla arabada giderken arkadaşlarıma \"nerede gidiyoruz?\" diye sordum. O da \"biraz ileride, önünde olacak\" dedi.",
+        "latency_sec": 6.6917,
+        "chrf": 31.48,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben eski zayıf gömlek düğme iliklemek almak şimdi ben şişmanlamak düğme kopmak </gloss>",
+        "expected": "Zayıfken aldığım gömleğin düğmelerini rahatlıkla ilikleyebiliyordum, ancak şimdi kilo aldım ve düğmeler kopmaya başladı.",
+        "prediction": "Eskiden zayıf olduğum için gömleğimde sürekli düğmeleri iliklyordum, ancak şimdi kilo almışım nedeniyle düğmeler koptu.",
+        "latency_sec": 6.4817,
+        "chrf": 44.48,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> türk yer konuşmak fazla ana dil türkçe </gloss>",
+        "expected": "Türklerin çok olduğu yerde anadil Türkçedir.",
+        "prediction": "<gloss> Türkiye'de en çok konuşulan dil türkçedir. </gloss><|im_start|>assistant\nTürkiye'de en çok konuşulan dil türkçedir.",
+        "latency_sec": 8.4872,
+        "chrf": 30.83,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben dergi gazete ve benzer sevmek^değil ben kitap okumak hasta (olmak) </gloss>",
+        "expected": "Dergi gazete ve benzeri şeylerden hoşlanmıyorum. Ben kitap hastasıyım.",
+        "prediction": "Dergi, gazete gibi okumayı sevmiyorum. Ben kitap okumayı çok seviyorum.",
+        "latency_sec": 3.9992,
+        "chrf": 35.15,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> spor haber olay bilgi toplamak sonra grafik grup çizmek hazırlamak yarın gazete yayınlamak </gloss>",
+        "expected": "Spor haberlerini hazırlamak için bütün grafik ekibi toplanıp önce çizimleri tamamladık.",
+        "prediction": "Sporla ilgili haberleri topladıktan sonra, grafik ekibine bilgi verip ertesi gün gazetede yayınlanması için hazırladık.",
+        "latency_sec": 4.7255,
+        "chrf": 36.55,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> bugün akşam kına var arkadaş o için ben gitmek izlemek eğlenmek sonra kına başlamak adam gelmek çok büyük değer hediye yüzük taş hediye etmek ben bakmak aile hepsi zengin </gloss>",
+        "expected": "Akşam arkadaşımın düğününde bir süre eğlendikten sonra bir adam geldi ve arkadaşıma değeri çok yüksek taşlı bir yüzük hediye etti. Sanırım ailesi çok zengin.",
+        "prediction": "Bu akşam arkadaşımın kınası var, ben de gidip onu izledim. Kına başladıktan bir süre sonra, bir adam geldi. O kadar fazla mücevher takmıştı ki, çok şaşırdım. Ailesinin çok zengin olduğunu anladım.",
+        "latency_sec": 9.9296,
+        "chrf": 38.57,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben yarın iş görüşme var ben akşam uyumak olmak^değil (yatak) dönmek dönmek çok endişeli (ben) </gloss>",
+        "expected": "Sabah bir iş görüşmesine gideceğim için gece endişeden uyuyamadım.",
+        "prediction": "Yarın iş görüşmesi için çok endişelendim ve uyuyamadım.",
+        "latency_sec": 4.9706,
+        "chrf": 39.8,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben poğaça istemek anne söylemek anne un su koymak koymak yoğurmak hamur yapmak ben izlemek ben olmak yapmak^değil </gloss>",
+        "expected": "Annemden poğaça yapmasını istedim. O da hemen un ve suyu karıştırıp hamuru yaptı ve poğaçayı pişirmeye başladı, onu izledim ama ben yapamam.",
+        "prediction": "Anneme poğaça yapmasını söyledim. Annem hemen unu su ile karıştırıp yoğurdu ve hamuru yaptı.",
+        "latency_sec": 6.7058,
+        "chrf": 36.56,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> bugün sabah ben acil çıkmak ben sabah namaz kılmak yapmak değil ben öğlen borç namaz kılmak </gloss>",
+        "expected": "Sabah acil çıkınca namazımı kılamadım. Öğlen her ikisini birden kıldım.",
+        "prediction": "Bugün sabah erkenden çıkmam gerekti. Sabah namazını kılamadım. Öğleden sonra borcum olarak kıldım.",
+        "latency_sec": 5.1731,
+        "chrf": 39.85,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> adam kişi zengin dükkan açmak müşteri gelmek gelmek sonra dükkan iki açmak müşteri gelmek gelmek sonra (devam) dükkan açmak müşteri gelmek gelmek vergi ödemek^değil ödemek^değil icra adam kişi iflas etmek </gloss>",
+        "expected": "O adam çok zengindi, bir dükkan açtı, herkes oraya akın etti. Sonrasında ikinci dükkanını açtı, orası da öyle olunca dükkan sayısını arttırdı. Ancak dükkanların vergisini ödemediği için icra geldi ve sonunda iflas etti.",
+        "prediction": "Zengin bir adam dükkan açmaya başladı. Bir süre sonra ikinci dükkanı açmaya devam etti. Bir süre sonra üçüncü dükkanı açmaya devam etti. Bir süre sonra dördüncü dükkanı açmaya devam etti. Bir süre sonra beşinci dükkanı açmaya devam etti. Bir süre sonra altıncı dükkanı açmaya devam etti. Bir süre sonra yedinci dükkanı açmaya devam etti. Bir süre sonra sekizinci dükkanı açmaya devam etti. Bir süre sonra dokuzuncu dükkanı açmaya devam etti. Bir süre sonra onuncu dükkanı.",
+        "latency_sec": 21.4031,
+        "chrf": 24.85,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> ben türkçe ve ingilizce yazmak süper ama almanca yazmak çok zayıf </gloss>",
+        "expected": "Türkçe ve İngilizce çok iyi yazıyorum, ama Almancam çok zayıf.",
+        "prediction": "Ben türkçe ve ingilizce yazmayı çok iyi biliyorum ama almanca yazmayı çok zor yapıyorum.",
+        "latency_sec": 4.7539,
+        "chrf": 49.92,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> konuşmak hepsi yeşil beyaz yeşil beyaz bağırmak bağırmak ben merak etmek anlamak^değil </gloss>",
+        "expected": "(Taraftarlar) İnsanlar \"yeşil-beyaz\" diye sürekli bağırıyordu. Ne olduğunu merak ettim, ama neden bağırdıklarını anlamadım.",
+        "prediction": "Konuşanlar sürekli \"yeşil, beyaz, yeşil\" diye bağırıyorlardı. Nedenini anlamadım.",
+        "latency_sec": 5.3288,
+        "chrf": 33.37,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben aile gitmek istemek eş gitmek^değil ben hayır (eş) almak götürmek </gloss>",
+        "expected": "Eşim ailemi ziyarete gelmek istemedi ama onu zorla götürdüm.",
+        "prediction": "Ben ailemi ziyarete gitmek istedim ama eşim gitmek istemedi. Ben de \"hayır\" deyip onu götürdüm.",
+        "latency_sec": 5.2747,
+        "chrf": 54.05,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben yeni araba ben almak bir sene borç araba taksit taksit var </gloss>",
+        "expected": "Yeni bir araba aldım, borcumu bir yıl boyunca taksit taksit ödeyeceğim.",
+        "prediction": "Yeni bir araba aldım. Bir yıldır taksit ödüyorum.",
+        "latency_sec": 3.1494,
+        "chrf": 44.37,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> fazla düşünce düşünce hasta çıkmak insan zarar </gloss>",
+        "expected": "Çok düşünmek insanı hasta eder.",
+        "prediction": "Çok fazla olumsuz düşünceye sahibim, bu yüzden insanlara zarar veriyorum.",
+        "latency_sec": 3.6422,
+        "chrf": 21.83,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> dört sene üniversite son bitmek kep atmak mezun olmak arkadaş hepsi grup hatıra güzel hep beraber fotoğraf çekmek çekmek son bitmek ev albüm (fotoğraf) ben bakmak hatıra saklamak </gloss>",
+        "expected": "Okulda dört yılımızı bitirdikten sonra kep attık ve bir çok fotoğraf çektik. daha sonra bu fotoğrafları albüm yaptırdık, şimdi fotoğraflara baktıkça anılarımı hatırlıyorum.",
+        "prediction": "Dört yıl sonra üniversiteyi bitirip kep attıktan sonra arkadaşlarla hatıra fotoğrafı çekildik. Fotoğraflar çok güzeldi, hepsini albümde sakladım.",
+        "latency_sec": 8.4714,
+        "chrf": 31.4,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben çocuk beraber film ben izlemek çocuk korkmak bağırmak bağırmak ben sebep sormak yüzden canavar var kokmak ben neyse film kapatmak </gloss>",
+        "expected": "Çocuğumla birlikte film izlerken o korktu ve bir anda bağırmaya başladı, meğerse canavardan korkmuş. Ben de hemen filmi kapattım.",
+        "prediction": "Çocuğumla birlikte film izlerken bir anda o kadar korktu ki, bağırmaya başladı. Nedenini sorduğumda canavar olduğu için korktuğunu söyledi. Ben de filmi kapattım.",
+        "latency_sec": 8.677,
+        "chrf": 61.99,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben basketbol önce ben oynamak kaybetmek kaybetmek şimdi ilk defa ikinci olmak </gloss>",
+        "expected": "Daha önce basketbol maçlarını hep kaybediyorduk, şimdi ilk defa ikinci olduk.",
+        "prediction": "Daha önce hiç maç kazanamamıştım, ilk defa ikinci oldum.",
+        "latency_sec": 3.0918,
+        "chrf": 38.99,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben üniversite okul puan göre bölüm çeşit puan yüksek beş yüz göre üniversite serbest girmek girmek girmek puan beş yüz almak gerek ama konuşmak gerek yok ben alt üç yüz almak başka bölüm girmek </gloss>",
+        "expected": "Üniversite sınavından beş yüz puan aldığın zaman istediğin bölüme girebiliyorsun. Ama arkadaşarla konuştuk, o kadar kendimi zorlamama gerek yok. Üç yüz puan aldığımda da bir yerlere girebiliyorum.",
+        "prediction": "Ben üniversite sınavında çok yüksek puan aldım, bu nedenle istediğim bölümlere girebildim. Beş yüz puan alan herkes istediği bölümlere girebiliyor, ancak üç yüz puan alanlar daha kısıtlı bölümlere girebiliyor.",
+        "latency_sec": 9.2424,
+        "chrf": 41.29,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben okul ben asmak asmak öğretmen (ben) demek uyarı bundan sonra okul asmak sen okul ceza ben korkmak ben okul gitmek gelmek gitmek gelmek </gloss>",
+        "expected": "Okulu sürekli astığım için öğretmen beni uyardı ve tekrar edersem ceza alacağımı söyledi. Öğretmenden korktum ve bir daha okulumu asmadım.",
+        "prediction": "Okula askı takarak girdim, ama öğretmen beni uyardı. Bir daha okula böyle girersem ceza verebileceğini söyledi. Çok korktum ve okula düzenli bir şekilde gittim.",
+        "latency_sec": 8.1652,
+        "chrf": 42.79,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben araba yol gitmek ben hata yol bu nere ben (sorgulamak) ben polis sormak bu nere tamam ben öğrenmek </gloss>",
+        "expected": "Araba ile yanlış yola girince polise gidip \"burası neresi?\" diye sordum.",
+        "prediction": "Arabayla giderken yolu kaybettim. Nereye gittiğimi bilemedim ve sonunda polise sorup yolu buldum.",
+        "latency_sec": 5.7084,
+        "chrf": 24.26,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> beş kişi birleşmek (dost) grup her cuma göre bar gitmek gitmek gitmek </gloss>",
+        "expected": "Beş kişi her cuma toplanıp bara gidiyorlar.",
+        "prediction": "Beş kişi sürekli birlikte bara gidiyorlar.",
+        "latency_sec": 3.1117,
+        "chrf": 51.59,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> sabah iş hep ben araba kullanmak araba kullanmak </gloss>",
+        "expected": "Sabah işe giderken hep araba kullanıyorum.",
+        "prediction": "Sabahları hep işe arabayla gidiyorum.",
+        "latency_sec": 2.5767,
+        "chrf": 32.32,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben otel oda görmek beğenmek ben girmek istemek kız söylemek oda özel girmek yasak ben heves kaçmak </gloss>",
+        "expected": "Otel odasını çok beğendim ve içeri girip görmek istedim. Ancak görevli kız, odanın özel olduğunu ve odaya girmenin yasak olduğunu söyledi, bütün hevesim kaçtı.",
+        "prediction": "Odalardan bir tanesi çok beğendiğim için o odaya yerleşmek istedim, ancak meğerse özel oda olduğu için alamadım. Çok üzüldüm.",
+        "latency_sec": 8.631,
+        "chrf": 26.63,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> oğul okul para istemek ben vermek </gloss>",
+        "expected": "Oğlum okul için para istedi, ben de verdim.",
+        "prediction": "<gloss> oğlum okul için para istedi. Ben de verdim. </gloss><|im_start|>assistant\noğlum okul için para istedi. Ben de verdim.",
+        "latency_sec": 6.5182,
+        "chrf": 63.24,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> oğul meyve suyu istemek ben bardak koymak vermek o kabul etmek^değil çubuk (pipet) istemek ben tamam çubuk ben koymak vermek o içmek bitirmek </gloss>",
+        "expected": "Oğlum meyve suyu istedi, bardağa koyup verdim. Ama kabul etmedi ve çubuk (pipet) istediğini söyledi. Ona çubuk verince bütün bardağı bitirdi.",
+        "prediction": "Oğlum meyve suyu içmek isteyince bir bardak doldurup verdim ama pipet istedi. Ben de pipet alıp içine su doldurup ona verdim.",
+        "latency_sec": 7.3095,
+        "chrf": 33.7,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben deniz ben bakmak kuş toplanmak çok olmak ben yemek para vermek almak yemek atmak atmak kuşlar yemek yemek </gloss>",
+        "expected": "Denizi izlerken bir anda birçok kuş birikti. Ben de yiyecek bir şeyler aldım ve yemeleri için onlara attım.",
+        "prediction": "Ben denize bakarken bir grup kuşun toplandığını gördüm. Hemen gidip onlardan bir miktar aldım ve denize attım. Bir süre sonra kuşlar gelip yediler.",
+        "latency_sec": 6.9295,
+        "chrf": 31.94,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> araba yol gitmek 120 hız limit tabela geçmek haber vermek ben takmak^değil 150, 160 hız sürmek sürmek ev gelmek sonra ev mektup gelmek araba hız ceza kesmek ben akıl baş gelmek bir daha tövbe etmek </gloss>",
+        "expected": "Arabayla yolda hızla giderken 120 km hız sınırı tabelalarını gördüm ama çok aldırmadım. Hızımı hiç düşürmeden 150, 160 km hızla yola devam ettim. Bir süre sonra eve bir posta geldi, ceza kesmişler. Bundan sonra daha dikkatli olacağım.",
+        "prediction": "Arabayla yolda giderken 120 km/saat hız limiti olduğunu gösteren tabelaya hiç aldırmadım ve arabayla 150-170 km/saat hızla gittim. Eve geldikten bir süre sonra, trafik polislerinden gelen mektup ile hız cezası kesildiğini öğrendim. Çok pişman oldum, bir daha asla böyle bir hata yapmayacağım.",
+        "latency_sec": 11.6223,
+        "chrf": 38.41,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> araba yol göre sohbet etmek işaret konuşmak bu oyuncak^değil araba kaza kaza çok yüzden dikkat kullanmak lazım </gloss>",
+        "expected": "Arabada giderken sohbet etmek, işaretleşmek çok tehlikeli, oyuncaklarla oynamak gibi değil, kaza yapılabilir.",
+        "prediction": "Yolda giderken arkadaşalarla sohbet edip işaretleştiğimiz için kaza yaptık. Bu oyuncak değil, ileride kaza olur diye arabayı dikkatli kullanmamız lazım.",
+        "latency_sec": 7.0583,
+        "chrf": 37.25,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> park yer çocuk ben götürmek için ben çocuk korumak adam bir gelmek araba park etmek (gizli dolanmak) almak kaçırmak saklamak o adam isyan etmek aramak aramak bulmak^değil polis şikayet etmek polis incelemek incelemek sonra yakalamak </gloss>",
+        "expected": "Parkta çocuğum oynarken onu izliyordum. O sırada bir adam gelmiş ve gizlice diğer adamın arabasından eşyalarını alıp saklamış. Arabanın sahibi polise şikayet edince hırsız yakalanmış.",
+        "prediction": "Çocuğum ile parka gittik. Bir anda bir adam çocuğun park etmiş olduğu arabasını kaçırmış ve saklamış. Çocuğumu bulamayınca çok üzüldüm, sonunda adamın izini sürdüm ve polise şikayet ettim. Daha sonra polis soruşturma yapıp adamı yakaladı.",
+        "latency_sec": 10.1895,
+        "chrf": 35.23,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben iş girmek üç ay ben çalışmak para maaş vermek sıfır ben ev iç para dar (olmak) </gloss>",
+        "expected": "Üç aydır çalışıyorum, ancak hiç maaş ödenmedi. Parasız kaldık, çok dardayız.",
+        "prediction": "Yeni işe girdiğimde üç ay boyunca maaş alamadım. Çok zor günler geçirdim.",
+        "latency_sec": 4.2897,
+        "chrf": 17.56,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben okul ben beraber ben bakmak sümük sallanmak o sonra sonra ben iş girmek evlenmek sonra sonra ben bakmak ev dizmek hazırlamak kral gibi ben bakmak ağız açık kalmak şanslı </gloss>",
+        "expected": "Onunla birlikte okuduk sümüklünün biriydi. Okuldan sonra ben işe girdim ve evlendim, fakat gördüm ki kendine ev kurmuş, krallar gibi yaşıyor. İnanamadım, ağzım açık kaldı.",
+        "prediction": "Okuldayken bir çocuk vardı, sürekli sümüklüböbürüyordu. Bir süre sonra o çocuk işe girdi, evlendi ve çok güzel bir ev yaptı. Onu gördüğümde çok şaşırdım, çok mutlu oldum. O kadar şanslı ki!",
+        "latency_sec": 10.412,
+        "chrf": 27.23,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> okul sınıf hepsi sağ yazmak ben tek sol el yazmak </gloss>",
+        "expected": "Sınıfta herkes sağ eliyle yazıyor. Sadece ben sol elimle yazı yazıyorum.",
+        "prediction": "Sınıfta herkes sağ eliyle yazı yazarken ben sol elimi kullandım.",
+        "latency_sec": 3.2816,
+        "chrf": 58.32,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> türk işaret dili araştırma merkez yok inşallah zaman sonra çıkmak </gloss>",
+        "expected": "Şu an bir Türk İşaret Dili Araştırma Merkezi yok ama inşallah ilerleyen zamanlarda kurulur.",
+        "prediction": "<gloss> umarım ileride türk işaret dili araştırma merkezi olur. </gloss><gloss>.",
+        "latency_sec": 5.0801,
+        "chrf": 36.63,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> anneler gün ben hediye ben düşünmek düşünmek araştırmak araştırmak en iyi elbise beyaz ben almak anne hediye vermek anne aa!! beyaz renk elbise fazla canlı (renk) istemek ben tamam elbise almak değiştirmek renk canlı kırmızı ben almak vermek anne giymek tam beğenmek </gloss>",
+        "expected": "Anneler günü için ne hediye alacağımı düşünürken beyaz bir elbise almaya karar verdim. Ancak annem beyazı görünce pek sevinmedi ve \"Çok fazla beyaz kıyafetim var, keşke canlı bir renk alsaydın.\" dedi. Ben de elbiseyi götürüp kırmızı rengi ile değiştirdim. Annem çok beğendi.",
+        "prediction": "Anneler gününde anneme ne alacağıma karar veremedim. Bir süre düşündükten sonra beyaz renkli bir elbise aldım. Annem görünce çok beğendi, ama aslında renkli bir şey istiyordu. Ben de onun istediği gibi kırmızı renkli bir elbise alıp anneme verdim. Annem çok beğendi.",
+        "latency_sec": 10.7155,
+        "chrf": 41.36,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> dünya müze en fazla türkiye için turist gelmek gelmek </gloss>",
+        "expected": "Dünyada en fazla müze Türkiye'de olduğu için onları gezmeye çok fazla turist geliyor.",
+        "prediction": "Dünyada en çok turist Türkiye'ye geliyor.",
+        "latency_sec": 2.4428,
+        "chrf": 34.6,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> hepsi polis altı ay önce o konuşmak kişi şüphe şüphe takip takip son yakalamak gerçek çıkmak o </gloss>",
+        "expected": "Polisler bir adamdan altı aydır süphelendikleri için onu sürekli takip ettiler ve sonunda yakaladılar şüphelerinde haklılarmış.",
+        "prediction": "Altı ay önce takip edilip sonunda yakalanan kişinin gerçek bir suçlu olduğu ortaya çıktı.",
+        "latency_sec": 4.9714,
+        "chrf": 23.38,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben fikir konu anlatmak çalışmak sen başka fikir konuşmak sen </gloss>",
+        "expected": "Ben sana başka bir şey anlatmaya çalışırken sen farklı bir konudan bahsediyorsun.",
+        "prediction": "Ben bir konu hakkında düşüncelerimi anlattım. Sen de başka bir konu hakkında konuşalım.",
+        "latency_sec": 4.058,
+        "chrf": 28.65,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> hafta bir pazar hep hep ben baba beraber sabah erken saat altı gitmek deniz balık ben olta atmak atmak balık fazla toplamak ben ev gitmek yemek yemek </gloss>",
+        "expected": "Her hafta pazar günü babamla birlikte sabah altıda kalkar, oltalarımızı alır ve balık tutmaya gideriz. Sonra tuttuğumuz balıkları getirip hep birlikte yeriz.",
+        "prediction": "Haftanın bir günü, pazarları babamla birlikte erkenden kalkıp saat altıda denize gidiyoruz. Oltamızı atıp birçok balık yakalıyoruz. Sonra eve gidip hepsini yiyoruz.",
+        "latency_sec": 7.3796,
+        "chrf": 34.55,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben büyümek sigara içmek iki paket sigara devam devam ben arkadaş o akciğer problem sigara yüzünden hastane kaldırmak ben görmek an akıl baş gelmek ben sigara bırakmak </gloss>",
+        "expected": "Günde iki paket sigara içiyordum ama bir arkadaşım hastalandı. Ciğerlerinde sorun yaşamaya başladı. O an aklım başıma geldi. Hemen sigarayı bıraktım.",
+        "prediction": "Çocukluğumdan beri iki paket sigara içiyorum. Birgün arkadaşım akciğer probleminden hastaneye kaldırıldı. Onun durumunu gördükten sonra sigarayı bıraktım.",
+        "latency_sec": 6.4618,
+        "chrf": 41.98,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben arkadaş bir gelmek hepsi bir saniye kahkaha kahkaha arkadaş kişi bambaşka komik bir insan </gloss>",
+        "expected": "Bir arkadaşım var, o geldiği zaman herkes kahkahaya boğuluyor. Çok komik bir adam.",
+        "prediction": "<gloss> arkadaşım o kadar komik ki, girdiği her yerde kahkaha attırır. </gloss><|im_start|>assistant\narkadaşım o kadar komik ki, girdiği her yerde kahkaha attırır.",
+        "latency_sec": 8.3494,
+        "chrf": 25.45,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> çocuk çok yaramaz dolap çizmek çizmek ben görmek ben kızmak bağırmak dolap çizmek çizmek olmak^değil defter çizmek olur ben bağırmak çocuk susmak </gloss>",
+        "expected": "Çocuk o kadar yaramazdı ki hep dolapları çizdi. Dolabı o halde görünce kızıp bağırmaya başladım, \"eğer karalamak istiyorsan git kağıdın üzerine çiz\" dedim susup hiçbir şey söylemeden beni dinledi.",
+        "prediction": "Çocuk o kadar yaramaz ki, sürekli dolabıları ve duvarları çiziyor. Onu öyle görünce çok kızdım ve \"dolabını çizme!\" diye bağırdım. Çocuk bir şey söyleyemedi.",
+        "latency_sec": 8.595,
+        "chrf": 32.57,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben şu an evlenmek yok ben evlenmek istemek yok bağımsız ben tek yaşamak </gloss>",
+        "expected": "Şu an evli değilim. Evlenmek de istemiyorum, bağımsız yaşamayı seviyorum.",
+        "prediction": "Şu an evlendim değil. Evlenmeyi de istemiyorum. Bağımsız yaşıyorum.",
+        "latency_sec": 3.4567,
+        "chrf": 54.02,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> istanbul nere oturmak (ben) sormak ben istanbul anadolu taraf oturmak </gloss>",
+        "expected": "İstanbul'da nerede oturduğumu sorunca ona, Anadolu yakasında oturduğumu söyledim.",
+        "prediction": "İstanbul'da nerede oturuyorsun? Ben de anadolu yakalarında oturuyorum.",
+        "latency_sec": 4.9628,
+        "chrf": 45.95,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben hamile tatlı aramak aramak akıl gelmek kadayıf tatlı can çekmek anne pişirmek güzel yapmak anne demek rica kadayıf tatlı yapmak anne olur pişirmek hazır getirmek ben yemek yemek rahatlamak </gloss>",
+        "expected": "Hamileyken canım o kadar çok tatlı çekti ki, annemin kadayıf tatlısını çok güzel yaptığını hatırlayıp hemen ondan yapmasını rica ettim. O da pişirip getirdi, yedim ve rahatladım.",
+        "prediction": "Hamileyim ve sürekli kadayıf tatlısı arıyorum. Annemden rica ettim, bana yapmasını söyledim. Annem de yapıp bana getirdi, çok rahatladım.",
+        "latency_sec": 7.2338,
+        "chrf": 36.74,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> anne hasta çok fazla ben kendi temizlik ben hiç sevmek^değil dışarı kadın ben söylemek temizlik yaptırmak o </gloss>",
+        "expected": "Annem çok hasta. Bende temizlik yapmayı hiç sevmiyorum, bu nedenle temizlik yapması için bir kadın tutup ona yaptırdım.",
+        "prediction": "Annem çok hasta olduğu için ben ev temizliği yapamıyorum. Bu nedenle dışarıdan kadın tuttum.",
+        "latency_sec": 4.8281,
+        "chrf": 37.65,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> türkiye en iyi şehir istanbul </gloss>",
+        "expected": "Türkiye'nin en iyi şehri İstanbul'dur.",
+        "prediction": "<gloss> istanbul Türkiye'nin en güzel şehridir. </gloss><|im_start|>assistant\nistanbul Türkiye'nin en güzel şehridir.",
+        "latency_sec": 6.4479,
+        "chrf": 37.42,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> önce film izlemek dört bölüm çok güzel şimdi beş bölüm gelmek beklemek ben </gloss>",
+        "expected": "İzlediğim filmin ilk dört bölümü çok güzeldi. Beşinci bölümü merakla bekliyorum.",
+        "prediction": "Daha önce dört bölümlük film izledim, çok beğendim. Beşinci bölümü de bekliyorum.",
+        "latency_sec": 4.5133,
+        "chrf": 47.69,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> okul sınıf yer hepimiz adam bir kafa taş dinlemek^değil yaramaz yapmak öğretmen bağırmak bağırmak o inat öğretmen bıkmak ceza vermek olmak^değil sonra bahçe var oynamak oynamak o müdür öğretmen toplanmak konuşmak izlemek o (çocuk) izlemek anlamak rahatsız olmak utanmak (kaçmak gezmek) </gloss>",
+        "expected": "Okuldaki öğrencilerden biri o kadar yaramaz ve inatçıydı ki, ne kadar ceza versek de kızsak da, bir türlü düzelmesini sağlayamadık. Sonra bütün öğretmenler ve müdürle birlikte toplanıp onunla ilgili konuşuyor, bir taraftan da o bahçede oynarken onu gözetliyorduk. Bütün öğretmenlerin onu izlediğini görünce çok utandı, sanırım toparlacak.",
+        "prediction": "Sınıfta bir çocuk çok yaramazdı, öğretmene sürekli terslendi. Sonunda öğretmen çok kızdı ve ona ceza vermeye kalkıştı ama çocuk çok yaramazdı, bir türlü yakalayamadılar. Sonunda müdür geldi ve ne olduğunu anlayınca çocuk çok utandı.",
+        "latency_sec": 15.304,
+        "chrf": 24.81,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> beş sene önce genç kol yaz kamp var arkadaş ben toplanmak ben eğlenmek eğlenmek son bisiklet tur var arkadaş demek binmek ben korkmak var ben istemek^değil ben çekilmek bazı arkadaş binmek binmek sürmek ben kamyon oturmak izlemek takip takip beraber son inmek arkadaş yokuş bisiklet zor nefes kesilmek ben iyi binmek^değil ben sevinmek </gloss>",
+        "expected": "Beş yıl önce gençlik kollarının yaz kampı vardı. Hepimiz orada buluştuk, biraz eğlendikten sonra bisiklet turuna katıldık. Ben biraz korktuğum için turdan çekildim ama bazı arkadaşlar devam ettiler. Ben arkada arabada oturup onları takip ettim, bittiğinde bir arkadaşım yokuş çıkarken çok zorlandığını anlattı. İyi ki ben katılmamışım.",
+        "prediction": "Beş sene önce yaz kampı için arkadaşlarla birlikte gittik. Bisiklet turuna çıktık ama ben binmekten korktuğumu söyleyince geri kaldım. Arkadaşlarımın hepsi bindi ve bisikletleriyle yokuş yukarı tırmanmaya başladılar, ancak bir süre sonra yoruldular ve geri döndüler. Ben de onlarla birlikte kamyona bindim ve geri döndük.",
+        "latency_sec": 14.4722,
+        "chrf": 31.95,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> yemek hazırlamak bir (ocak) kapatmak unutmak yanmak yanmak siyah olmak yanmak ben zarar (yemek israf olmak) </gloss>",
+        "expected": "Yemeği pişirdikten sonra ocağı kapatmayı unuttum ve bütün yemek yandı, ziyan oldu.",
+        "prediction": "Yemek yaparken ocağı kapatmayı unutmuşum, yanmış yemekleri çöpe atmak zorunda kaldım.",
+        "latency_sec": 5.1621,
+        "chrf": 34.97,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> bugün program festival var akşam sağır hepsi gitmek kola çay pasta hepsi bedava sağır hepsi almak almak </gloss>",
+        "expected": "Akşamki festivale bütün sağırlar gitti. Orada, yiyecek içecek, her şey bedava olduğu için herkes bol bol aldı.",
+        "prediction": "Bugün festival programı olduğu için bütün sağırlar akşam gidecekler. Festivalde kola, çay ve pasta alacaklar.",
+        "latency_sec": 4.5066,
+        "chrf": 34.9,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> okul yurt ben kalmak oda içi dört kişi var temizlik anlaşmak en iyi sıra bir hafta ben bir hafta o dönmek dönmek </gloss>",
+        "expected": "Okul yurdunda dört kişi birlikte kalıyoruz. Temizlik sorun olmaya başlayınca her hafta bir kişi olacak şekilde sırayla temizlemeye karar verdik.",
+        "prediction": "Yurt odada dört kişi kalıyoruz. Temizlik için anlaştık, bir hafta ben temizledim, bir hafta oda arkadaşım yaptı.",
+        "latency_sec": 5.075,
+        "chrf": 33.45,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> sen sormak hiç </gloss>",
+        "expected": "Şu ana kadar sormadın.",
+        "prediction": "<gloss> hiç sormuyor musun? </gloss><|im_start|>assistant\n<gloss> hiç sormuyor musun? </gloss><|im_end|>assistant.",
+        "latency_sec": 7.229,
+        "chrf": 9.92,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> film izlemek değil </gloss>",
+        "expected": "Filmi izlemedim.",
+        "prediction": "Film izlemiyorum.",
+        "latency_sec": 1.355,
+        "chrf": 33.97,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> amerika o füze tepe dünya dünya ne var adam kişi araştırmak </gloss>",
+        "expected": "Amerika uzaya, farklı dünyaları araştıran bir füze gönderdi.",
+        "prediction": "Amerika'nın füze tepesi ile dünya genelinde ne işi olduğunu adam kişi araştırdı.",
+        "latency_sec": 3.3672,
+        "chrf": 25.16,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> araba trafik çok fazla ambulans gelmek yol açmak açmak çabuk araba kenar çekilmek ambulans gitmek </gloss>",
+        "expected": "Trafiğin çok yoğun olmasına rağmen ambulans gelince bütün arabalar kenara çekildi. Böylece ambulans rahatlıkla geçebildi.",
+        "prediction": "Trafik o kadar sıkışmıştı ki, ambulans gelip yolu açınca ambulans hızla geçti ve kenara çekildi.",
+        "latency_sec": 3.758,
+        "chrf": 33.1,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben arkadaş toplanmak gitmek erkek grup hep maç konuşmak ben izlemek sıkılmak </gloss>",
+        "expected": "Arkadaşlarımızla toplandığımızda erkekler hep maç hakkında konuştuğu için sıkıldım.",
+        "prediction": "Arkadaşlarla toplandık ama bütün erkekler maç konuşmaktan başka bir şey değil. Çok sıkıldım.",
+        "latency_sec": 4.7987,
+        "chrf": 39.61,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> kurban bayram ben bakmak bakmak milyon (çok fazla) yara var et kesmek kesmek parmak kesmek kol kesmek çeşit var </gloss>",
+        "expected": "Kurban bayramında gördüm ki, herkesin birçok yarası vardı. Herkes kurbanını keserken elini ya da kolunu kesmişti.",
+        "prediction": "Kurban bayramında çok fazla yara vardı. İnsanlar et kesiyor, kollarını kesiyor, parmaklarını kesiyor.",
+        "latency_sec": 4.3028,
+        "chrf": 30.5,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> anne alışveriş (ben) söylemek bir sepet soğan bir sepet patates istemek ben alışveriş yapmak getirmek </gloss>",
+        "expected": "Annem alışverişe çıkıp bir sepet soğan, bir sepet patates almamı söyledi.",
+        "prediction": "Annem alışveriş için bir sepet soğan, bir sepet patates almamı söyledi. Ben de gidip alıp anneme getirdim.",
+        "latency_sec": 5.1404,
+        "chrf": 78.0,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> yeni evlenmek ilk yatak yeni almak </gloss>",
+        "expected": "Evlendiğimizde yatağımızı yeni aldık.",
+        "prediction": "Yeni evlendim, ilk yatakımı yeni aldım.",
+        "latency_sec": 2.4518,
+        "chrf": 38.69,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben yürümek yürümek kan yer bir kaza olmak ben sanmak aldanmak boya kırmızı düşmek yayılmak kan tam ben yanılmak. </gloss>",
+        "expected": "Yürürken yerde bir kan lekesi gördüm. Kaza oldu sandım. Meğerse kırmızı renkli bir boya dökülmüş. Kan gibi görünüyordu yanlış anlamışım.",
+        "prediction": "Yürürken bir anda zemin kırmızıya boyalıydı. Kanım dökülmüş zannettim ama aldırıldım. Zemine boya sürülmüş.",
+        "latency_sec": 6.6424,
+        "chrf": 25.92,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben basketbol oynamak çok on otuz arası sayı atmak atmak ilk defa ankara maç yetmiş iki sayı atmak rekor olmak hiç unutmak^değil </gloss>",
+        "expected": "Basketbol oynarken on ile otuz arası çok sayı atardım, ancak bir maçta Ankara, rekor kırarak ilk defa yetmiş iki sayı attı. Bunu hiç unutamıyorum.",
+        "prediction": "Basketbol oynarken otuz tane üçlük atış yaptı ve ilk defa ankara maçında yetmiş iki sayı atarak rekor kırdı. Bunu asla unutmayacağım.",
+        "latency_sec": 5.4914,
+        "chrf": 46.94,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> yeni ev taşınmak ev iç uydu yok yeni peşin almak ev uydu yaptırmak hazır </gloss>",
+        "expected": "Yeni taşındığımız evde uydu olmadığı için gidip uydu aldım ve hemen",
+        "prediction": "Yeni taşındığım evin uydu sistemi yoktu, hemen gidip yeni bir uydu alıp taktırdım.",
+        "latency_sec": 4.3372,
+        "chrf": 38.78,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben eş iki kişi çok az sonra bebek doğmak doğmak torun nesil birleşmek geniş olmak aile fazla </gloss>",
+        "expected": "Biz iki kişilik küçük bir aileydik sonradan çocuklarımız ve torunlarımız olunca geniş bir aile haline geldik.",
+        "prediction": "Benim eşimin iki tane çocuğu var, şimdi de torunlarımız oldu. Geniş bir ailemiz var.",
+        "latency_sec": 5.0328,
+        "chrf": 30.74,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> federasyon başkan çıkmak faaliyet için anlatmak anlatmak bitmek delege toplum faaliyet memnun yok eleştirmek eleştirmek başkan bırakmak gitmek eleştirmek eleştirmek isyan etmek çok fazla </gloss>",
+        "expected": "Federasyon başkanı faaliyetlerini anlattıktan sonra delegeler memnun olmadıklarını söyleyerek isyan ettiler. Başkanın yönetimi bırakmasını istediler.",
+        "prediction": "Federasyon başkanı bir faaliyetten bahsederken delege çok beğendi, ancak başka bir delege beğenmedi ve eleştirmeye başladı. Başkan bir süre sonra görevinden ayrıldı ve yerine yeni başkan gelince delege sürekli eleştirmeye devam etti. Neredeyse isyana kadar gitti.",
+        "latency_sec": 10.7549,
+        "chrf": 30.76,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben eski kola ben içmek ben sevmek hep sabah ben içmek içmek sonra sonra ben mide problem çıkmak ben mecbur kola bırakmak </gloss>",
+        "expected": "Kolayı çok sevdiğim için eskiden her sabah içerdim, ancak midemde sorun yaşamaya başlayınca kola içmeyi bıraktım.",
+        "prediction": "Eskiden sabahları mutlaka kola içerdim, ancak bir süre sonra midem problem yapmaya başladı ve mecburen kola içmeyi bıraktım.",
+        "latency_sec": 5.4673,
+        "chrf": 47.72,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> bir hafta ben tatil gitmek ben dinlenmek bir hafta tatil bitmek ben ev dönmek ben ev kapı açmak çok fazla karışık ben şüphe etmek anlamak demek hırsız girmek ben şok oldum ben çabuk polis ben gitmek ifade vermek </gloss>",
+        "expected": "Dinlenmek için bir haftalık tatile çıkmıştım. Döndüğümde bütün ev karışıktı. Eve hırsız girmiş olmasından şüphelendim ve hemen polise giderek ifade verdim.",
+        "prediction": "Bir hafta tatile gittim. Döndüğümde evim çok karışıktı. Hırsız girmiş. Çok şaşırdım, hemen polisi aradım ve ifade verdim.",
+        "latency_sec": 5.9661,
+        "chrf": 44.4,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben arkadaş ben bir fikir ben vermek değişmek arkadaş değişmek imkan yok sabit kalmak </gloss>",
+        "expected": "Arkadaşıma sürekli fikirler veriyorum, ama o çok sabit fikirli, asla değişmiyor.",
+        "prediction": "Arkadaşımla konuşurken bir fikrim oldu ve onu değiştirmesini istedim. Ama o \"değişmem mümkün değil, ben hep böyle kalacağım\" deyince bir şey diyemedim.",
+        "latency_sec": 6.7581,
+        "chrf": 23.44,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben iş paydos ev gitmek yorulmak ayak uzatmak kumanda bakmak eş lütfen orada kumanda vermek (demek) </gloss>",
+        "expected": "İşten o kadar yorgun geldim ki hemen koltuğa oturup uzandım, ama kumanda eşimin yanında olduğu için ondan oradaki kumandayı bana vermesini istedim.",
+        "prediction": "İş bittikten sonra eve gittim. O kadar yoruldum ki, uzanıp kumandanın nerede olduğunu bulmaya çalıştım ama bulamayınca eşimden bulmasını rica ettim.",
+        "latency_sec": 6.7854,
+        "chrf": 26.53,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben sokak yürümek yürümek yaşlı yürümek düşmek ben hemen ambulans aramak 5 (beş) dakika gelmek kaldırmak hastane kaldırmak muayene etmek kurtulmak yüzden güneş baş vurmak yaşlı herkes dikkat etmek su bol bol lazım </gloss>",
+        "expected": "Sokakta yürüken yaşlı bir adamın düştüğünü gördüm. Hemen ambulansı aradım ve beş dakikada geldiler. Bayılan adamı sedye ile kaldırıp hastaneye götürdüler. Güneş yüzünden tansiyonu çıkmış. Böyle durumlarda dikkatli olup bol bol su içmek lazım.",
+        "prediction": "Sokakta yürürken bir yaşlı adamın düştüğünü gördüm. Hemen ambulans çağırdım. Ambulans geldikten sonra adam hastaneye kaldırıldı ve muayeneden sonra baş dönmesinin sebebinin güneş çarpması olduğunu öğrendik. Bu nedenle yaşlıların sıcak havalarda bol bol su içmeleri gerekiyor.",
+        "latency_sec": 10.5139,
+        "chrf": 42.7,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben eski evlenmek para lazım ben para biriktirmek para var sonra ben can çekmek ben almak yemek yemek hepsi tükenmek bitmek </gloss>",
+        "expected": "Evlendiğimizde para birktirmeye başladım, epey param olduktan sonra canım harcamak istedi ve bütün parayı yedim bitirdim.",
+        "prediction": "Ben evlendim, biraz para biriktirdim. Canım çektiği zaman hepsini yiyip bitirdim.",
+        "latency_sec": 4.5638,
+        "chrf": 25.68,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> çocuk hepsi grup gitmek kitap hangi beğenmek seçmek </gloss>",
+        "expected": "Çocukların hepsi kitap almak için dükkana gitti ve herkes beğendiğini aldı.",
+        "prediction": "Çocuklarla birlikte gidip kitaplardan hangisini beğendiklerini seçtiler.",
+        "latency_sec": 4.0415,
+        "chrf": 24.8,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben beş tane kalem almak öbür arkadaş iki tane kalem almak öbür arkadaş üç kalem almak hepsi toplam on tane kalem almak </gloss>",
+        "expected": "Ben beş tane kalem aldım, diğer arkadaşım üç tane, bir diğeri ise iki tane kalem aldı. Toplam on kalem almış olduk.",
+        "prediction": "Beş kalem aldım, arkadaşım ikişerli üçer tane aldı. Toplamda on kalem aldık.",
+        "latency_sec": 3.9811,
+        "chrf": 40.84,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben iş var ben çocuk görüşmek vakit az ben iş bırakmak ben çocuk görüşmek ilgilenmek süper zaman ayırmak </gloss>",
+        "expected": "Çalışırken çocuğuma çok fazla zaman ayıramıyordum. İşten ayrılınca onunla çok güzel ilgilenmeye başladım.",
+        "prediction": "Çalıştığım için çocuklarımla çok az vakit geçirebiliyorum. Ama işten ayrılıp onlara zaman ayırmaya çalışıyorum.",
+        "latency_sec": 4.8463,
+        "chrf": 31.14,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> önümüz 2017 olimpiyat sağır hepsi gelmek adam kişi organizasyon çalışmak başarılı ben inanmak </gloss>",
+        "expected": "Önümüzde 2017 Deaflympics düzenlenecek ve tüm sağırlar gelecek. Organizasyon sorumluları iyi ve başarılı çalışıyorlar. Ben onlara inanıyorum.",
+        "prediction": "Önümüzde ki 2017 Deaflympics'e (olimpiyad) bütün sağırlar katılacak. Organizasyonu yapacak olan kişilerin çok başarılı olacağına inanıyorum.",
+        "latency_sec": 5.141,
+        "chrf": 40.12,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> alışveriş bir elbise ben almak düşünmek ben göz dönmek elbise almak almak hepsi fazla ben para harcamak </gloss>",
+        "expected": "Sadece bir elbise almayı düşünüyordum, ancak dolaşırken resmen gözüm döndü ve çok fazla elbise alıp para harcadım.",
+        "prediction": "Elbise almak için alışverişe çıktım, bir süre dolaştıktan sonra birden gözüm döndü ve birçok elbise aldım. Çok fazla para harcadım.",
+        "latency_sec": 5.8842,
+        "chrf": 49.44,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> ben sokak yürümek yürümek arkadaş bir hey ben görmek yakalanmak boşvermek ben yürümek yürümek yüzden borç alacak var </gloss>",
+        "expected": "Sokakta gezerken birisi bana \"hey!\" diye seslendi ama ona borcum olduğu için duymamazlıktan geldim.",
+        "prediction": "Sokakta yürürken bir arkadaşım yakaladı. Borcum olduğu için onu boşverdim ve yürümeye devam ettim.",
+        "latency_sec": 5.1951,
+        "chrf": 32.32,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> \" eski memeleket uzak dağ dağ sıcak yayılmak fazla sonra sonra sönmek bitmek avrupa ülke ülke ufak ufak var\" </gloss>",
+        "expected": "Eskiden uzak memleketlerde yanar dağlar vardı, zamanla hepsi söndü. Ama şimdi Avrupa'nın bazı yerlerinde, küçük küçük yanar dağlar hala mevcut.",
+        "prediction": "Eskiden memleketin dağlarında sıcak yanardağlar vardı ama zamanla söndüler. Şimdi sadece ufak tefek yanardağlar kaldı.",
+        "latency_sec": 5.8831,
+        "chrf": 36.24,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ev mektup gelmek icra var ben para hesaplamak yetmek^değil mecbur araba ben acil satmak para almak borç hepsi ödemek </gloss>",
+        "expected": "Eve icra dairesinden bir posta geldi, var olan paramı hesapladım ama borucumu ödemeye yetmiyor. Mecburen hemen arabamı satıp borcumu ödedim.",
+        "prediction": "Eve bir mektup geldi. İcra gelmiş, paramız yetmeyince mecburen arabamı sattım. Parayı icra borçlarını ödemek için kullandım.",
+        "latency_sec": 5.8487,
+        "chrf": 30.68,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> ben balkon ben temizlemek su temizlemek aşağı komşu bağırmak su akmak akmak ben rahatsız olmak </gloss>",
+        "expected": "Balkonu temizlerken alt komşum bir anda bağırdı. Meğer aşağıya su akmış çok rahatsız oldum.",
+        "prediction": "Balkonu temizlerken sudaki dökülenlerden dolayı aşağı komşunun tartıştığını duydum, rahatsız oldum.",
+        "latency_sec": 6.035,
+        "chrf": 42.85,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben iş bitmek paydos olmak ev gelmek çok acıkmak haydi haydi beklemek yemek gelmek kurtulmak rahatlamak yemek yemek doymak </gloss>",
+        "expected": "İşten geldiğimde o kadar açtım ki, haydi artık yemek gelsin diye bekliyorum diye (sitem etmeye başladım). Sonunda yemek geldi de rahatladım.",
+        "prediction": "İş bittikten sonra eve gittim, çok acıkınca haydi haydi bekledim ve yemek yiyip karnımı doyurdum.",
+        "latency_sec": 6.6598,
+        "chrf": 17.08,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> tatil gitmek bavul bir ben elbise koymak koymak dolu yetmek^değil ben 2. (ikinci) bavul ben koymak koymak tam ben gitmek </gloss>",
+        "expected": "Tatile giderken bir bavula eşyalarımı koydum, bavul dolunca ikinci bavula yerleştirdim.",
+        "prediction": "Tatil için bavulumu dolduramadım, ikinci bir bavul daha hazırladım.",
+        "latency_sec": 4.0906,
+        "chrf": 28.23,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> bir adam kişi o çok zengin fabrika yer yer çok fazla sebep aile akraba zengin </gloss>",
+        "expected": "Adam o kadar zengin ki, birçok fabrikası var. Adamın aileden gelen bir zenginliği var.",
+        "prediction": "Gloss: <gloss> bir adam kişi o çok zengin fabrika yer yer çok fazla sebep aile akraba zengin </gloss><gloss>\nbir adam kişi o çok zengin fabrika yer yer çok fazla sebep aile akraba zengin </gloss><gloss>\nbir adam kişi o çok zengin fabrika yer yer çok fazla sebep aile akraba zengin </gloss><gloss>\nbir adam kişi o çok zengin fabrika yer yer çok fazla sebep aile akraba zengin </gloss><gloss>\nbir adam kişi o çok zengin fabrika yer yer çok fazla sebep aile akraba zengin </gloss><gloss>\nbir adam kişi o çok zengin.",
+        "latency_sec": 19.0033,
+        "chrf": 16.5,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben arkadaş on sekiz yaş erken evlenmek hiç bilmek^değil görmek^değil görmek^değil erken evlenmek cahil </gloss>",
+        "expected": "Arkadaşımı uzun zamandır görmüyordum. On sekiz yaşında evlenmiş. Gerçekten çok cahilce davranmış.",
+        "prediction": "Arkadaşım henüz on sekiz yaşındayken evlendi. Bunu hiç beklemiyordum, çok şaşırdım. Çok cahildi, evliliğe dair hiçbir şey bilmiyordu.",
+        "latency_sec": 6.2728,
+        "chrf": 35.92,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> süt almak kedi yavru içirmek içirmek </gloss>",
+        "expected": "Süt alıp yavru kedilere içirdim.",
+        "prediction": "Kedi yavruları için süt aldım.",
+        "latency_sec": 2.2932,
+        "chrf": 29.16,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben komşu çok nine ev temizlemek hiç ben gitmek ben yardım temizlemek temizlemek </gloss>",
+        "expected": "Komşu nine evi temizleyemediği için ona yardıma gidiyorum.",
+        "prediction": "Komşum çok yaşlı olduğu için evi temizlemiyordu. Ben de onun evine gidip temizlik yapmasını sağladım.",
+        "latency_sec": 4.1945,
+        "chrf": 31.45,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> kuzen yaş on bir yaş okul çok heves okul çok sevmek okul bir asmak hiç devam titiz gitmek gelmek devam etmek devam etmek </gloss>",
+        "expected": "Kuzenim on bir yaşında okula çok hevesli asla gitmemezlik yapmıyor, düzenli bir şekilde derslere devam ediyor.",
+        "prediction": "Kuzenin on bir yaşında ve çok başarılı bir öğrenci. Okulda çok hevesli, çok seviyor. Derslere askınca gidip düzenli bir şekilde ders çalışıyor.",
+        "latency_sec": 6.0359,
+        "chrf": 51.67,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben dost her gün görüşmek görüşmek (beraber) büyümek ben hep fikir paylaşmak güzel </gloss>",
+        "expected": "Yakın arkadaşımla her gün görüşüyoruz. Onunla birlikte büyüdük, onunla fikir alışverişi yapmak çok güzel.",
+        "prediction": "Her gün arkadaşımla buluşup fikirlerimizi paylaşıyoruz.",
+        "latency_sec": 3.0088,
+        "chrf": 25.76,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> aile hepsi beraber urfa ben gitmek urfa meşhur kebap var ben gitmek yemek yemek tat çok güzel </gloss>",
+        "expected": "Ailemle birlikte Şanlıurfa'ya gittiğimizde meşhur kebabını yedik, çok beğendim.",
+        "prediction": "Ailemle birlikte Urfa'ya gittik. Urfa'nın kebapları çok meşhur. Gidip yedik, çok beğendim.",
+        "latency_sec": 5.5546,
+        "chrf": 61.52,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> baba elbise kesmek dikmek ütülemek hepsi yapmak </gloss>",
+        "expected": "Babam elbise kesimi, dikimi, ütüleme işlerini yapabiliyor.",
+        "prediction": "Babam elbiseyi kesti, dikti ve ütüledi.",
+        "latency_sec": 3.1774,
+        "chrf": 28.83,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> eski ben ufak grup bir adam büyük (ben) vurmak vurmak intikam ben büyümek şimdi ben vurmak ödeşmek </gloss>",
+        "expected": "Ben küçükken bir adam bana vurmuştu, şimdi büyüdüm ondan intikamımı alacağım. Ben de ona vurup ödeşeceğiz.",
+        "prediction": "Çocukken bir kişi beni çok kötü incitti. Büyüdükten sonra onunla yüzleştim ve ödeştik.",
+        "latency_sec": 8.1043,
+        "chrf": 18.95,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> lokanta ben girmek dışarı oturmak ben mümkün^değil hava soğuk ben iç girmek ben oturmak ben yemek yemek </gloss>",
+        "expected": "Lokantaya gittiğimde hava çok soğuk olduğu için dışarıda oturmayıp iç kısma geçtik.",
+        "prediction": "Ben lokantaya girdiğimde dışarı oturamadım, çünkü hava çok soğuk olduğu için içeri geçip oturdum.",
+        "latency_sec": 5.4937,
+        "chrf": 52.01,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> dede köy ben gitmek ağaç kesmek kesmek temiz hazırlamak bir sene sonra ağaç çıkmak çıkmak doğal kendi çıkmak </gloss>",
+        "expected": "Dedemin yanına köye gittiğimde ağaçları kestim, her tarafı temizledim. Bir sene sonra topraktan kendiliğinden doğal bir şekilde ağaç çıkmaya başladı.",
+        "prediction": "Dedemle birlikte köye gittik ve ağaçları kestik. Bir yıl sonra ağaçlar yeniden çıktı.",
+        "latency_sec": 4.9886,
+        "chrf": 26.23,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> bir memleket yer çok az su yağmur yağmur su bitmek insan hepsi kriz </gloss>",
+        "expected": "Bir yerde yağmur hiç yağmıyor, su bitmek üzere, insanlar susuzluk krizinde.",
+        "prediction": "Bir memlekette çok az yağmur yağınca insanlar su krizi yaşadılar.",
+        "latency_sec": 3.4091,
+        "chrf": 28.14,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> bugün toplantı saat yetmek^değil geç olmak sen gitmek ben gelmek </gloss>",
+        "expected": "Bugünkü toplantıya geç kaldım, yetişemeyeceğim. Sen git, ben ardından gelirim.",
+        "prediction": "Bugünki toplantı çok uzun sürdü. Yetişence sen git, ben gelirim.",
+        "latency_sec": 4.4639,
+        "chrf": 43.5,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben küçük büyümek futbol ben oynamak oynamak hep hep sonra maç hata ayak çarpmak sakat ben acil hastane gitmek ameliyat bitmek doktor demek sonra sonra maç oynamak imkan olmak^değil bacak sakat ben heves kaçmak </gloss>",
+        "expected": "Çocukluğumdan beri futbol oynamayı çok severim. Birgün oynarken ayağımı sakatladım, hemen hastaneye gittik. Beni ameliyata aldılar. Doktor bir daha futbol oynayamayacağımı söyledi, çok üzüldüm.",
+        "prediction": "Çocukluğumdan beri sürekli futbol oynuyordum, ancak birgün maçta ayağımla yere çarptım ve sakatladım. Hastaneye gidip ameliyat olduktan sonra doktor, bir daha asla futbol oynayamayacağımı, çünkü bacağımın sakat olduğunu söyledi. Doktorun sözleri beni çok üzdü.",
+        "latency_sec": 10.6645,
+        "chrf": 50.48,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> eski telefon bozulmak ben zorda kalmak yeni telefon almak eski telefon program bilgi hazır var o yeni telefon ben devretmek </gloss>",
+        "expected": "Telefonum bozulunca çok zorda kaldım, hemen yeni bir telefon aldım ve eski telefonumda ki bilgi ve programları yeni telefonuma devrettim.",
+        "prediction": "Eski telefonum bozulunca çok zor durumda kaldım. Hemen yeni bir telefon aldım ve eski telefondaki bilgileri yeni telefona aktardım.",
+        "latency_sec": 5.7218,
+        "chrf": 65.75,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> yeni evlenmek çiçek hediye etmek hediye etmek ben ev dizmek ben su fazla dökmek dökmek dökmek bir hafta sonra öldürmek öldürmek ben şok olmak </gloss>",
+        "expected": "Hediye gelen çiçeklere o kadar çok su vermişim ki, bir hafta sonra hepsini öldürdüm. Çok şaşırdım.",
+        "prediction": "Evlendiğimde eşim sürekli bana çiçek hediye ediyordu. Ben de hepsini evdeki çiçekliklere dikip sulardım. Bir hafta sonra bütün çiçekler öldü. Çok şaşırdım.",
+        "latency_sec": 6.921,
+        "chrf": 45.44,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben arkadaş iyi veya kötü var ama kötü grup hepsi zorlamak zorlamak banka (para) çalmak lütfen zorlamak zorlamak ben kulak asmak^değil ben küçük büyümek kaçak çalmak ben hiç sevmek^değil neden kötü olmak hapis insan (ben) zarar ben istemek^değil </gloss>",
+        "expected": "Benim çevremde hem iyi hem kötü arkadaş gruplarım var. Kötü olan grup, onlarla beraber hırsızlık, bankayı dolandırma gibi kötü şeyler yapmam için baskı yapıyorlar ama onları hiç dinlemedim. Hayatımda hiç kaçakçılık, hırsızlık bunlar gibi şeyler asla yapmadım ve hiç bana göre değil. Çünkü yaptığım her kötülüğün sonucunda ceza alırım ve hapse girerim. Yine zarar gören ben olurum.",
+        "prediction": "Arkadaşım ya çok iyi ya da çok kötü bir insan. Kötü gruba mensup olduğu için sürekli banka soygunları, hırsızlık gibi kötü şeyler yapıyor. Onu hiç sevmiyorum. Çocukluğumdan beri böyleydi, büyüdükçe de değişmedi. Neden böyle olduğunu hiç anlamıyorum. Hapishanede geçirdiği süre onun için çok kötü oldu. Orada tanıştığı insanlar ona çok zarar verdiler. Hapishaneden çıktıktan sonra daha da kötü bir insan oldu. Onu hiç sevmiyorum.",
+        "latency_sec": 17.1777,
+        "chrf": 28.7,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> ben yüzük hasta (çok sevmek) parmak bırakmak ben deniz girmek yüzmek yüzmek son yüzük kaybolmak düşmek ben üzülmek deniz ben dalmak aramak aramak ben bulmak rahatlamak yüzük takmak birdaha ben deniz girmek yüzük ev ben bırakmak yüzük parmak boş ben yüzmek yüzmek </gloss>",
+        "expected": "Yüzüğümü çok sevdiğim için denize girerken çıkarmadım, ancak yüzerken düşürmüşüm. Çok üzüldüm ve hemen tekrar denize daldım. Bir süre aradıktan sonra yüzüğümü buldum ve rahatladım. Bir daha denize asla yüzükle girmeyeceğim. Denize gittiğim zamanlar artık yüzüğümü evde bırakıyorum.",
+        "prediction": "Yüzüğü çok sevdiğim için sürekli parmağımda taşıyorum. Ancak denize girerken yüzüğümü düşürdüm. Dalış yaptıktan sonra yüzüğümü buldum ve tekrar parmağıma taktım.",
+        "latency_sec": 7.8827,
+        "chrf": 35.06,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> dört yüz çarpı dört yüz o koşu ben izlemek o adam engel atlamak atlamak hata takılmak düşmek kaybetmek o </gloss>",
+        "expected": "4x400 (Dört çarpı dört yüz) engelli koşuda sporcu koşarken engele çarpıp düştü ve yarışı kaybetti.",
+        "prediction": "Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört yüz metreyi dört yüz metrede koşan adamı izledim. Dört.",
+        "latency_sec": 19.3897,
+        "chrf": 10.41,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben kadın eşim ben beraber yürümek yürümek kadın durmak ben ne oldu (sormak)? o (söylemek) alışveriş çarşı durmak gitmek gelmek ben susmak </gloss>",
+        "expected": "Karımla yürürken karım bir anda durdu. Ne olduğunu sorduğumda \"bir saniye bir şeyler alıp hemen geleceğim\" dedi. Ben bir şey diyemedim.",
+        "prediction": "Eşimle birlikte yürürken bir kadın durdu ve çarşıda satış olduğunu söyledi. Ben de bir şey söylemedim.",
+        "latency_sec": 5.368,
+        "chrf": 32.34,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> bir adam türkiye dış bir gelmek otobüs için binmek bilmek^değil bocalamak adam bir yardım beraber rehber olmak ev bırakmak </gloss>",
+        "expected": "Yurtdışından gelen adam otobüse nereden bineceğini bilmediği için başka bir kişi ona yardım etti ve eve bıraktı.",
+        "prediction": "Bir adam Türkiye'ye ilk defa geldi. Otobüse nasıl bineceğini bilemeyince, bir kişi gelip ona yardımcı oldu ve onu gideceği yere kadar götürdü.",
+        "latency_sec": 6.3887,
+        "chrf": 35.14,
+        "gemini_score_10": 8
+    },
+    {
+        "gloss": "<gloss> matematik ders öğretmen demek hesaplamak hepsi yapmak demek ben hesaplamak hesaplamak toplam son altı çıkmak öğretmen doğru demek kafa rahatlamak </gloss>",
+        "expected": "Matematik dersinde öğretmen soruyu cevaplamamı istedi. Sonucu altı buldum. Öğretmen işlemlerimin doğru olduğunu söyleyince rahatladım.",
+        "prediction": "Matematik dersinde öğretmen bizden bütün hesaplamaları yapmamızı istedi. Hepsini yapıp sunuca toplamın altıya tekabül ettiğini söyleyince, \"doğru mu?\" diye sordu. Ben de \"evet\" diyince kafası rahatladı.",
+        "latency_sec": 9.6519,
+        "chrf": 42.12,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> o acele gelmek </gloss>",
+        "expected": "Acele geldi.",
+        "prediction": "Acele acele geldi.",
+        "latency_sec": 1.3015,
+        "chrf": 90.07,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben lise ben erkek ben uzun beraber yaşamak o erkek üniversite kazanmak girmek sonra o ben aldatmak ben anlamak^değil birden başka kız sevgili var </gloss>",
+        "expected": "Lisedeyken uzun bir ilişkim vardı, üniversiteye geçince ayrıldık. Anladım ki onun başka kızlarla da ilişkisi varmış, meğerse beni aldatmış.",
+        "prediction": "Lise yıllarımda uzun süre birlikte olduğum erkek arkadaşım üniversiteyi kazandı ve gitti. Bir süre sonra beni aldattığını, başka bir kızla sevgili olduğunu öğrendim.",
+        "latency_sec": 7.3958,
+        "chrf": 28.96,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> türkiye milli maç var önce mecbur kamp on beş gün antrenman antrenman son bitmek amerika uçmak o maç </gloss>",
+        "expected": "Milli takım maçı öncesi 15 gün hazırlık kampı yapıp Amerika'ya maça gideceğiz.",
+        "prediction": "Milli maçtan önce 15 günlük kamp sürecinden sonra Amerika'ya uçtuk.",
+        "latency_sec": 5.2824,
+        "chrf": 28.08,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> bu akşam yemek fikir hazır olmak </gloss>",
+        "expected": "Bu akşam için hangi yemeği yapacağımı buldum.",
+        "prediction": "Bu akşam için yemek fikrim hazır.",
+        "latency_sec": 2.6847,
+        "chrf": 34.8,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> köy yer akraba hepsi ben görmek hiç bayram gün tatil ben gitmek akraba hepsi görüşmek görüşmek </gloss>",
+        "expected": "Uzun zamandır köye gitmiyordum. Bayram tatilinde köye gidip bütün akrabalarımla görüştüm.",
+        "prediction": "Köyde kimseyle hiç karşılaşmadım. Bayram tatilinde köye gittim. Herkesle görüşdüm.",
+        "latency_sec": 4.1226,
+        "chrf": 38.4,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben iş yeni girmek o maaş ne kadar ben merak etmek bürüt iki bin ben sevinmek maaş iki bin süper ben hayal etmek bir ay sonra maaş düşük bin altı yüz ben sebep sormak bürüt iki bin vergi sigorta vb. kesilmek kesilmek düşmek kalan net göre bin altı yüz vermek ben yanılmak </gloss>",
+        "expected": "Yeni girdiğim işte maaşım ne kadar diye sordum, brüt 2000 TL dediler çok sevindim. Ay sonunda maaşımı aldığımda, elime 1600 TL geçti çok şaşırdım. Neden böyle diye sorduğumda, \"Brüt miktar 2000 TL; ancak vergiler, sigorta ve kalan net ücret size maaş olarak 1600 TL şeklinde ödeniyor.\" dediler. Ben yanlış anlamışım.",
+        "prediction": "Yeni girdiğim iş yerinin maaşını çok merak ediyordum. Bürüt maaşımın iki bin lira olacağını zannediyordum, ama öğrendim ki sadece altı yüz lira veriyorlarmış. Sebebelerinden biri de vergi ve sigorta kesintileri yapıyorlarmış. Net maaşımın bin altı yüz lira olduğunu öğrenince çok üzüldüm, yanılmışım.",
+        "latency_sec": 11.2724,
+        "chrf": 27.1,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben sınav iyi geçmek ben düşünmek^değil </gloss>",
+        "expected": "Sınavım iyi geçti, çok rahatım.",
+        "prediction": "Sınavı çok kolay geçtiğini düşünmüyorum.",
+        "latency_sec": 2.449,
+        "chrf": 26.93,
+        "gemini_score_10": 3
+    },
+    {
+        "gloss": "<gloss> ben iş arkadaş ikimiz aynı yeni iş girmek ben gelişmek normal o çabuk gelişmek ben bakmak kıskanmak </gloss>",
+        "expected": "Birlikte işe girdiğim arkadaşım, işte çok hızlı gelişti. Onu çok kıskandım.",
+        "prediction": "Yeni işe girdim, bir süre sonra arkadaşım da işe girdi. Birbirimiz çok iyi anlaşıyoruz. Ben gayet normal bir şekilde gelişiyorum ama arkadaşım çok hızlı gelişiyor. Onu gördüğümde biraz kıskanıyorum.",
+        "latency_sec": 8.9901,
+        "chrf": 37.85,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> ben hem müdür görüşmek konuşmak hem şef konuşmak anlaşmak bitmek rahatlamak </gloss>",
+        "expected": "Hem müdürle hem de şefle konuşunca rahatladım.",
+        "prediction": "Müdür ve şefle konuşup anlaştıktan sonra rahatladım.",
+        "latency_sec": 3.54,
+        "chrf": 48.41,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben yemek lokanta ben gitmek gitmek güzel^değil en iyi anne el yemek özel o </gloss>",
+        "expected": "Birçok lokantada yemek yedim. Hiç biri anneminki gibi değil. Annemin yemekleri çok özel.",
+        "prediction": "<gloss> ben lokanta yemeklerini hiç beğenmiyorum. En iyisi annemin el önündeki yemekleri yemek. </gloss><|im_start|>assistant\nben lokanta yemeklerini hiç beğenmiyorum. En iyisi annemin el önündeki yemekleri yemek.",
+        "latency_sec": 9.9175,
+        "chrf": 30.41,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> arkadaş grup dağ en tepe yürümek yürümek en tepe bakmak (manzara) aşağı bakmak uçurum yüksek bakmak baş dönmek mümkün^değil geri gitmek çok tehlike </gloss>",
+        "expected": "Arkadaşlarla dağın tepesine kadar yürüdükten sonra, aşağıya bakınca uçurum çok korkunç görünüyordu.",
+        "prediction": "Arkadaşlarla dağa tırmandık. Zirveye ulaştığımızda aşağı baktık, aşağı uçurum gibi görünüyordu. O kadar yüksekti ki, başımız dönmeye başladı. Çok korktuk ve tekrar geri indik.",
+        "latency_sec": 8.2699,
+        "chrf": 39.38,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> ben gazete okumak sevmek^değil gazete biraz saçma saçma var gazete iç röportaj varsa ben okumak sevmek </gloss>",
+        "expected": "Gazete okumayı pek sevmiyorum, saçma geliyor ancak eğer bir röportaj varsa mutlaka okuyorum.",
+        "prediction": "<gloss> ben gazete okumayı çok sevmiyorum. Ama röportajları çok seviyorum. </gloss><gloss> ben gazete okumak sevmek^değil gazete biraz saçma saçma var gazete iç röportaj varsa ben okumak sevmek </gloss><gloss> ben gazete okumak sevmek^değil gazete biraz saçma saçma var gazete iç röportaj varsa ben okumak sevmek </gloss><gloss> ben gazete okumak sevmek^değil gazete biraz saçma saçma var gazete iç röportaj varsa ben okumak sevmek </gloss><gloss> ben gazete okumak.",
+        "latency_sec": 19.4653,
+        "chrf": 26.98,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> kış kar yağmak yağmak kartopu oynamak oynamak el buz eldiven para vermek almak eldiven giymek sıcak olmak oynamak oynamak rahat </gloss>",
+        "expected": "Kışın kar yağınca biz de kartopu oynadık ama hava o kadar soğuktu ki, ellerimiz üşüdü. Ben de hemen gidip eldiven aldım, sonunda ellerim ısındı.",
+        "prediction": "Kışın kartopu oynarken ellerim o kadar üşüdü ki, para verip eldiven aldım. Şimdi kartopu oynarken daha çok keyif alıyorum.",
+        "latency_sec": 6.4655,
+        "chrf": 36.39,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> dün akşam uyumak dönmek dönmek yüzden hava sıcak </gloss>",
+        "expected": "Dün akşam sıcak yüzünden hiç rahat uyuyamadım, sürekli (yatakta) dönüp durdum.",
+        "prediction": "Dün gece o kadar sıcaktı ki, sürekli döndüm durdum.",
+        "latency_sec": 3.1711,
+        "chrf": 27.84,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> altı ay önce ben tüfek çalışmak çalışmak (antrenman) spor gitmek gelmek antrenman gelişmek yarışma girmek aday ben atış yapmak yarışma ikinci olmak </gloss>",
+        "expected": "Altı ay önce tüfekle atış çalışmaları yapmaya başladım ve sonrasında girdiğim yarışmada ikinci oldum.",
+        "prediction": "Altı ay önce tüfek sporlarına başladım ve sürekli antremanlara katılıp kendimi geliştirdikten sonra, yarışmaya katıldım ve ikinci oldum.",
+        "latency_sec": 7.1352,
+        "chrf": 49.81,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> bir hafta ben bulaşık nöbet ben bir hafta sonra arkadaş o sıra nöbet bulaşık o </gloss>",
+        "expected": "Bulaşık yıkama nöbeti bu hafta bende, ama haftaya arkadaşıma geçecek.",
+        "prediction": "Ben bir haftadır bulaşıkları yıkıyorum. Bir hafta sonra arkadaşım bulaşıkları yıkayacak.",
+        "latency_sec": 4.225,
+        "chrf": 29.85,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> çok sene sağır milletvekili hiç sağır milletvekili girmek olmak toplum problem çeşit çözmek çözmek olmak ama maalesef (üzülmek) yok </gloss>",
+        "expected": "Mecliste hiç sağır bir milletvekili olduğunu görmedik. Olabilse aslında bütün sorunlarımıza çözüm getirebilir ancak, ne yazık ki olmuyor.",
+        "prediction": "Yıllardır hiç sağır milletvekili çıkmamıştı. İlk defa bir sağır milletvekili seçildi. Umarım toplumdaki problemleri çözer.",
+        "latency_sec": 5.8252,
+        "chrf": 25.56,
+        "gemini_score_10": 2
+    },
+    {
+        "gloss": "<gloss> aile ev sigara iç yasak dışarı balkon sigara içmek içmek </gloss>",
+        "expected": "Evde sigara içmemiz yasak, hep balkonda içiyoruz.",
+        "prediction": "Ailem evde sigara içmeyi yasakladı, ben de balkondan içiyorum.",
+        "latency_sec": 3.6236,
+        "chrf": 50.5,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben dede kişi rahatsız bir adam misafir gitmek göre rahat oturmak ^değil yer durmak^değil tip aynı aynı </gloss>",
+        "expected": "Dedem çok rahatsız bir adam, bir yere gittiğinde asla oturduğu yerde duramaz (sürekli hareket eder).",
+        "prediction": "<gloss> dedem çok rahatsız bir adam. Misafirliğe gittiğinde rahat durmaz, sürekli yer değiştirir. Tip olarak böyledir. </gloss><|im_start|>assistant\ndedem çok rahatsız bir adam. Misafirliğe gittiğinde rahat durmaz, sürekli yer değiştirir. Tip olarak böyledir.",
+        "latency_sec": 11.9387,
+        "chrf": 39.23,
+        "gemini_score_10": 10
+    },
+    {
+        "gloss": "<gloss> kış bitmek bahar gelmek ben dışarı ben yürümek yürümek ağaç çiçek açmak açmak ben koklamak çok güzel </gloss>",
+        "expected": "Kış mevsimi bittikten sonra gelen baharla birlikte ağaçlar çiçek açıyor. İşte o zaman dışarda yürümeyi çok seviyorum. Çiçekler çok güzel kokuyor.",
+        "prediction": "Kış bitti, baharın gelmesiyle birlikte ağaçlar çiçek açmaya başladı. Yürürken çiçeklerin kokusunu çok sevdim.",
+        "latency_sec": 4.8114,
+        "chrf": 34.4,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> telefon iç resim kaydetmek kaydetmek hafıza fazla (dolu) kullanmak yavaş yavaş güzel^değil resim hepsi bilgisayar ben atmak silmek sıfırlamak temizlemek bitmek sonra ben kullanmak çok hızlı güzel </gloss>",
+        "expected": "Telefonumun hafızası fotoğraflar yüzünden dolduğu için artık kamera güzel çekmemeye başladı. Ben de bütün fotoğrafları bilgisayara atıp telefonu sıfırladım. Artık fotoğraflar daha güzel çıkıyor.",
+        "prediction": "Telefonuma birçok fotoğraf yükledim, ancak hafızası dolunca çok yavaşladı. Fotoğrafları bilgisayara yükledikten sonra telefonumu çok hızlı kullanmaya başladım.",
+        "latency_sec": 7.3997,
+        "chrf": 33.15,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> motor bırakmak mümkün değil mecbur sürmek sürmek </gloss>",
+        "expected": "Motoru bırakmam mümkün değil, mecbur kullanıyorum.",
+        "prediction": "Motorumu bırakmak mümkün değil, mecburen sürmem gerekiyor.",
+        "latency_sec": 3.2817,
+        "chrf": 54.98,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben ev iç malzeme çeşit makina (çamaşır) için ben yedek çanta alet çeşit fazla var hazır </gloss>",
+        "expected": "Evdeki çamaşır makinesi ve birçok eşyayı tamir etmek için yedekte bir alet çantam var.",
+        "prediction": "Ben evdeki makineleri (çamaşır makinesi, bulaşık makinesi vb.) için yedek çamaşır çantası bulunduruyorum.",
+        "latency_sec": 5.117,
+        "chrf": 36.33,
+        "gemini_score_10": 1
+    },
+    {
+        "gloss": "<gloss> ben sarı renk sevmek </gloss>",
+        "expected": "Sarı rengi seviyorum.",
+        "prediction": "<gloss> ben sarı renk seviyorum </gloss><|im_start|>assistant\nben sarı rengini çok seviyorum.",
+        "latency_sec": 4.7321,
+        "chrf": 44.8,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> üç sene beraber beraber sevgili devam şimdi evlenmek zaman gelmek evlenmek için uğraşmak </gloss>",
+        "expected": "Üç yıldır sevgiliyiz, artık evlenmeyi düşünmeye başladık.",
+        "prediction": "Üç yıldır birlikteydik. Şimdi evlenmeye çalışıyoruz.",
+        "latency_sec": 3.7225,
+        "chrf": 31.03,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> ben elma bıçak^kesmek </gloss>",
+        "expected": "Ben elmayı bıçakla kestim.",
+        "prediction": "<gloss> ben elma bıçakla kesmek </gloss><|im_start|>assistant\nben elma bıçakla kesmek.",
+        "latency_sec": 5.2535,
+        "chrf": 36.83,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben komşu adam o çok zengin gündüz iş ticaret ticaret akşam kumar oynamak kesin sonra sonra iş batmak olmak sebep kumar o yüzden para çok harcamak batmak olmak </gloss>",
+        "expected": "Komşumuz ticaretle uğraşan çok zengin bir adamdı. Gündüzleri çalıştıktan sonra, akşamları da kumar oynamaya gittiği için kumarda çok para harcamaya başladı ve sonunda battı.",
+        "prediction": "Komşumuz çok zengin bir adamdı. Gündüzleri ticaretle uğraşıp akşamları kumara gidiyordu. Bir süre sonra işleri bozuldu. Çünkü sürekli kumara para harcıyordu.",
+        "latency_sec": 7.7423,
+        "chrf": 44.27,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> futbol adam kişi en iyi kral ben hayran olmak adam görüşmek ben top vermek lütfen imzalamak adam tamam imzalamak ben hatıra top koymak </gloss>",
+        "expected": "O adam bir futbol kralı ona hayranım. Bir top alıp ona götürdüm ve benim için imzalamasını istedim. O topu hatıra olarak sakladım.",
+        "prediction": "Futbolcu çok kral bir adamdı, onunla görüşüp topumu imzalayabileceğini söyledim. O da kabul edince topumu imzaladı. Şimdi hatıra olarak topumu saklıyorum.",
+        "latency_sec": 6.4964,
+        "chrf": 31.08,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben kız hasta hasta ağır derece bakmak otuz dokuz derece kötü hemen hastane gitmek iğne iğne derece düşmek derece bakmak otuz yedi iyi </gloss>",
+        "expected": "Kızım o kadar hastalandı ki, ateşi otuz dokuz dereceye yükseldi. Hastaneye götürüp iğne yaptırdım, sonradan ateşi otuz yedi dereceye düştü.",
+        "prediction": "Kızımın rahatsızlığı çok ağırdı, 39 derecelik ateşe yakalanmış. Hemen hastaneye gidip iğne yaptırıp ateşini düşürdük. Şimdi iyileşti.",
+        "latency_sec": 5.7638,
+        "chrf": 27.89,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben erkek kardeş beraber tavla ben oynamak (o çabuk) beş sıfır ben kaybetmek şaşırmak ben </gloss>",
+        "expected": "Erkek kardeşimle tavla oynadık ve oyunu beş sıfır ben kaybettim. Çok şaşırdım.",
+        "prediction": "Erkek kardeşimle tavla oynarken o beş sıfır yendiğinde çok şaşırdım.",
+        "latency_sec": 3.7002,
+        "chrf": 58.02,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben elbise bu aynı hep bulmak^değil bir tek </gloss>",
+        "expected": "Elbisemin aynısından bir daha bulamadım. Bu aldığım tek kalmış.",
+        "prediction": "Bu elbiseyi her yerde bulamıyorum. Sadece bir tane buldum.",
+        "latency_sec": 3.3868,
+        "chrf": 20.82,
+        "gemini_score_10": 4
+    },
+    {
+        "gloss": "<gloss> anne ve baba can benim çok sevmek </gloss>",
+        "expected": "Annem ve babam candır. Onları çok seviyorum.",
+        "prediction": "<gloss> anne ve babamı çok seviyorum </gloss><|im_start|>assistant\nanne ve babamı çok seviyorum.",
+        "latency_sec": 5.2243,
+        "chrf": 40.18,
+        "gemini_score_10": 5
+    },
+    {
+        "gloss": "<gloss> ben çalışmak çalışmak devam yıl izin (dolmak) tamam haber vermek ben tamam on beş gün izin almak tatil gitmek </gloss>",
+        "expected": "İzin almayı hak ettikten sonra, hemen on beş gün yıllık izin yazdırdım ve tatile gittim.",
+        "prediction": "Çalışma sürem dolunca izin aldım ve tatile çıktım.",
+        "latency_sec": 3.4746,
+        "chrf": 22.37,
+        "gemini_score_10": 7
+    },
+    {
+        "gloss": "<gloss> (ben) aile akraba dede kuzen akraba hepsi boy uzun olmak ama ben doğmak boy kısa anlamak^değil </gloss>",
+        "expected": "Akrabalarımın hepsi uzun boylu. Ben neden kısa olduğumu anlamış değilim.",
+        "prediction": "<gloss> ailem ve akrabalarımın hepsi uzun boylu ama ben kısayım. Neden böyle oldu anlamadım. </gloss><|im_start|>assistant\n<|im_end|>assistant.",
+        "latency_sec": 7.6396,
+        "chrf": 48.92,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben bir hap hafif yutmak baş ağrı geçmek </gloss>",
+        "expected": "Dozajı hafif bir ilaç içtim ve hemen başımın ağrısını geçirdi.",
+        "prediction": "Hafif bir hap yuttuğum için ağrım geçti.",
+        "latency_sec": 2.9414,
+        "chrf": 23.52,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> ben alışveriş telefon çeşit parça hepsi almak taksit hiç sevmek^değil peşin (ödemek) </gloss>",
+        "expected": "Alışveriş yaparken telefon ya da başka ne alırsam alayım, mutlaka peşin alırım. Taksit yapmayı hiç sevmiyorum.",
+        "prediction": "Aldığım telefonların taksitlerini hiç sevmiyorum. Hep peşin ödüyorum.",
+        "latency_sec": 3.8855,
+        "chrf": 29.13,
+        "gemini_score_10": 6
+    },
+    {
+        "gloss": "<gloss> ben ev taşınmak mecbur muhtar gitmek ev yeni taşınmak muhtar bilgi vermek mecbur </gloss>",
+        "expected": "Yeni eve taşındığımızda mecburen muhtara gidip ona bilgi verdim.",
+        "prediction": "Yeni taşındığım için muhtarlığa gidip bilgilendirme yapmam gerekiyor.",
+        "latency_sec": 3.7704,
+        "chrf": 35.32,
+        "gemini_score_10": 9
+    },
+    {
+        "gloss": "<gloss> anne küçük büyümek alkol içmek sevmek^değil sebep sağlık zarar olmak </gloss>",
+        "expected": "Sağlığa zararlı olduğu için annem küçüklüğünden beri hiç içki içmez.",
+        "prediction": "Annem küçükken çok fazla alkol içiyordu ama büyüdükten sonra içmeyi bıraktı. Çünkü alkolün sağlığa zararlı olduğunu öğrendi.",
+        "latency_sec": 6.0163,
+        "chrf": 40.39,
+        "gemini_score_10": 2
+    }
+]

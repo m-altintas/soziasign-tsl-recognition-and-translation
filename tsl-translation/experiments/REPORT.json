@@ -1,0 +1,122 @@
+{
+    "experiments_baselines_gemma_2_9b_it_result_p3_en.json": {
+        "Avg Score": 4.24,
+        "Success Rate (%)": 36.24,
+        "Avg chrF": 30.72,
+        "Samples": 367
+    },
+    "experiments_baselines_gemma_2_9b_it_result_p3_tr.json": {
+        "Avg Score": 4.24,
+        "Success Rate (%)": 31.88,
+        "Avg chrF": 33.5,
+        "Samples": 367
+    },
+    "experiments_baselines_meta_llama_3.1_8b_instruct_result_p2_en.json": {
+        "Avg Score": 1.58,
+        "Success Rate (%)": 7.36,
+        "Avg chrF": 16.87,
+        "Samples": 367
+    },
+    "experiments_baselines_meta_llama_3.1_8b_instruct_result_p2_tr.json": {
+        "Avg Score": 2.68,
+        "Success Rate (%)": 7.08,
+        "Avg chrF": 26.02,
+        "Samples": 367
+    },
+    "experiments_baselines_trendyol_llm_7b_chat_v1.8_result_p2_en.json": {
+        "Avg Score": 1.49,
+        "Success Rate (%)": 5.72,
+        "Avg chrF": 11.77,
+        "Samples": 367
+    },
+    "experiments_baselines_trendyol_llm_7b_chat_v1.8_result_p2_tr.json": {
+        "Avg Score": 1.86,
+        "Success Rate (%)": 4.36,
+        "Avg chrF": 18.25,
+        "Samples": 367
+    },
+    "gemma_2_9b_it_p1_en": {
+        "Avg Score": 6.69,
+        "Success Rate (%)": 77.66,
+        "Avg chrF": 41.21,
+        "Samples": 367
+    },
+    "gemma_2_9b_it_p2_en": {
+        "Avg Score": 6.67,
+        "Success Rate (%)": 78.2,
+        "Avg chrF": 40.57,
+        "Samples": 367
+    },
+    "gemma_2_9b_it_p3_en": {
+        "Avg Score": 7.34,
+        "Success Rate (%)": 87.19,
+        "Avg chrF": 40.73,
+        "Samples": 367
+    },
+    "meta_llama_3.1_8b_instruct_p1_en": {
+        "Avg Score": 6.07,
+        "Success Rate (%)": 67.57,
+        "Avg chrF": 38.71,
+        "Samples": 367
+    },
+    "meta_llama_3.1_8b_instruct_p2_en": {
+        "Avg Score": 6.15,
+        "Success Rate (%)": 68.66,
+        "Avg chrF": 38.63,
+        "Samples": 367
+    },
+    "meta_llama_3.1_8b_instruct_p3_en": {
+        "Avg Score": 5.65,
+        "Success Rate (%)": 63.76,
+        "Avg chrF": 38.27,
+        "Samples": 367
+    },
+    "trendyol_llm_7b_chat_v1.8_p1_en": {
+        "Avg Score": 5.82,
+        "Success Rate (%)": 62.13,
+        "Avg chrF": 37.87,
+        "Samples": 367
+    },
+    "trendyol_llm_7b_chat_v1.8_p2_en": {
+        "Avg Score": 5.81,
+        "Success Rate (%)": 65.67,
+        "Avg chrF": 36.3,
+        "Samples": 367
+    },
+    "trendyol_llm_7b_chat_v1.8_p3_en": {
+        "Avg Score": 5.56,
+        "Success Rate (%)": 63.49,
+        "Avg chrF": 34.75,
+        "Samples": 367
+    },
+    "gemini_pro_p3_en_results.json": {
+        "Avg Score": 7.62,
+        "Success Rate (%)": 82.29,
+        "Avg chrF": 43.79,
+        "Samples": 367
+    },
+    "gemma_2_9b_it_p3_en_rag": {
+        "Avg Score": 6.98,
+        "Success Rate (%)": 81.74,
+        "Avg chrF": 43.14,
+        "Samples": 367
+    },
+    "gemma_2_9b_it_p3_tr": {
+        "Avg Score": 6.79,
+        "Success Rate (%)": 79.56,
+        "Avg chrF": 41.96,
+        "Samples": 367
+    },
+    "trendyol_llm_7b_chat_v1.8_p2_tr": {
+        "Avg Score": 5.54,
+        "Success Rate (%)": 59.95,
+        "Avg chrF": 37.5,
+        "Samples": 367
+    },
+    "meta_llama_3.1_8b_instruct_p2_tr": {
+        "Avg Score": 6.07,
+        "Success Rate (%)": 68.66,
+        "Avg chrF": 40.4,
+        "Samples": 367
+    }
+}
