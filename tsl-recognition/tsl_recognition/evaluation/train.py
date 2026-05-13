@@ -216,7 +216,8 @@ def _build_scheduler(
 # ---------------------------------------------------------------------------
 def _create_run_dir(cfg: TrainConfig, timestamp: str) -> Path:
     """Create and return the per-run output directory."""
-    run_dir = MODELS_DIR / f"run_{timestamp}_{cfg.model_arch}"
+    tag_suffix = f"_{cfg.run_tag}" if cfg.run_tag else ""
+    run_dir = MODELS_DIR / f"run_{timestamp}_{cfg.model_arch}{tag_suffix}"
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "checkpoints").mkdir(exist_ok=True)
     (run_dir / "plots").mkdir(exist_ok=True)
@@ -228,6 +229,8 @@ def _save_config(
     cfg: TrainConfig,
     feature_dim: int,
     total_params: int,
+    resolved_num_layers: int | None = None,
+    resolved_hidden_size: int | None = None,
 ) -> None:
     """Serialize training configuration + run metadata to config.json."""
     meta = asdict(cfg)
@@ -240,6 +243,10 @@ def _save_config(
             "device": str(DEVICE),
         }
     )
+    if resolved_num_layers is not None:
+        meta["resolved_num_layers"] = resolved_num_layers
+    if resolved_hidden_size is not None:
+        meta["resolved_hidden_size"] = resolved_hidden_size
     (run_dir / "config.json").write_text(json.dumps(meta, indent=2))
 
 
@@ -455,12 +462,21 @@ def train(cfg: TrainConfig | None = None) -> dict:
         num_classes=cfg.num_classes,
         model_size=model_size,
         dropout=cfg.dropout,
+        hidden_size=cfg.gru_hidden_size,
+        num_layers=cfg.gru_num_layers,
     ).to(DEVICE)
 
     total_params = sum(p.numel() for p in model.parameters())
     print(f"Model parameters: {total_params:,}")
 
-    _save_config(run_dir, cfg, feature_dim, total_params)
+    _save_config(
+        run_dir,
+        cfg,
+        feature_dim,
+        total_params,
+        resolved_num_layers=model.gru.num_layers if hasattr(model, "gru") else None,
+        resolved_hidden_size=model.gru.hidden_size if hasattr(model, "gru") else None,
+    )
 
     ls = cfg.label_smoothing if cfg.label_smoothing > 0 else 0.0
     if cfg.use_class_weights:

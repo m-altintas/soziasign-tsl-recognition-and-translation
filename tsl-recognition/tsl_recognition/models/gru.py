@@ -33,21 +33,26 @@ class ActionGRU(SignClassifier):
         num_classes: int,
         model_size: str = "small",
         dropout: float = 0.4,
+        hidden_size: int | None = None,
+        num_layers: int | None = None,
     ):
         super().__init__(model_size=model_size)
         cfg = self._get_config(model_size)
 
+        resolved_hidden = hidden_size if hidden_size is not None else cfg["gru_hidden"]
+        resolved_layers = num_layers if num_layers is not None else cfg["gru_layers"]
+
         self.gru = nn.GRU(
             input_size=input_size,
-            hidden_size=cfg["gru_hidden"],
-            num_layers=cfg["gru_layers"],
+            hidden_size=resolved_hidden,
+            num_layers=resolved_layers,
             batch_first=True,
-            dropout=dropout if cfg["gru_layers"] > 1 else 0,
+            dropout=dropout if resolved_layers > 1 else 0,
             bidirectional=False,
         )
 
         self.head = self._build_head(
-            cfg["gru_hidden"],
+            resolved_hidden,
             cfg["fc"],
             num_classes,
             dropout,

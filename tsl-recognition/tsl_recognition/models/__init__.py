@@ -27,6 +27,8 @@ def build_model(
     num_classes: int,
     model_size: str = "small",
     dropout: float = 0.4,
+    hidden_size: int | None = None,
+    num_layers: int | None = None,
 ) -> nn.Module:
     """Instantiate a model by its registry name.
 
@@ -42,6 +44,10 @@ def build_model(
         ``"small"``, ``"large"``, or ``"xlarge"`` preset.
     dropout : float
         Dropout probability.
+    hidden_size : int | None
+        Override the preset GRU hidden dimension (ablation use).
+    num_layers : int | None
+        Override the preset number of stacked GRU layers (ablation use).
 
     Returns
     -------
@@ -64,4 +70,6 @@ def build_model(
         num_classes=num_classes,
         model_size=model_size,
         dropout=dropout,
+        hidden_size=hidden_size,
+        num_layers=num_layers,
     )

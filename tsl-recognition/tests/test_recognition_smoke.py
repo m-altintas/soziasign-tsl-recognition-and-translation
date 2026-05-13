@@ -298,3 +298,76 @@ def test_cli_help_exits_zero() -> None:
         f"--help exited {result.returncode}\nstdout: {result.stdout.decode()}\n"
         f"stderr: {result.stderr.decode()}"
     )
+
+
+# ---------------------------------------------------------------------------
+# 6. Ablation — architectural overrides
+# ---------------------------------------------------------------------------
+
+
+def test_build_model_accepts_hidden_size_override() -> None:
+    """build_model with hidden_size=384 must produce a GRU with that hidden dim."""
+    from tsl_recognition.models import build_model
+
+    model = build_model(
+        arch="gru", input_size=507, num_classes=10, model_size="small", hidden_size=384
+    )
+    assert model.gru.hidden_size == 384
+
+
+def test_build_model_accepts_num_layers_override() -> None:
+    """build_model with num_layers=3 must produce a GRU with 3 layers."""
+    from tsl_recognition.models import build_model
+
+    model = build_model(
+        arch="gru", input_size=507, num_classes=10, model_size="small", num_layers=3
+    )
+    assert model.gru.num_layers == 3
+
+
+def test_build_model_overrides_win_over_preset() -> None:
+    """Explicit hidden_size/num_layers must override the model_size preset."""
+    from tsl_recognition.models import build_model
+
+    model = build_model(
+        arch="gru",
+        input_size=507,
+        num_classes=10,
+        model_size="small",
+        hidden_size=512,
+        num_layers=6,
+    )
+    assert model.gru.hidden_size == 512
+    assert model.gru.num_layers == 6
+
+
+def test_build_model_preset_unchanged_without_overrides() -> None:
+    """Existing callers without overrides must get the same preset behaviour."""
+    from tsl_recognition.models import build_model
+
+    model = build_model(arch="gru", input_size=507, num_classes=10, model_size="large")
+    assert model.gru.hidden_size == 512
+    assert model.gru.num_layers == 5
+
+
+def test_train_config_ablation_fields_default_to_none() -> None:
+    """New TrainConfig fields must default to None and not affect existing behaviour."""
+    from tsl_recognition.config import TrainConfig
+
+    cfg = TrainConfig()
+    assert cfg.run_tag is None
+    assert cfg.gru_hidden_size is None
+    assert cfg.gru_num_layers is None
+
+
+def test_cli_train_accepts_ablation_flags() -> None:
+    """``train --help`` output must list all new ablation flags."""
+    result = subprocess.run(
+        [sys.executable, "-m", "tsl_recognition", "train", "--help"],
+        capture_output=True,
+        timeout=30,
+    )
+    assert result.returncode == 0
+    output = result.stdout.decode()
+    for flag in ("--gru-hidden", "--gru-layers", "--run-tag", "--min-epochs", "--epochs"):
+        assert flag in output, f"Flag {flag!r} missing from train --help"

@@ -343,6 +343,11 @@ class TrainConfig:
     # Defaults: small/large -> 0.4, xlarge -> 0.2 (applied in evaluation/train.py).
     dropout: float | None = None
 
+    # Ablation overrides — override model_size preset values for sweep runs.
+    gru_hidden_size: int | None = None
+    gru_num_layers: int | None = None
+    run_tag: str | None = None  # appended to run directory name for sweep identifiability
+
     # Extraction
     apply_interpolation: bool = True
 

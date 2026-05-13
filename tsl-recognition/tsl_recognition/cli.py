@@ -72,6 +72,16 @@ def cmd_train(args: argparse.Namespace) -> None:
         cfg.label_smoothing = args.label_smoothing
     if hasattr(args, "model_size") and args.model_size:
         cfg.model_size_override = args.model_size
+    if getattr(args, "gru_hidden", None) is not None:
+        cfg.gru_hidden_size = args.gru_hidden
+    if getattr(args, "gru_layers", None) is not None:
+        cfg.gru_num_layers = args.gru_layers
+    if getattr(args, "run_tag", None) is not None:
+        cfg.run_tag = args.run_tag
+    if getattr(args, "min_epochs", None) is not None:
+        cfg.min_epochs = args.min_epochs
+    if getattr(args, "epochs", None) is not None:
+        cfg.epochs = args.epochs
     train(cfg)
 
 
@@ -190,6 +200,36 @@ def main() -> None:
         choices=["small", "large", "xlarge"],
         default=None,
         help="Override model size preset (default: auto-detect from class count)",
+    )
+    p_train.add_argument(
+        "--gru-hidden",
+        type=int,
+        default=None,
+        help="Override GRU hidden dimension (ablation; overrides model-size preset)",
+    )
+    p_train.add_argument(
+        "--gru-layers",
+        type=int,
+        default=None,
+        help="Override number of stacked GRU layers (ablation; overrides model-size preset)",
+    )
+    p_train.add_argument(
+        "--run-tag",
+        type=str,
+        default=None,
+        help="Suffix appended to the run directory name for sweep identifiability",
+    )
+    p_train.add_argument(
+        "--min-epochs",
+        type=int,
+        default=None,
+        help="Override minimum epochs before early stopping is allowed (default: 250)",
+    )
+    p_train.add_argument(
+        "--epochs",
+        type=int,
+        default=None,
+        help="Override total training epochs (default: 300)",
     )
 
     # infer
