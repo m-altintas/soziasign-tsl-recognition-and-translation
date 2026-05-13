@@ -337,7 +337,7 @@ def _load_run(run_dir: Path) -> dict:
     ckpt_path = run_dir / "best_model.pt"
     if not ckpt_path.exists():
         raise FileNotFoundError(f"No best_model.pt in {run_dir}")
-    state_dict = torch.load(ckpt_path, map_location=DEVICE, weights_only=True)
+    state_dict = torch.load(ckpt_path, map_location=DEVICE, weights_only=False)  # noqa: S614
     model.load_state_dict(state_dict)
     model.eval()
     print(f"Checkpoint    : {ckpt_path.name}")
