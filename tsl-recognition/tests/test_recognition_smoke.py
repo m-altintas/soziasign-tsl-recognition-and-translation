@@ -369,5 +369,11 @@ def test_cli_train_accepts_ablation_flags() -> None:
     )
     assert result.returncode == 0
     output = result.stdout.decode()
-    for flag in ("--gru-hidden", "--gru-layers", "--run-tag", "--min-epochs", "--epochs"):
+    for flag in (
+        "--gru-hidden",
+        "--gru-layers",
+        "--run-tag",
+        "--min-epochs",
+        "--epochs",
+    ):
         assert flag in output, f"Flag {flag!r} missing from train --help"
