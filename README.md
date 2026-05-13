@@ -1,131 +1,211 @@
-# Anonymous Code Repository
+# SoziaSign — TSL Recognition and Translation
 
-Anonymous code repository for the paper SoziaSign: A Privacy-Preserving Turkish Sign Language Recognition and Translation Pipeline
+SoziaSign is a privacy-preserving Turkish Sign Language recognition and translation pipeline. It extracts anonymized 507-dimensional skeletal landmark vectors on-device, classifies them with a 5-layer GRU, and translates recognized glosses into fluent Turkish sentences using a LoRA fine-tuned LLM — all without transmitting raw video.
 
-## Table of Contents
+The recognition component achieves **88.13% top-1 accuracy** on AUTSL (226 classes, signer-independent) and **72.86%** on BosphorusSign22k (744 classes). The best translation configuration (Gemma-2-9B-it, P3_EN prompt, LoRA) reaches **87.19% success rate** — outperforming closed-source Gemini Pro on the binary pass/fail criterion.
 
-- Repository Structure
-- Requirements
-- Data Preparation
-- Usage
-- Optional Batch Scripts
-- References
+## About this repository
 
-## Repository Structure
+This is the camera-ready code release accompanying the paper:
 
-```text
-.
-|-- tsl-recognition/
-|   |-- configs/
-|   `-- src/
-`-- tsl-translation/
-    |-- config/
-    |-- data/
-    |   |-- raw/
-    |   `-- processed/
-    `-- src/
+> **SoziaSign: A Privacy-Preserving Turkish Sign Language Recognition and Translation Pipeline**
+> Mehmet Altıntaş, Aylin Barutçu, Mehmet Karatekin, İlbey Efe Taşabatlı
+> MLMI 2026
+
+The repository contains two independently installable pipelines:
+
+| Directory | Pipeline |
+|---|---|
+| `tsl-recognition/` | MediaPipe landmark extraction + GRU-based sign classification |
+| `tsl-translation/` | LoRA fine-tuning and evaluation of LLMs for gloss-to-text translation |
+
+## Related projects
+
+- **[sozia-research](https://github.com/Last-Branch/sozia-research)** — The actively maintained research repository from which this code derives. Contains additional experiments (lip-reading, updated configs) and ongoing development.
+- **[Sozia](https://github.com/Last-Branch/sozia-server)** — End-to-end privacy-preserving sign, lip, and speech recognition system that integrates this pipeline for real-time inference on Android.
+
+## Repository structure
+
+```
+soziasign-tsl-recognition-and-translation/
+├── tsl-recognition/
+│   ├── pyproject.toml             # installable package: pip install -e .
+│   ├── configs/
+│   │   ├── environment.yml        # conda environment definition
+│   │   └── recognition_train.yml  # training hyperparameters
+│   ├── tsl_recognition/           # recognition pipeline package
+│   │   ├── cli.py                 # subcommand entry point
+│   │   ├── config.py              # TrainConfig dataclass
+│   │   ├── dataset/               # AUTSL and BosphorusSign22k adapters
+│   │   ├── extraction/            # MediaPipe landmark extraction
+│   │   ├── evaluation/            # training, evaluation, inference, validation
+│   │   └── models/                # GRU architecture
+│   └── tests/
+│       └── test_recognition_smoke.py
+└── tsl-translation/
+    ├── pyproject.toml             # installable package: pip install -e .
+    ├── requirements.txt           # flat dep list for pip install -r
+    ├── configs/
+    │   └── translation_bench.yml  # benchmark / fine-tuning settings
+    ├── gloss_to_text/             # translation pipeline package
+    │   ├── prompts/strategies.py  # P1–P3 × EN/TR prompt templates
+    │   ├── fine_tuning/           # LoRA fine-tuning + evaluation
+    │   └── evaluation/            # baseline, RAG, and Gemini judge
+    ├── scripts/
+    │   └── prepare_data.py        # raw JSONL → train/valid split
+    ├── data/
+    │   ├── raw/                   # slr_gloss_tr_cleaned.jsonl
+    │   └── processed/             # train.jsonl, valid.jsonl
+    ├── experiments/               # reported experiment outputs (REPORT.json + per-model runs)
+    └── tests/
+        └── test_translation_smoke.py
 ```
 
-## Requirements
+## Installation
 
-### Recognition Module
-
-Create the environment with:
-
-```bash
-conda env create -f tsl-recognition/configs/environment.yml
-conda activate tsl-recognition
-```
-
-### Translation Module
-
-Install dependencies with:
-
-```bash
-cd tsl-translation
-pip install -r requirements.txt
-```
-
-Some translation experiments expect external credentials through environment variables, such as `HF_TOKEN` or `GEMINI_API_KEY`.
-
-## Data Preparation
-
-### Translation Data
-
-Place the raw translation data at:
-
-```text
-tsl-translation/data/raw/slr_gloss_tr_cleaned.jsonl
-```
-
-Processed files are expected at:
-
-```text
-tsl-translation/data/processed/train.jsonl
-tsl-translation/data/processed/valid.jsonl
-```
-
-To regenerate the processed train/validation split:
-
-```bash
-cd tsl-translation
-python src/prepare_data.py --force
-```
-
-### Recognition Data
-
-Prepare the recognition datasets according to their official distributions, then configure local dataset paths before running extraction, training, or evaluation.
-
-## Usage
-
-### Recognition Module
-
-Run the CLI from the recognition project root:
+### Recognition pipeline
 
 ```bash
 cd tsl-recognition
-python -m src --help
+conda env create -f configs/environment.yml
+conda activate tsl-recognition
+pip install -e .
 ```
 
-Common commands:
-
-```bash
-python -m src split
-python -m src extract
-python -m src train
-python -m src evaluate
-python -m src infer --mode motion
-python -m src validate
-```
-
-### Translation Module
-
-Example commands:
+### Translation pipeline
 
 ```bash
 cd tsl-translation
-python src/prepare_data.py
-python src/base_model_bench.py --model_id <model_id>
-python src/unified_bench.py --model_id <model_id> --strategy <strategy>
-python src/unified_bench_tr.py --model_id <model_id> --strategy <strategy>
-python src/rag_bench.py
+pip install -e .
+# or, using the flat requirements file:
+pip install -r requirements.txt
 ```
 
-## Optional Batch Scripts
+## Data preparation
 
-The files under `tsl-translation/src/*.sh` are optional helper launchers for Unix-like or SLURM-based environments. They are included for reproducibility of experiment orchestration, but the canonical implementation lives in the Python entry points in `tsl-translation/src/`.
+### Recognition data
+
+Prepare BosphorusSign22k and AUTSL according to their official distributions, then place them under `tsl-recognition/data/`:
+
+```
+data/BosphorusSign22k/
+├── BosphorusSign22k_classes.csv
+├── BosphorusSign22k.csv
+└── raw/
+    ├── 0001/
+    │   ├── User_2_001.mp4
+    │   └── ...
+    └── ...
+
+data/AUTSL/
+├── SignList_ClassId_TR_EN.csv
+├── train_labels.csv
+├── validation_labels.csv
+├── test_labels.csv
+├── train/
+├── val/
+└── test/
+```
+
+Both datasets produce a unified extraction output at `data/{Dataset}/processed/{ClassName_tr}/{sample}.npy`.
+
+### Translation data
+
+Place the raw data at:
+
+```
+tsl-translation/data/raw/slr_gloss_tr_cleaned.jsonl
+```
+
+Then generate the processed train/validation split:
+
+```bash
+cd tsl-translation
+python scripts/prepare_data.py          # skips if files already exist
+python scripts/prepare_data.py --force  # regenerate from scratch
+```
+
+Processed files land at `data/processed/train.jsonl` and `data/processed/valid.jsonl`.
+
+## Usage
+
+### Recognition pipeline
+
+Run all commands from the `tsl-recognition/` directory:
+
+```bash
+# Compute dataset splits
+python -m tsl_recognition split
+
+# Extract MediaPipe landmarks from raw videos
+python -m tsl_recognition extract
+
+# Train the GRU classifier
+python -m tsl_recognition train
+
+# Evaluate on the test set
+python -m tsl_recognition evaluate
+
+# Run inference on a video file
+python -m tsl_recognition infer --mode motion
+
+# Validate landmark extraction quality
+python -m tsl_recognition validate
+```
+
+### Translation pipeline
+
+Run all commands from the `tsl-translation/` directory:
+
+```bash
+# Baseline evaluation (no fine-tuning)
+python -m gloss_to_text.evaluation.base_model_bench --model_id google/gemma-2-9b-it
+
+# LoRA fine-tuning + evaluation (EN prompt — best configuration)
+python -m gloss_to_text.fine_tuning.unified_bench \
+    --model_id google/gemma-2-9b-it --strategy P3_EN
+
+# LoRA fine-tuning + evaluation (TR prompt)
+python -m gloss_to_text.fine_tuning.unified_bench \
+    --model_id google/gemma-2-9b-it --strategy P3_TR \
+    --use_autocast --no_optim --no_grad_checkpointing
+
+# RAG baseline
+python -m gloss_to_text.evaluation.rag_bench
+
+# Score predictions with the Gemini judge
+python -m gloss_to_text.evaluation.gemini_judge
+```
+
+## Environment variables
+
+| Variable | Required by |
+|---|---|
+| `HF_TOKEN` | Any Hugging Face model download |
+| `GEMINI_API_KEY` | `gemini_judge.py` |
+
+Place them in a `.env` file at the respective pipeline root or export them in your shell.
+
+## Citation
+
+```bibtex
+@inproceedings{altintas2026soziasign,
+  title     = {SoziaSign: A Privacy-Preserving Turkish Sign Language Recognition and Translation Pipeline},
+  author    = {Altıntaş, Mehmet and Barutçu, Aylin and Karatekin, Mehmet and Taşabatlı, İlbey Efe},
+  booktitle = {Proceedings of MLMI 2026},
+  year      = {2026},
+}
+```
 
 ## References
 
-If you want to use the recognition component, you can access their datasets here:
-
-```text
+```
 [11] Ogulcan Ozdemir, Ahmet Alp Kindiroglu, Necati Cihan Camgoz, and Lale Akarun.
-2020. BosphorusSign22k sign language recognition dataset. In Proceedings of the
-9th Workshop on the Representation and Processing of Sign Languages (LREC 2020).
-European Language Resources Association (ELRA), Marseille, France, 181-188.
+     2020. BosphorusSign22k sign language recognition dataset. In Proceedings of the
+     9th Workshop on the Representation and Processing of Sign Languages (LREC 2020).
+     European Language Resources Association (ELRA), Marseille, France, 181-188.
 
 [14] Ozge Mercanoglu Sincan and Hacer Yalim Keles. 2020. AUTSL: A large scale
-multi-modal Turkish sign language dataset and baseline methods. IEEE Access 8
-(2020), 181340-181355. https://doi.org/10.1109/ACCESS.2020.3028072
+     multi-modal Turkish sign language dataset and baseline methods. IEEE Access 8
+     (2020), 181340-181355. https://doi.org/10.1109/ACCESS.2020.3028072
 ```
