@@ -1,18 +1,18 @@
 # SoziaSign — TSL Recognition and Translation
 
-SoziaSign is a privacy-preserving Turkish Sign Language recognition and translation pipeline. It extracts anonymized 507-dimensional skeletal landmark vectors on-device, classifies them with a 5-layer GRU, and translates recognized glosses into fluent Turkish sentences using a LoRA fine-tuned LLM — all without transmitting raw video.
+SoziaSign is a privacy-preserving Turkish Sign Language recognition and translation pipeline. It extracts 507-dimensional skeletal landmark vectors on-device, classifies them with a 5-layer GRU, and translates recognized glosses into Turkish sentences using a LoRA fine-tuned LLM. No raw video leaves the device.
 
-The recognition component achieves **88.13% top-1 accuracy** on AUTSL (226 classes, signer-independent) and **72.86%** on BosphorusSign22k (744 classes). The best translation configuration (Gemma-2-9B-it, P3_EN prompt, LoRA) reaches **87.19% success rate** — outperforming closed-source Gemini Pro on the binary pass/fail criterion.
+The recognition component achieves **88.13% top-1 accuracy** on AUTSL (226 classes, signer-independent) and **72.86%** on BosphorusSign22k (744 classes). The best translation configuration (Gemma-2-9B-it, P3_EN prompt, LoRA) reaches an **87.19% success rate**, beating Gemini Pro on the binary pass/fail criterion.
 
 ## About this repository
 
-This is the camera-ready code release accompanying the paper:
+Camera-ready code release for:
 
 > **SoziaSign: A Privacy-Preserving Turkish Sign Language Recognition and Translation Pipeline**
 > Mehmet Altıntaş, Aylin Barutçu, Mehmet Karatekin, İlbey Efe Taşabatlı
 > MLMI 2026
 
-The repository contains two independently installable pipelines:
+Two independently installable pipelines:
 
 | Directory | Pipeline |
 |---|---|
@@ -21,8 +21,8 @@ The repository contains two independently installable pipelines:
 
 ## Related projects
 
-- **[sozia-research](https://github.com/Last-Branch/sozia-research)** — The actively maintained research repository from which this code derives. Contains additional experiments (lip-reading, updated configs) and ongoing development.
-- **[Sozia](https://github.com/Last-Branch/sozia-server)** — End-to-end privacy-preserving sign, lip, and speech recognition system that integrates this pipeline for real-time inference on Android.
+- **[sozia-research](https://github.com/Last-Branch/sozia-research)** — the actively maintained research repo this code derives from. Includes additional experiments (lip-reading, updated configs) and ongoing work.
+- **[Sozia](https://github.com/Last-Branch/sozia-server)** — the end-to-end system that integrates this pipeline for real-time inference on Android.
 
 ## Repository structure
 
@@ -61,6 +61,17 @@ soziasign-tsl-recognition-and-translation/
         └── test_translation_smoke.py
 ```
 
+## Reproducing the paper results
+
+Pre-trained weights are not included. To reproduce the numbers, run the pipeline in order:
+
+1. Get the datasets (see [Data preparation](#data-preparation) below)
+2. Extract MediaPipe landmarks: `python -m tsl_recognition extract`
+3. Train the GRU classifier: `python -m tsl_recognition train`
+4. Evaluate on the held-out test set: `python -m tsl_recognition evaluate`
+
+Both datasets require an access request to their authors — links are in [References](#references).
+
 ## Installation
 
 ### Recognition pipeline
@@ -70,6 +81,15 @@ cd tsl-recognition
 conda env create -f configs/environment.yml
 conda activate tsl-recognition
 pip install -e .
+```
+
+The conda environment installs a CPU-only PyTorch wheel by default. If you have a GPU, follow the CUDA-specific install at [pytorch.org](https://pytorch.org/get-started/locally/) before running `pip install -e .`.
+
+To run the smoke tests:
+
+```bash
+pip install -e ".[dev]"
+pytest
 ```
 
 ### Translation pipeline
@@ -107,7 +127,7 @@ data/AUTSL/
 └── test/
 ```
 
-Both datasets produce a unified extraction output at `data/{Dataset}/processed/{ClassName_tr}/{sample}.npy`.
+Extraction writes output to `data/{Dataset}/processed/{ClassName_tr}/{sample}.npy`.
 
 ### Translation data
 
