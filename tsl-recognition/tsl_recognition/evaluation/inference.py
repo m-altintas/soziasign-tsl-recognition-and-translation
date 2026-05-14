@@ -302,6 +302,8 @@ def _load_run(run_dir: Path) -> dict:
     seq_handling: str = meta.get("sequence_handling", "truncate")
     normalize: bool = bool(meta.get("normalize_features", True))
     dataset_name: str = meta.get("dataset", "bosphorus")
+    gru_hidden_size: int | None = meta.get("gru_hidden_size")
+    gru_num_layers: int | None = meta.get("gru_num_layers")
 
     print(f"Run directory : {run_dir}")
     print(f"Architecture  : {model_arch} ({model_size})")
@@ -332,6 +334,8 @@ def _load_run(run_dir: Path) -> dict:
         num_classes=num_classes,
         model_size=model_size,
         dropout=dropout,
+        hidden_size=gru_hidden_size,
+        num_layers=gru_num_layers,
     ).to(DEVICE)
 
     ckpt_path = run_dir / "best_model.pt"

@@ -1,12 +1,14 @@
 """
 Aggregate ablation sweep results into a markdown table.
 
-Walks models/recognition/run_*_ablation-* directories, reads config.json
+Walks models/recognition/run_*ablation-* directories, reads config.json
 and scores.json from each, and prints a formatted table suitable for
 copy-pasting into the paper.
 
 Usage (from tsl-recognition/):
     python scripts/aggregate_ablation.py
+    python scripts/aggregate_ablation.py --prefix bosphorus   # Bosphorus only
+    python scripts/aggregate_ablation.py --prefix ""           # AUTSL only (no prefix)
     python scripts/aggregate_ablation.py --out ablation_results.md
 """
 
@@ -96,10 +98,21 @@ def main() -> None:
         default=str(MODELS_DIR),
         help="Path to the models/recognition directory",
     )
+    parser.add_argument(
+        "--prefix",
+        type=str,
+        default=None,
+        help=(
+            "Filter by run_tag prefix. "
+            "'bosphorus' → bosphorus runs only; "
+            "'' (empty string) → AUTSL / no-prefix runs only; "
+            "omit → all runs."
+        ),
+    )
     args = parser.parse_args()
 
     models_dir = Path(args.models_dir)
-    run_dirs = sorted(models_dir.glob("run_*_ablation-*"))
+    run_dirs = sorted(models_dir.glob("run_*ablation-*"))
 
     if not run_dirs:
         print(f"No ablation run directories found under {models_dir}.")
@@ -109,10 +122,16 @@ def main() -> None:
     rows = []
     for run_dir in run_dirs:
         row = load_run(run_dir)
-        if row:
-            rows.append(row)
-        else:
+        if not row:
             print(f"  Skipping {run_dir.name} (incomplete or not an ablation run)")
+            continue
+        if args.prefix is not None:
+            tag_prefix = row["tag"].split("ablation")[0].rstrip("-")
+            if args.prefix == "" and tag_prefix != "":
+                continue
+            if args.prefix != "" and tag_prefix != args.prefix:
+                continue
+        rows.append(row)
 
     if not rows:
         print("No valid ablation runs found.")

@@ -1,19 +1,21 @@
 """
-Depth x width ablation sweep over the GRU architecture on AUTSL.
+Depth x width ablation sweep over the GRU architecture.
 
 Launches all 7 cells in parallel so the full sweep uses the available GPU
 memory instead of running one cell at a time.
 
 Usage (from tsl-recognition/):
-    python scripts/run_ablation.py
+    python scripts/run_ablation.py                     # default: autsl
+    python scripts/run_ablation.py --dataset bosphorus
 
-Each cell writes its own log to models/recognition/_ablation_logs/<tag>.log.
+Each cell writes its own log to models/recognition/_ablation_logs/<dataset>-<tag>.log.
 After all cells finish, run scripts/aggregate_ablation.py to produce a
 summary table.
 """
 
 from __future__ import annotations
 
+import argparse
 import subprocess
 import sys
 from pathlib import Path
@@ -35,13 +37,13 @@ CELLS = [
 LOG_DIR = REPO_ROOT / "models" / "recognition" / "_ablation_logs"
 
 
-def launch_cell(cell: dict) -> tuple[str, subprocess.Popen, object]:
-    tag = cell["tag"]
+def launch_cell(cell: dict, dataset: str) -> tuple[str, subprocess.Popen, object]:
+    tag = f"{dataset}-{cell['tag']}"
     log_path = LOG_DIR / f"{tag}.log"
 
     cmd = [
         sys.executable, "-m", "tsl_recognition", "train",
-        "--dataset", "autsl",
+        "--dataset", dataset,
         "--model-size", "large",
         "--gru-layers", str(cell["gru_layers"]),
         "--gru-hidden", str(cell["gru_hidden"]),
@@ -60,15 +62,25 @@ def launch_cell(cell: dict) -> tuple[str, subprocess.Popen, object]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Run GRU depth×width ablation sweep")
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default="autsl",
+        help="Dataset to train on (default: autsl)",
+    )
+    args = parser.parse_args()
+    dataset = args.dataset
+
     LOG_DIR.mkdir(parents=True, exist_ok=True)
 
     print(f"{'=' * 60}")
-    print(f"Launching {len(CELLS)} cells in parallel")
+    print(f"Launching {len(CELLS)} cells in parallel  [dataset={dataset}]")
     print(f"{'=' * 60}")
 
     running: list[tuple[str, subprocess.Popen, object]] = []
     for cell in CELLS:
-        tag, proc, log_fh = launch_cell(cell)
+        tag, proc, log_fh = launch_cell(cell, dataset)
         running.append((tag, proc, log_fh))
         print(
             f"  [started] {tag}  "

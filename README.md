@@ -2,7 +2,7 @@
 
 SoziaSign is a privacy-preserving Turkish Sign Language recognition and translation pipeline. It extracts 507-dimensional skeletal landmark vectors on-device, classifies them with a 5-layer GRU, and translates recognized glosses into Turkish sentences using a LoRA fine-tuned LLM. No raw video leaves the device.
 
-The recognition component achieves **88.13% top-1 accuracy** on AUTSL (226 classes, signer-independent) and **72.86%** on BosphorusSign22k (744 classes). The best translation configuration (Gemma-2-9B-it, P3_EN prompt, LoRA) reaches an **87.19% success rate**, beating Gemini Pro on the binary pass/fail criterion.
+The recognition component achieves **88.13% top-1 accuracy** on AUTSL (226 classes, signer-independent) and **79.27%** on BosphorusSign22k (744 classes). The best translation configuration (Gemma-2-9B-it, P3_EN prompt, LoRA) reaches an **87.19% success rate**, beating Gemini Pro on the binary pass/fail criterion.
 
 ## About this repository
 
@@ -109,7 +109,7 @@ Prepare BosphorusSign22k and AUTSL according to their official distributions, th
 
 ```
 data/BosphorusSign22k/
-├── BosphorusSign22k_classes.csv
+├── BosphorusSign22k_classes.csv   # included in the dataset distribution
 ├── BosphorusSign22k.csv
 └── raw/
     ├── 0001/
@@ -172,6 +172,24 @@ python -m tsl_recognition infer --mode motion
 # Validate landmark extraction quality
 python -m tsl_recognition validate
 ```
+
+### Ablation sweep (architecture search)
+
+The architecture ablation (depth × width grid, 7 cells) used to justify the 5×512 GRU choice can be reproduced with:
+
+```bash
+# Run 7-cell sweep on AUTSL
+python scripts/run_ablation.py
+
+# Run 7-cell sweep on BosphorusSign22k
+python scripts/run_ablation.py --dataset bosphorus
+
+# Aggregate results into a markdown table
+python scripts/aggregate_ablation.py --prefix ""          # AUTSL only
+python scripts/aggregate_ablation.py --prefix bosphorus   # Bosphorus only
+```
+
+Each cell is a full independent training run. With 7 cells in parallel on a single GPU the AUTSL sweep takes ~12 h; Bosphorus ~8 h.
 
 ### Translation pipeline
 

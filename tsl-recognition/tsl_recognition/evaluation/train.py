@@ -640,6 +640,8 @@ def train(cfg: TrainConfig | None = None) -> dict:
         num_classes=cfg.num_classes,
         model_size=model_size,
         dropout=cfg.dropout,
+        hidden_size=cfg.gru_hidden_size,
+        num_layers=cfg.gru_num_layers,
     ).to(DEVICE)
     loaded_model.load_state_dict(
         torch.load(best_model_path, map_location=DEVICE, weights_only=True)
