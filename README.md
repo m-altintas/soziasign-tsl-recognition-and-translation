@@ -1,4 +1,5 @@
-# SoziaSign — TSL Recognition and Translation
+**SoziaSign: A Privacy-Preserving Turkish Sign Language Recognition and Translation Pipeline**
+Mehmet Altintas, Aylin Barutcu, Mehmet Karatekin, Toygar Akgün · ACM MLMI 2026 · [doi](https://doi.org/10.1145/3841358.3841427)
 
 SoziaSign is a privacy-preserving Turkish Sign Language recognition and translation pipeline. It extracts 507-dimensional skeletal landmark vectors on-device, classifies them with a 5-layer GRU, and translates recognized glosses into Turkish sentences using a LoRA fine-tuned LLM. No raw video leaves the device.
 
@@ -228,10 +229,16 @@ Place them in a `.env` file at the respective pipeline root or export them in yo
 
 ```bibtex
 @inproceedings{altintas2026soziasign,
+  author    = {Altintas, Mehmet and Barutcu, Aylin and Karatekin, Mehmet and Akg{\"u}n, Toygar},
   title     = {SoziaSign: A Privacy-Preserving Turkish Sign Language Recognition and Translation Pipeline},
-  author    = {Altıntaş, Mehmet and Barutçu, Aylin and Karatekin, Mehmet and Taşabatlı, İlbey Efe},
-  booktitle = {Proceedings of MLMI 2026},
+  booktitle = {Proceedings of the 9th International Conference on Machine Learning and Machine Intelligence},
+  series    = {MLMI '26},
+  pages     = {144--152},
   year      = {2026},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/3841358.3841427},
+  url       = {https://doi.org/10.1145/3841358.3841427}
 }
 ```
 
